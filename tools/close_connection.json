@@ -1,0 +1,14 @@
+{
+  "name": "close_connection",
+  "description": "Close an active LightWave connection. This frees the connection resources and invalidates the connection ID.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "connection_id": {
+        "type": "string",
+        "description": "The connection ID to close"
+      }
+    },
+    "required": ["connection_id"]
+  }
+}

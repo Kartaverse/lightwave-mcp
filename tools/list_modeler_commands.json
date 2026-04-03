@@ -1,0 +1,9 @@
+{
+  "name": "list_modeler_commands",
+  "description": "List all available LightWave Modeler commands from the command cache. Returns commands organized by category such as Create/Modify, Geometry, Transform, etc.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

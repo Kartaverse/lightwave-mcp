@@ -1,0 +1,19 @@
+{
+  "name": "connect_layout",
+  "description": "Connect to a LightWave Layout instance at the specified address and port. Returns a connection ID that can be used for subsequent commands.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "address": {
+        "type": "string",
+        "description": "The IP address or hostname of the LightWave Layout instance (e.g., 'localhost' or '127.0.0.1')",
+        "default": "localhost"
+      },
+      "port": {
+        "type": "integer",
+        "description": "The command port number for the LightWave Layout instance"
+      }
+    },
+    "required": ["port"]
+  }
+}

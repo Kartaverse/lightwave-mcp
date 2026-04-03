@@ -1,0 +1,463 @@
+{
+  "source": "lwcommandport.modeler.Modeler",
+  "command_count": 63,
+  "categories": {
+    "General": [
+      {
+        "command": "Ring",
+        "name": "Ring",
+        "signature": "Ring(topic, command)",
+        "call": "Ring(prefix, command)",
+        "description": "Ring(prefix, command)"
+      },
+      {
+        "command": "axisdrill",
+        "name": "Template Drill",
+        "signature": "axisdrill()",
+        "call": "axisdrill()",
+        "description": "Name: Template Drill\n        Call: axisdrill()"
+      },
+      {
+        "command": "boolean",
+        "name": "Boolean CSG",
+        "signature": "boolean()",
+        "call": "boolean()",
+        "description": "Name: Boolean CSG\n        Call: boolean()"
+      },
+      {
+        "command": "center",
+        "name": "Center All",
+        "signature": "center()",
+        "call": "center()",
+        "description": "Name: Center All\n        Call: center()"
+      },
+      {
+        "command": "changepart",
+        "name": "Change Part Name",
+        "signature": "changepart()",
+        "call": "changepart()",
+        "description": "Name: Change Part Name\n        Call: changepart()"
+      },
+      {
+        "command": "cmdseq",
+        "name": "cmdseq",
+        "signature": "cmdseq(, *args)",
+        "call": "cmdseq(server, argument)",
+        "description": "cmdseq(server, argument)"
+      },
+      {
+        "command": "copy",
+        "name": "Copy",
+        "signature": "copy()",
+        "call": "copy()",
+        "description": "Name: Copy\n        Call: copy()"
+      },
+      {
+        "command": "cut",
+        "name": "Cut",
+        "signature": "cut()",
+        "call": "cut()",
+        "description": "Name: Cut\n        Call: cut()"
+      },
+      {
+        "command": "exit",
+        "name": "Quit",
+        "signature": "exit()",
+        "call": "exit()",
+        "description": "Name: Quit\n        Call: exit()"
+      },
+      {
+        "command": "freezecurves",
+        "name": "Freeze Curves & Patches",
+        "signature": "freezecurves()",
+        "call": "freezecurves()",
+        "description": "Name: Freeze Curves & Patches\n        Call: freezecurves()"
+      },
+      {
+        "command": "jitter",
+        "name": "Jitter",
+        "signature": "jitter()",
+        "call": "jitter()",
+        "description": "Name: Jitter\n        Call: jitter()"
+      },
+      {
+        "command": "paste",
+        "name": "Paste",
+        "signature": "paste()",
+        "call": "paste()",
+        "description": "Name: Paste\n        Call: paste()"
+      },
+      {
+        "command": "pathextrude",
+        "name": "Motion Path Extrude",
+        "signature": "pathextrude()",
+        "call": "pathextrude()",
+        "description": "Name: Motion Path Extrude\n        Call: pathextrude()"
+      },
+      {
+        "command": "quantize",
+        "name": "Quantize",
+        "signature": "quantize()",
+        "call": "quantize()",
+        "description": "Name: Quantize\n        Call: quantize()"
+      },
+      {
+        "command": "railextrude",
+        "name": "Rail Extrude",
+        "signature": "railextrude()",
+        "call": "railextrude()",
+        "description": "Name: Rail Extrude\n        Call: railextrude()"
+      },
+      {
+        "command": "redo",
+        "name": "Redo",
+        "signature": "redo()",
+        "call": "redo()",
+        "description": "Name: Redo\n        Call: redo()"
+      },
+      {
+        "command": "revert",
+        "name": "Revert Current Object",
+        "signature": "revert()",
+        "call": "revert()",
+        "description": "Name: Revert Current Object\n        Call: revert()"
+      },
+      {
+        "command": "skinpols",
+        "name": "Create Skin",
+        "signature": "skinpols()",
+        "call": "skinpols()",
+        "description": "Name: Create Skin\n        Call: skinpols()"
+      },
+      {
+        "command": "smooth",
+        "name": "Smooth",
+        "signature": "smooth()",
+        "call": "smooth()",
+        "description": "Name: Smooth\n        Call: smooth()"
+      },
+      {
+        "command": "smoothcurves",
+        "name": "Smooth Curves",
+        "signature": "smoothcurves()",
+        "call": "smoothcurves()",
+        "description": "Name: Smooth Curves\n        Call: smoothcurves()"
+      },
+      {
+        "command": "soliddrill",
+        "name": "Solid Drill",
+        "signature": "soliddrill()",
+        "call": "soliddrill()",
+        "description": "Name: Solid Drill\n        Call: soliddrill()"
+      },
+      {
+        "command": "subdivide",
+        "name": "Subdivide Polygons",
+        "signature": "subdivide()",
+        "call": "subdivide()",
+        "description": "Name: Subdivide Polygons\n        Call: subdivide()"
+      },
+      {
+        "command": "toggleccend",
+        "name": "End Control Point On/Off",
+        "signature": "toggleccend()",
+        "call": "toggleccend()",
+        "description": "Name: End Control Point On/Off\n        Call: toggleccend()"
+      },
+      {
+        "command": "toggleccstart",
+        "name": "Begin Control Point On/Off",
+        "signature": "toggleccstart()",
+        "call": "toggleccstart()",
+        "description": "Name: Begin Control Point On/Off\n        Call: toggleccstart()"
+      },
+      {
+        "command": "triple",
+        "name": "Convert Polygons to Triangles",
+        "signature": "triple()",
+        "call": "triple()",
+        "description": "Name: Convert Polygons to Triangles\n        Call: triple()"
+      },
+      {
+        "command": "undo",
+        "name": "Undo",
+        "signature": "undo()",
+        "call": "undo()",
+        "description": "Name: Undo\n        Call: undo()"
+      },
+      {
+        "command": "unifypols",
+        "name": "Unify Polygons",
+        "signature": "unifypols()",
+        "call": "unifypols()",
+        "description": "Name: Unify Polygons\n        Call: unifypols()"
+      },
+      {
+        "command": "unweld",
+        "name": "Unweld Points",
+        "signature": "unweld()",
+        "call": "unweld()",
+        "description": "Name: Unweld Points\n        Call: unweld()"
+      },
+      {
+        "command": "weldaverage",
+        "name": "Weld Points to Average",
+        "signature": "weldaverage()",
+        "call": "weldaverage()",
+        "description": "Name: Weld Points to Average\n        Call: weldaverage()"
+      }
+    ],
+    "Create/Modify": [
+      {
+        "command": "alignpols",
+        "name": "Align Polygons",
+        "signature": "alignpols()",
+        "call": "alignpols()",
+        "description": "Name: Align Polygons\n        Call: alignpols()"
+      },
+      {
+        "command": "clone",
+        "name": "Clone",
+        "signature": "clone()",
+        "call": "clone()",
+        "description": "Name: Clone\n        Call: clone()"
+      },
+      {
+        "command": "delete",
+        "name": "Delete",
+        "signature": "delete()",
+        "call": "delete()",
+        "description": "Name: Delete\n        Call: delete()"
+      },
+      {
+        "command": "flip",
+        "name": "Flip Polygons",
+        "signature": "flip()",
+        "call": "flip()",
+        "description": "Name: Flip Polygons\n        Call: flip()"
+      },
+      {
+        "command": "make4patch",
+        "name": "Make Spline Patch",
+        "signature": "make4patch()",
+        "call": "make4patch()",
+        "description": "Name: Make Spline Patch\n        Call: make4patch()"
+      },
+      {
+        "command": "mergepoints",
+        "name": "Merge Points",
+        "signature": "mergepoints()",
+        "call": "mergepoints()",
+        "description": "Name: Merge Points\n        Call: mergepoints()"
+      },
+      {
+        "command": "mergepols",
+        "name": "Merge Polygons",
+        "signature": "mergepols()",
+        "call": "mergepols()",
+        "description": "Name: Merge Polygons\n        Call: mergepols()"
+      },
+      {
+        "command": "new",
+        "name": "New Object",
+        "signature": "new()",
+        "call": "new()",
+        "description": "Name: New Object\n        Call: new()"
+      },
+      {
+        "command": "pathclone",
+        "name": "Motion Path Clone",
+        "signature": "pathclone()",
+        "call": "pathclone()",
+        "description": "Name: Motion Path Clone\n        Call: pathclone()"
+      },
+      {
+        "command": "railclone",
+        "name": "Rail Clone",
+        "signature": "railclone(, *args)",
+        "call": "railclone(filename, name, colorspace)",
+        "description": "Name: Rail Clone\n        Call: railclone(filename, name, colorspace)"
+      },
+      {
+        "command": "removepols",
+        "name": "Remove Polygons",
+        "signature": "removepols()",
+        "call": "removepols()",
+        "description": "Name: Remove Polygons\n        Call: removepols()"
+      },
+      {
+        "command": "setviewcenter",
+        "name": "Smooth",
+        "signature": "setviewcenter()",
+        "call": "setviewcenter()",
+        "description": "Name: Smooth\n        Call: setviewcenter()"
+      },
+      {
+        "command": "setviewdirection",
+        "name": "Smooth",
+        "signature": "setviewdirection()",
+        "call": "setviewdirection()",
+        "description": "Name: Smooth\n        Call: setviewdirection()"
+      },
+      {
+        "command": "setviewposlookat",
+        "name": "Smooth",
+        "signature": "setviewposlookat()",
+        "call": "setviewposlookat()",
+        "description": "Name: Smooth\n        Call: setviewposlookat()"
+      },
+      {
+        "command": "setviewrotation",
+        "name": "Smooth",
+        "signature": "setviewrotation()",
+        "call": "setviewrotation()",
+        "description": "Name: Smooth\n        Call: setviewrotation()"
+      },
+      {
+        "command": "setviewscale",
+        "name": "Smooth",
+        "signature": "setviewscale()",
+        "call": "setviewscale()",
+        "description": "Name: Smooth\n        Call: setviewscale()"
+      },
+      {
+        "command": "setviewzoffset",
+        "name": "Smooth",
+        "signature": "setviewzoffset()",
+        "call": "setviewzoffset()",
+        "description": "Name: Smooth\n        Call: setviewzoffset()"
+      },
+      {
+        "command": "splitpols",
+        "name": "Split Polygons",
+        "signature": "splitpols()",
+        "call": "splitpols()",
+        "description": "Name: Split Polygons\n        Call: splitpols()"
+      }
+    ],
+    "Rendering": [
+      {
+        "command": "array",
+        "name": "Array",
+        "signature": "array()",
+        "call": "array()",
+        "description": "Name: Array\n        Call: array()"
+      }
+    ],
+    "Geometry": [
+      {
+        "command": "changesurface",
+        "name": "Change Surface",
+        "signature": "changesurface()",
+        "call": "changesurface()",
+        "description": "Name: Change Surface\n        Call: changesurface()"
+      },
+      {
+        "command": "meshedit",
+        "name": "meshedit",
+        "signature": "meshedit(, *args)",
+        "call": "meshedit(server)",
+        "description": "meshedit(server)"
+      },
+      {
+        "command": "morphpols",
+        "name": "Morph Polygons",
+        "signature": "morphpols()",
+        "call": "morphpols()",
+        "description": "Name: Morph Polygons\n        Call: morphpols()"
+      },
+      {
+        "command": "togglepatches",
+        "name": "Toggle Faces / SubPatches",
+        "signature": "togglepatches()",
+        "call": "togglepatches()",
+        "description": "Name: Toggle Faces / SubPatches\n        Call: togglepatches()"
+      },
+      {
+        "command": "weldpoints",
+        "name": "Weld Points",
+        "signature": "weldpoints()",
+        "call": "weldpoints()",
+        "description": "Name: Weld Points\n        Call: weldpoints()"
+      }
+    ],
+    "File Operations": [
+      {
+        "command": "close",
+        "name": "Close Object",
+        "signature": "close()",
+        "call": "close()",
+        "description": "Name: Close Object\n        Call: close()"
+      },
+      {
+        "command": "close_all",
+        "name": "Close All Objects",
+        "signature": "close_all()",
+        "call": "close_all()",
+        "description": "Name: Close All Objects\n        Call: close_all()"
+      },
+      {
+        "command": "load",
+        "name": "Load Object",
+        "signature": "load(, *args)",
+        "call": "load(filename)",
+        "description": "Name: Load Object\n        Call: load(filename)"
+      },
+      {
+        "command": "save",
+        "name": "Save Object",
+        "signature": "save()",
+        "call": "save()",
+        "description": "Name: Save Object\n        Call: save()"
+      }
+    ],
+    "Selection": [
+      {
+        "command": "invert_hide",
+        "name": "Invert Hidden",
+        "signature": "invert_hide(, *args)",
+        "call": "invert_hide(path)",
+        "description": "Name: Invert Hidden\n        Call: invert_hide(path)"
+      },
+      {
+        "command": "sel_hide",
+        "name": "Hide Selected",
+        "signature": "sel_hide()",
+        "call": "sel_hide()",
+        "description": "Name: Hide Selected\n        Call: sel_hide()"
+      },
+      {
+        "command": "sel_invert",
+        "name": "Invert Selection",
+        "signature": "sel_invert()",
+        "call": "sel_invert()",
+        "description": "Name: Invert Selection\n        Call: sel_invert()"
+      },
+      {
+        "command": "sel_unhide",
+        "name": "Unhide All (Make Visible)",
+        "signature": "sel_unhide()",
+        "call": "sel_unhide()",
+        "description": "Name: Unhide All (Make Visible)\n        Call: sel_unhide()"
+      }
+    ],
+    "Plugins/Servers": [
+      {
+        "command": "plugin",
+        "name": "Add Plugins",
+        "signature": "plugin()",
+        "call": "plugin()",
+        "description": "Name: Add Plugins\n        Call: plugin()"
+      }
+    ],
+    "Transform": [
+      {
+        "command": "smscale",
+        "name": "Smooth Scale",
+        "signature": "smscale()",
+        "call": "smscale()",
+        "description": "Name: Smooth Scale\n        Call: smscale()"
+      }
+    ]
+  }
+}

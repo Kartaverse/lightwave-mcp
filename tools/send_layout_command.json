@@ -1,0 +1,25 @@
+{
+  "name": "send_layout_command",
+  "description": "Send a command to a connected LightWave Layout instance. Use list_layout_commands to see all available commands.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "connection_id": {
+        "type": "string",
+        "description": "The connection ID returned by connect_layout"
+      },
+      "command": {
+        "type": "string",
+        "description": "The Layout command to send (e.g., 'LoadScene', 'SelectItem', 'AddRotation')"
+      },
+      "args": {
+        "type": "array",
+        "description": "Optional list of arguments to pass to the command",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["connection_id", "command"]
+  }
+}

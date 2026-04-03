@@ -1,0 +1,15 @@
+{
+  "name": "LightWave Command Port MCP Server",
+  "version": "1.0.0",
+  "description": "An MCP server for controlling LightWave3D Modeler and Layout through the native command port interface",
+  "author": "LightWave Community",
+  "repository": "https://github.com/Kartaverse/lightwave-mcp",
+  "protocol": "stdio",
+  "languages": ["python"],
+  "platforms": ["darwin", "windows", "linux"],
+  "lightwave_versions": ["2025", "2026"],
+  "discovery_ports": {
+    "start": 50155,
+    "end": 50165
+  }
+}

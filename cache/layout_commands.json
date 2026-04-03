@@ -1,0 +1,6027 @@
+{
+  "source": "lwcommandport.layout.Layout",
+  "command_count": 857,
+  "categories": {
+    "Rendering": [
+      {
+        "command": "AbortRender",
+        "name": "Abort Render",
+        "signature": "AbortRender()",
+        "call": "AbortRender()",
+        "description": "AbortRender()"
+      },
+      {
+        "command": "AutoFrameAdvance",
+        "name": "Auto Frame Advance",
+        "signature": "AutoFrameAdvance(, *args)",
+        "call": "AutoFrameAdvance(enable)",
+        "description": "AutoFrameAdvance(enable)"
+      },
+      {
+        "command": "AutoKeyFixedFrame",
+        "name": "Auto Key Fixed Frame",
+        "signature": "AutoKeyFixedFrame(, *args)",
+        "call": "AutoKeyFixedFrame(autokey_fixed_frame)",
+        "description": "AutoKeyFixedFrame(autokey_fixed_frame)"
+      },
+      {
+        "command": "BlurLength",
+        "name": "Blur Length",
+        "signature": "BlurLength(, *args)",
+        "call": "BlurLength(length)",
+        "description": "BlurLength(length)"
+      },
+      {
+        "command": "DefaultKeyframe",
+        "name": "Default Keyframe",
+        "signature": "DefaultKeyframe(, *args)",
+        "call": "DefaultKeyframe(keyframe)",
+        "description": "DefaultKeyframe(keyframe)"
+      },
+      {
+        "command": "DefaultStartFrame",
+        "name": "Default Start Frame",
+        "signature": "DefaultStartFrame(, *args)",
+        "call": "DefaultStartFrame(start)",
+        "description": "DefaultStartFrame(start)"
+      },
+      {
+        "command": "DeformationBlur",
+        "name": "Deformation Blur",
+        "signature": "DeformationBlur()",
+        "call": "DeformationBlur()",
+        "description": "DeformationBlur()"
+      },
+      {
+        "command": "DepthOfField",
+        "name": "Depth Of Field",
+        "signature": "DepthOfField()",
+        "call": "DepthOfField()",
+        "description": "DepthOfField()"
+      },
+      {
+        "command": "DirtyMotion",
+        "name": "Dirty Motion",
+        "signature": "DirtyMotion(, *args)",
+        "call": "DirtyMotion(itemid)",
+        "description": "DirtyMotion(itemid)"
+      },
+      {
+        "command": "ExtRendererOptions",
+        "name": "Ext Renderer Options",
+        "signature": "ExtRendererOptions()",
+        "call": "ExtRendererOptions()",
+        "description": "ExtRendererOptions()"
+      },
+      {
+        "command": "ExtRendererPick",
+        "name": "Ext Renderer Pick",
+        "signature": "ExtRendererPick()",
+        "call": "ExtRendererPick()",
+        "description": "ExtRendererPick()"
+      },
+      {
+        "command": "FieldRendering",
+        "name": "Field Rendering",
+        "signature": "FieldRendering(, *args)",
+        "call": "FieldRendering(fieldrend)",
+        "description": "FieldRendering(fieldrend)"
+      },
+      {
+        "command": "FirstFrame",
+        "name": "First Frame",
+        "signature": "FirstFrame(, *args)",
+        "call": "FirstFrame(frame)",
+        "description": "FirstFrame(frame)"
+      },
+      {
+        "command": "FractionalFrames",
+        "name": "Fractional Frames",
+        "signature": "FractionalFrames()",
+        "call": "FractionalFrames()",
+        "description": "FractionalFrames()"
+      },
+      {
+        "command": "FrameSize",
+        "name": "Frame Size",
+        "signature": "FrameSize(, *args)",
+        "call": "FrameSize(width, height)",
+        "description": "FrameSize(width, height)"
+      },
+      {
+        "command": "FrameStep",
+        "name": "Frame Step",
+        "signature": "FrameStep(, *args)",
+        "call": "FrameStep(frames)",
+        "description": "FrameStep(frames)"
+      },
+      {
+        "command": "FramesPerSecond",
+        "name": "Frames Per Second",
+        "signature": "FramesPerSecond(, *args)",
+        "call": "FramesPerSecond(fps)",
+        "description": "FramesPerSecond(fps)"
+      },
+      {
+        "command": "GoToFirstFrame",
+        "name": "Go To First Frame",
+        "signature": "GoToFirstFrame()",
+        "call": "GoToFirstFrame()",
+        "description": "GoToFirstFrame()"
+      },
+      {
+        "command": "GoToFrame",
+        "name": "Go To Frame",
+        "signature": "GoToFrame(, *args)",
+        "call": "GoToFrame(frame)",
+        "description": "GoToFrame(frame)"
+      },
+      {
+        "command": "GoToLastFrame",
+        "name": "Go To Last Frame",
+        "signature": "GoToLastFrame()",
+        "call": "GoToLastFrame()",
+        "description": "GoToLastFrame()"
+      },
+      {
+        "command": "IKInitialStateFrame",
+        "name": "I K Initial State Frame",
+        "signature": "IKInitialStateFrame(, *args)",
+        "call": "IKInitialStateFrame(frame)",
+        "description": "IKInitialStateFrame(frame)"
+      },
+      {
+        "command": "InitialKeyframePerScene",
+        "name": "Initial Keyframe Per Scene",
+        "signature": "InitialKeyframePerScene()",
+        "call": "InitialKeyframePerScene()",
+        "description": "InitialKeyframePerScene()"
+      },
+      {
+        "command": "LastFrame",
+        "name": "Last Frame",
+        "signature": "LastFrame(, *args)",
+        "call": "LastFrame(frame)",
+        "description": "LastFrame(frame)"
+      },
+      {
+        "command": "MotionBlur",
+        "name": "Motion Blur",
+        "signature": "MotionBlur()",
+        "call": "MotionBlur()",
+        "description": "MotionBlur()"
+      },
+      {
+        "command": "MotionBlurPasses",
+        "name": "Motion Blur Passes",
+        "signature": "MotionBlurPasses()",
+        "call": "MotionBlurPasses()",
+        "description": "MotionBlurPasses()"
+      },
+      {
+        "command": "MotionBlurSubFrames",
+        "name": "Motion Blur Sub Frames",
+        "signature": "MotionBlurSubFrames(, *args)",
+        "call": "MotionBlurSubFrames(subframes)",
+        "description": "MotionBlurSubFrames(subframes)"
+      },
+      {
+        "command": "MotionOptions",
+        "name": "Motion Options",
+        "signature": "MotionOptions()",
+        "call": "MotionOptions()",
+        "description": "MotionOptions()"
+      },
+      {
+        "command": "NetRender",
+        "name": "Net Render",
+        "signature": "NetRender()",
+        "call": "NetRender()",
+        "description": "NetRender()"
+      },
+      {
+        "command": "NextFrame",
+        "name": "Next Frame",
+        "signature": "NextFrame()",
+        "call": "NextFrame()",
+        "description": "NextFrame()"
+      },
+      {
+        "command": "ObjGIBruteForceRays",
+        "name": "Obj G I Brute Force Rays",
+        "signature": "ObjGIBruteForceRays(, *args)",
+        "call": "ObjGIBruteForceRays(count)",
+        "description": "ObjGIBruteForceRays(count)"
+      },
+      {
+        "command": "ObjGIMissingSampleRays",
+        "name": "Obj G I Missing Sample Rays",
+        "signature": "ObjGIMissingSampleRays(, *args)",
+        "call": "ObjGIMissingSampleRays(count)",
+        "description": "ObjGIMissingSampleRays(count)"
+      },
+      {
+        "command": "ObjGIRaysPerEvaluation",
+        "name": "Obj G I Rays Per Evaluation",
+        "signature": "ObjGIRaysPerEvaluation(, *args)",
+        "call": "ObjGIRaysPerEvaluation(count)",
+        "description": "ObjGIRaysPerEvaluation(count)"
+      },
+      {
+        "command": "ObjGISecondaryBounceRays",
+        "name": "Obj G I Secondary Bounce Rays",
+        "signature": "ObjGISecondaryBounceRays(, *args)",
+        "call": "ObjGISecondaryBounceRays(count)",
+        "description": "ObjGISecondaryBounceRays(count)"
+      },
+      {
+        "command": "ParticleBlur",
+        "name": "Particle Blur",
+        "signature": "ParticleBlur()",
+        "call": "ParticleBlur()",
+        "description": "ParticleBlur()"
+      },
+      {
+        "command": "PreviousFrame",
+        "name": "Previous Frame",
+        "signature": "PreviousFrame()",
+        "call": "PreviousFrame()",
+        "description": "PreviousFrame()"
+      },
+      {
+        "command": "RayCutoff",
+        "name": "Ray Cutoff",
+        "signature": "RayCutoff(, *args)",
+        "call": "RayCutoff(cutoff)",
+        "description": "RayCutoff(cutoff)"
+      },
+      {
+        "command": "RayPrecision",
+        "name": "Ray Precision",
+        "signature": "RayPrecision(, *args)",
+        "call": "RayPrecision(precision)",
+        "description": "RayPrecision(precision)"
+      },
+      {
+        "command": "RayRecursionLimit",
+        "name": "Ray Recursion Limit",
+        "signature": "RayRecursionLimit(, *args)",
+        "call": "RayRecursionLimit(limit)",
+        "description": "RayRecursionLimit(limit)"
+      },
+      {
+        "command": "RayTraceOcclusion",
+        "name": "Ray Trace Occlusion",
+        "signature": "RayTraceOcclusion()",
+        "call": "RayTraceOcclusion()",
+        "description": "RayTraceOcclusion()"
+      },
+      {
+        "command": "RayTraceTransparency",
+        "name": "Ray Trace Transparency",
+        "signature": "RayTraceTransparency()",
+        "call": "RayTraceTransparency()",
+        "description": "RayTraceTransparency()"
+      },
+      {
+        "command": "RenderAlgorithm",
+        "name": "Render Algorithm",
+        "signature": "RenderAlgorithm(, *args)",
+        "call": "RenderAlgorithm(algorithm)",
+        "description": "RenderAlgorithm(algorithm)"
+      },
+      {
+        "command": "RenderDisplayOptions",
+        "name": "Render Display Options",
+        "signature": "RenderDisplayOptions()",
+        "call": "RenderDisplayOptions()",
+        "description": "RenderDisplayOptions()"
+      },
+      {
+        "command": "RenderFrame",
+        "name": "Render Frame",
+        "signature": "RenderFrame()",
+        "call": "RenderFrame()",
+        "description": "RenderFrame()"
+      },
+      {
+        "command": "RenderInstances",
+        "name": "Render Instances",
+        "signature": "RenderInstances(, *args)",
+        "call": "RenderInstances(type)",
+        "description": "RenderInstances(type)"
+      },
+      {
+        "command": "RenderLines",
+        "name": "Render Lines",
+        "signature": "RenderLines(, *args)",
+        "call": "RenderLines(type)",
+        "description": "RenderLines(type)"
+      },
+      {
+        "command": "RenderMode",
+        "name": "Render Mode",
+        "signature": "RenderMode(, *args)",
+        "call": "RenderMode(renderintegrator)",
+        "description": "RenderMode(renderintegrator)"
+      },
+      {
+        "command": "RenderOptions",
+        "name": "Render Options",
+        "signature": "RenderOptions()",
+        "call": "RenderOptions()",
+        "description": "RenderOptions()"
+      },
+      {
+        "command": "RenderProperties",
+        "name": "Render Properties",
+        "signature": "RenderProperties()",
+        "call": "RenderProperties()",
+        "description": "RenderProperties()"
+      },
+      {
+        "command": "RenderScene",
+        "name": "Render Scene",
+        "signature": "RenderScene()",
+        "call": "RenderScene()",
+        "description": "RenderScene()"
+      },
+      {
+        "command": "RenderTileSize",
+        "name": "Render Tile Size",
+        "signature": "RenderTileSize(, *args)",
+        "call": "RenderTileSize(tilesize)",
+        "description": "RenderTileSize(tilesize)"
+      },
+      {
+        "command": "ShowFieldChart",
+        "name": "Show Field Chart",
+        "signature": "ShowFieldChart()",
+        "call": "ShowFieldChart()",
+        "description": "ShowFieldChart()"
+      },
+      {
+        "command": "ShowMotionPaths",
+        "name": "Show Motion Paths",
+        "signature": "ShowMotionPaths()",
+        "call": "ShowMotionPaths()",
+        "description": "ShowMotionPaths()"
+      },
+      {
+        "command": "SyncImageToFrame",
+        "name": "Sync Image To Frame",
+        "signature": "SyncImageToFrame(, *args)",
+        "call": "SyncImageToFrame(frame)",
+        "description": "SyncImageToFrame(frame)"
+      },
+      {
+        "command": "UnseenByRays",
+        "name": "Unseen By Rays",
+        "signature": "UnseenByRays()",
+        "call": "UnseenByRays()",
+        "description": "UnseenByRays()"
+      },
+      {
+        "command": "UpdateMotion",
+        "name": "Update Motion",
+        "signature": "UpdateMotion()",
+        "call": "UpdateMotion()",
+        "description": "UpdateMotion()"
+      }
+    ],
+    "General": [
+      {
+        "command": "About",
+        "name": "About",
+        "signature": "About()",
+        "call": "About()",
+        "description": "About()"
+      },
+      {
+        "command": "AdaptiveSampling",
+        "name": "Adaptive Sampling",
+        "signature": "AdaptiveSampling()",
+        "call": "AdaptiveSampling()",
+        "description": "AdaptiveSampling()"
+      },
+      {
+        "command": "AdaptiveThreshold",
+        "name": "Adaptive Threshold",
+        "signature": "AdaptiveThreshold(, *args)",
+        "call": "AdaptiveThreshold(threshold)",
+        "description": "AdaptiveThreshold(threshold)"
+      },
+      {
+        "command": "AdjustRegionTool",
+        "name": "Adjust Region Tool",
+        "signature": "AdjustRegionTool()",
+        "call": "AdjustRegionTool()",
+        "description": "AdjustRegionTool()"
+      },
+      {
+        "command": "AffectDiffuse",
+        "name": "Affect Diffuse",
+        "signature": "AffectDiffuse()",
+        "call": "AffectDiffuse()",
+        "description": "AffectDiffuse()"
+      },
+      {
+        "command": "AffectSpecular",
+        "name": "Affect Specular",
+        "signature": "AffectSpecular()",
+        "call": "AffectSpecular()",
+        "description": "AffectSpecular()"
+      },
+      {
+        "command": "AlertLevel",
+        "name": "Alert Level",
+        "signature": "AlertLevel(, *args)",
+        "call": "AlertLevel(level)",
+        "description": "AlertLevel(level)"
+      },
+      {
+        "command": "AlphaValue",
+        "name": "Alpha Value",
+        "signature": "AlphaValue(, *args)",
+        "call": "AlphaValue(alpha)",
+        "description": "AlphaValue(alpha)"
+      },
+      {
+        "command": "AmbientOcclusionRange",
+        "name": "Ambient Occlusion Range",
+        "signature": "AmbientOcclusionRange(, *args)",
+        "call": "AmbientOcclusionRange(range)",
+        "description": "AmbientOcclusionRange(range)"
+      },
+      {
+        "command": "Antialiasing",
+        "name": "Antialiasing",
+        "signature": "Antialiasing(, *args)",
+        "call": "Antialiasing(level)",
+        "description": "Antialiasing(level)"
+      },
+      {
+        "command": "ApertureHeight",
+        "name": "Aperture Height",
+        "signature": "ApertureHeight(, *args)",
+        "call": "ApertureHeight(height)",
+        "description": "ApertureHeight(height)"
+      },
+      {
+        "command": "AutoConfirm",
+        "name": "Auto Confirm",
+        "signature": "AutoConfirm(, *args)",
+        "call": "AutoConfirm(on_off)",
+        "description": "AutoConfirm(on_off)"
+      },
+      {
+        "command": "AutoKey",
+        "name": "Auto Key",
+        "signature": "AutoKey(, *args)",
+        "call": "AutoKey(active)",
+        "description": "AutoKey(active)"
+      },
+      {
+        "command": "BController",
+        "name": "B Controller",
+        "signature": "BController(, *args)",
+        "call": "BController(controller)",
+        "description": "BController(controller)"
+      },
+      {
+        "command": "BFollow",
+        "name": "B Follow",
+        "signature": "BFollow(, *args)",
+        "call": "BFollow(channel)",
+        "description": "BFollow(channel)"
+      },
+      {
+        "command": "BLimits",
+        "name": "B Limits",
+        "signature": "BLimits(, *args)",
+        "call": "BLimits(min, max)",
+        "description": "BLimits(min, max)"
+      },
+      {
+        "command": "BStiffness",
+        "name": "B Stiffness",
+        "signature": "BStiffness(, *args)",
+        "call": "BStiffness(stiffness)",
+        "description": "BStiffness(stiffness)"
+      },
+      {
+        "command": "BoundingBoxThreshold",
+        "name": "Bounding Box Threshold",
+        "signature": "BoundingBoxThreshold(, *args)",
+        "call": "BoundingBoxThreshold(threshold)",
+        "description": "BoundingBoxThreshold(threshold)"
+      },
+      {
+        "command": "CacheRadiosity",
+        "name": "Cache Radiosity",
+        "signature": "CacheRadiosity()",
+        "call": "CacheRadiosity()",
+        "description": "CacheRadiosity()"
+      },
+      {
+        "command": "CalculateAllNormals",
+        "name": "Calculate All Normals",
+        "signature": "CalculateAllNormals(, *args)",
+        "call": "CalculateAllNormals(on_off)",
+        "description": "CalculateAllNormals(on_off)"
+      },
+      {
+        "command": "CenterMouse",
+        "name": "Center Mouse",
+        "signature": "CenterMouse()",
+        "call": "CenterMouse()",
+        "description": "CenterMouse()"
+      },
+      {
+        "command": "ChangeClipType",
+        "name": "Change Clip Type",
+        "signature": "ChangeClipType(, *args)",
+        "call": "ChangeClipType(lwimageid, type)",
+        "description": "ChangeClipType(lwimageid, type)"
+      },
+      {
+        "command": "ChangeTool",
+        "name": "Change Tool",
+        "signature": "ChangeTool()",
+        "call": "ChangeTool()",
+        "description": "ChangeTool()"
+      },
+      {
+        "command": "ClientCommandInput",
+        "name": "Client Command Input",
+        "signature": "ClientCommandInput(, *args)",
+        "call": "ClientCommandInput(client, command)",
+        "description": "ClientCommandInput(client, command)"
+      },
+      {
+        "command": "CommandHistory",
+        "name": "Command History",
+        "signature": "CommandHistory()",
+        "call": "CommandHistory()",
+        "description": "CommandHistory()"
+      },
+      {
+        "command": "CommandInput",
+        "name": "Command Input",
+        "signature": "CommandInput(, *args)",
+        "call": "CommandInput(command)",
+        "description": "CommandInput(command)"
+      },
+      {
+        "command": "Compositing",
+        "name": "Compositing",
+        "signature": "Compositing()",
+        "call": "Compositing()",
+        "description": "Compositing()"
+      },
+      {
+        "command": "ConeAngleTool",
+        "name": "Cone Angle Tool",
+        "signature": "ConeAngleTool()",
+        "call": "ConeAngleTool()",
+        "description": "ConeAngleTool()"
+      },
+      {
+        "command": "ContentDirectory",
+        "name": "Content Directory",
+        "signature": "ContentDirectory(, *args)",
+        "call": "ContentDirectory(dirname)",
+        "description": "ContentDirectory(dirname)"
+      },
+      {
+        "command": "ContentTypeDirectory",
+        "name": "Content Type Directory",
+        "signature": "ContentTypeDirectory(, *args)",
+        "call": "ContentTypeDirectory(type, dirname)",
+        "description": "ContentTypeDirectory(type, dirname)"
+      },
+      {
+        "command": "ConvergenceToeIn",
+        "name": "Convergence Toe In",
+        "signature": "ConvergenceToeIn(, *args)",
+        "call": "ConvergenceToeIn(amount)",
+        "description": "ConvergenceToeIn(amount)"
+      },
+      {
+        "command": "DecreaseGrid",
+        "name": "Decrease Grid",
+        "signature": "DecreaseGrid()",
+        "call": "DecreaseGrid()",
+        "description": "DecreaseGrid()"
+      },
+      {
+        "command": "DefaultDitherIntensity",
+        "name": "Default Dither Intensity",
+        "signature": "DefaultDitherIntensity(, *args)",
+        "call": "DefaultDitherIntensity(default_dither_intensity)",
+        "description": "DefaultDitherIntensity(default_dither_intensity)"
+      },
+      {
+        "command": "DefaultsOptions",
+        "name": "Defaults Options",
+        "signature": "DefaultsOptions()",
+        "call": "DefaultsOptions()",
+        "description": "DefaultsOptions()"
+      },
+      {
+        "command": "DepthBufferAA",
+        "name": "Depth Buffer A A",
+        "signature": "DepthBufferAA(, *args)",
+        "call": "DepthBufferAA(type)",
+        "description": "DepthBufferAA(type)"
+      },
+      {
+        "command": "DespikeTolerance",
+        "name": "Despike Tolerance",
+        "signature": "DespikeTolerance(, *args)",
+        "call": "DespikeTolerance(tolerance)",
+        "description": "DespikeTolerance(tolerance)"
+      },
+      {
+        "command": "DiaphragmRotation",
+        "name": "Diaphragm Rotation",
+        "signature": "DiaphragmRotation(, *args)",
+        "call": "DiaphragmRotation(angle)",
+        "description": "DiaphragmRotation(angle)"
+      },
+      {
+        "command": "DiaphragmSides",
+        "name": "Diaphragm Sides",
+        "signature": "DiaphragmSides(, *args)",
+        "call": "DiaphragmSides(sides)",
+        "description": "DiaphragmSides(sides)"
+      },
+      {
+        "command": "DiffuseBounces",
+        "name": "Diffuse Bounces",
+        "signature": "DiffuseBounces(, *args)",
+        "call": "DiffuseBounces(bounces)",
+        "description": "DiffuseBounces(bounces)"
+      },
+      {
+        "command": "DiffuseLimit",
+        "name": "Diffuse Limit",
+        "signature": "DiffuseLimit(, *args)",
+        "call": "DiffuseLimit(diffuse_limit)",
+        "description": "DiffuseLimit(diffuse_limit)"
+      },
+      {
+        "command": "DisplacementMapOrder",
+        "name": "Displacement Map Order",
+        "signature": "DisplacementMapOrder(, *args)",
+        "call": "DisplacementMapOrder(order)",
+        "description": "DisplacementMapOrder(order)"
+      },
+      {
+        "command": "DisplayOptions",
+        "name": "Display Options",
+        "signature": "DisplayOptions()",
+        "call": "DisplayOptions()",
+        "description": "DisplayOptions()"
+      },
+      {
+        "command": "DistanceDissolve",
+        "name": "Distance Dissolve",
+        "signature": "DistanceDissolve()",
+        "call": "DistanceDissolve()",
+        "description": "DistanceDissolve()"
+      },
+      {
+        "command": "DitherIntensity",
+        "name": "Dither Intensity",
+        "signature": "DitherIntensity(, *args)",
+        "call": "DitherIntensity(dither_intensity)",
+        "description": "DitherIntensity(dither_intensity)"
+      },
+      {
+        "command": "DrawAntialiasing",
+        "name": "Draw Antialiasing",
+        "signature": "DrawAntialiasing(, *args)",
+        "call": "DrawAntialiasing(level)",
+        "description": "DrawAntialiasing(level)"
+      },
+      {
+        "command": "DrawChildJoints",
+        "name": "Draw Child Joints",
+        "signature": "DrawChildJoints()",
+        "call": "DrawChildJoints()",
+        "description": "DrawChildJoints()"
+      },
+      {
+        "command": "DrawJoints",
+        "name": "Draw Joints",
+        "signature": "DrawJoints()",
+        "call": "DrawJoints()",
+        "description": "DrawJoints()"
+      },
+      {
+        "command": "DuplicateProceduralGeometry",
+        "name": "Duplicate Procedural Geometry",
+        "signature": "DuplicateProceduralGeometry(, *args)",
+        "call": "DuplicateProceduralGeometry(copys)",
+        "description": "DuplicateProceduralGeometry(copys)"
+      },
+      {
+        "command": "DynamicUpdate",
+        "name": "Dynamic Update",
+        "signature": "DynamicUpdate(, *args)",
+        "call": "DynamicUpdate(level)",
+        "description": "DynamicUpdate(level)"
+      },
+      {
+        "command": "EnhancedAA",
+        "name": "Enhanced A A",
+        "signature": "EnhancedAA()",
+        "call": "EnhancedAA()",
+        "description": "EnhancedAA()"
+      },
+      {
+        "command": "EnterUnlockCode",
+        "name": "Enter Unlock Code",
+        "signature": "EnterUnlockCode()",
+        "call": "EnterUnlockCode()",
+        "description": "EnterUnlockCode()"
+      },
+      {
+        "command": "EyeSeparation",
+        "name": "Eye Separation",
+        "signature": "EyeSeparation(, *args)",
+        "call": "EyeSeparation(separation)",
+        "description": "EyeSeparation(separation)"
+      },
+      {
+        "command": "FilmHeight",
+        "name": "Film Height",
+        "signature": "FilmHeight(, *args)",
+        "call": "FilmHeight(height)",
+        "description": "FilmHeight(height)"
+      },
+      {
+        "command": "FitAll",
+        "name": "Fit All",
+        "signature": "FitAll()",
+        "call": "FitAll()",
+        "description": "FitAll()"
+      },
+      {
+        "command": "FlatMenuPopup",
+        "name": "Flat Menu Popup",
+        "signature": "FlatMenuPopup()",
+        "call": "FlatMenuPopup()",
+        "description": "FlatMenuPopup()"
+      },
+      {
+        "command": "FocalDistance",
+        "name": "Focal Distance",
+        "signature": "FocalDistance(, *args)",
+        "call": "FocalDistance(distance)",
+        "description": "FocalDistance(distance)"
+      },
+      {
+        "command": "FullTimeIK",
+        "name": "Full Time I K",
+        "signature": "FullTimeIK()",
+        "call": "FullTimeIK()",
+        "description": "FullTimeIK()"
+      },
+      {
+        "command": "GeneralOptions",
+        "name": "General Options",
+        "signature": "GeneralOptions()",
+        "call": "GeneralOptions()",
+        "description": "GeneralOptions()"
+      },
+      {
+        "command": "Generics",
+        "name": "Generics",
+        "signature": "Generics()",
+        "call": "Generics()",
+        "description": "Generics()"
+      },
+      {
+        "command": "GlobalEdgeMultiplier",
+        "name": "Global Edge Multiplier",
+        "signature": "GlobalEdgeMultiplier(, *args)",
+        "call": "GlobalEdgeMultiplier(multiplier)",
+        "description": "GlobalEdgeMultiplier(multiplier)"
+      },
+      {
+        "command": "GlobalIllumination",
+        "name": "Global Illumination",
+        "signature": "GlobalIllumination()",
+        "call": "GlobalIllumination()",
+        "description": "GlobalIllumination()"
+      },
+      {
+        "command": "GlobalMipmapMultiplier",
+        "name": "Global Mipmap Multiplier",
+        "signature": "GlobalMipmapMultiplier(, *args)",
+        "call": "GlobalMipmapMultiplier(multiplier)",
+        "description": "GlobalMipmapMultiplier(multiplier)"
+      },
+      {
+        "command": "GoalStrength",
+        "name": "Goal Strength",
+        "signature": "GoalStrength(, *args)",
+        "call": "GoalStrength(strength)",
+        "description": "GoalStrength(strength)"
+      },
+      {
+        "command": "GridSize",
+        "name": "Grid Size",
+        "signature": "GridSize(, *args)",
+        "call": "GridSize(size)",
+        "description": "GridSize(size)"
+      },
+      {
+        "command": "HController",
+        "name": "H Controller",
+        "signature": "HController(, *args)",
+        "call": "HController(controller)",
+        "description": "HController(controller)"
+      },
+      {
+        "command": "HDRFilter",
+        "name": "H D R Filter",
+        "signature": "HDRFilter(, *args)",
+        "call": "HDRFilter(mode)",
+        "description": "HDRFilter(mode)"
+      },
+      {
+        "command": "HFollow",
+        "name": "H Follow",
+        "signature": "HFollow(, *args)",
+        "call": "HFollow(channel)",
+        "description": "HFollow(channel)"
+      },
+      {
+        "command": "HLimits",
+        "name": "H Limits",
+        "signature": "HLimits(, *args)",
+        "call": "HLimits(min, max)",
+        "description": "HLimits(min, max)"
+      },
+      {
+        "command": "HStiffness",
+        "name": "H Stiffness",
+        "signature": "HStiffness(, *args)",
+        "call": "HStiffness(stiffness)",
+        "description": "HStiffness(stiffness)"
+      },
+      {
+        "command": "HardwareGeometryAccelerationMethod",
+        "name": "Hardware Geometry Acceleration Method",
+        "signature": "HardwareGeometryAccelerationMethod(, *args)",
+        "call": "HardwareGeometryAccelerationMethod(hw_geometry_acceleration_type_name)",
+        "description": "HardwareGeometryAccelerationMethod(hw_geometry_acceleration_type_name)"
+      },
+      {
+        "command": "HardwareShadingMethod",
+        "name": "Hardware Shading Method",
+        "signature": "HardwareShadingMethod(, *args)",
+        "call": "HardwareShadingMethod(hw_shading_type_name)",
+        "description": "HardwareShadingMethod(hw_shading_type_name)"
+      },
+      {
+        "command": "IKFKBlending",
+        "name": "I K F K Blending",
+        "signature": "IKFKBlending(, *args)",
+        "call": "IKFKBlending(blend)",
+        "description": "IKFKBlending(blend)"
+      },
+      {
+        "command": "IKInitialState",
+        "name": "I K Initial State",
+        "signature": "IKInitialState(, *args)",
+        "call": "IKInitialState(state)",
+        "description": "IKInitialState(state)"
+      },
+      {
+        "command": "ImageCacheDirectory",
+        "name": "Image Cache Directory",
+        "signature": "ImageCacheDirectory(, *args)",
+        "call": "ImageCacheDirectory(dirname)",
+        "description": "ImageCacheDirectory(dirname)"
+      },
+      {
+        "command": "ImageCacheMaximum",
+        "name": "Image Cache Maximum",
+        "signature": "ImageCacheMaximum(, *args)",
+        "call": "ImageCacheMaximum(size)",
+        "description": "ImageCacheMaximum(size)"
+      },
+      {
+        "command": "ImageProcessing",
+        "name": "Image Processing",
+        "signature": "ImageProcessing()",
+        "call": "ImageProcessing()",
+        "description": "ImageProcessing()"
+      },
+      {
+        "command": "IncreaseGrid",
+        "name": "Increase Grid",
+        "signature": "IncreaseGrid()",
+        "call": "IncreaseGrid()",
+        "description": "IncreaseGrid()"
+      },
+      {
+        "command": "InteractiveMode",
+        "name": "Interactive Mode",
+        "signature": "InteractiveMode(, *args)",
+        "call": "InteractiveMode(on_off)",
+        "description": "InteractiveMode(on_off)"
+      },
+      {
+        "command": "KeepGoalWithinReach",
+        "name": "Keep Goal Within Reach",
+        "signature": "KeepGoalWithinReach()",
+        "call": "KeepGoalWithinReach()",
+        "description": "KeepGoalWithinReach()"
+      },
+      {
+        "command": "Layout_WindowActivate",
+        "name": "Layout_ Window Activate",
+        "signature": "Layout_WindowActivate()",
+        "call": "Layout_WindowActivate()",
+        "description": "Layout_WindowActivate()"
+      },
+      {
+        "command": "LensFStop",
+        "name": "Lens F Stop",
+        "signature": "LensFStop(, *args)",
+        "call": "LensFStop(fstop)",
+        "description": "LensFStop(fstop)"
+      },
+      {
+        "command": "LimitB",
+        "name": "Limit B",
+        "signature": "LimitB()",
+        "call": "LimitB()",
+        "description": "LimitB()"
+      },
+      {
+        "command": "LimitDynamicRange",
+        "name": "Limit Dynamic Range",
+        "signature": "LimitDynamicRange()",
+        "call": "LimitDynamicRange()",
+        "description": "LimitDynamicRange()"
+      },
+      {
+        "command": "LimitDynamicRangeMax",
+        "name": "Limit Dynamic Range Max",
+        "signature": "LimitDynamicRangeMax(, *args)",
+        "call": "LimitDynamicRangeMax(maximum)",
+        "description": "LimitDynamicRangeMax(maximum)"
+      },
+      {
+        "command": "LimitDynamicRangeMin",
+        "name": "Limit Dynamic Range Min",
+        "signature": "LimitDynamicRangeMin(, *args)",
+        "call": "LimitDynamicRangeMin(minimum)",
+        "description": "LimitDynamicRangeMin(minimum)"
+      },
+      {
+        "command": "LimitH",
+        "name": "Limit H",
+        "signature": "LimitH()",
+        "call": "LimitH()",
+        "description": "LimitH()"
+      },
+      {
+        "command": "LimitP",
+        "name": "Limit P",
+        "signature": "LimitP()",
+        "call": "LimitP()",
+        "description": "LimitP()"
+      },
+      {
+        "command": "LimitSX",
+        "name": "Limit S X",
+        "signature": "LimitSX()",
+        "call": "LimitSX()",
+        "description": "LimitSX()"
+      },
+      {
+        "command": "LimitSY",
+        "name": "Limit S Y",
+        "signature": "LimitSY()",
+        "call": "LimitSY()",
+        "description": "LimitSY()"
+      },
+      {
+        "command": "LimitSZ",
+        "name": "Limit S Z",
+        "signature": "LimitSZ()",
+        "call": "LimitSZ()",
+        "description": "LimitSZ()"
+      },
+      {
+        "command": "LimitX",
+        "name": "Limit X",
+        "signature": "LimitX()",
+        "call": "LimitX()",
+        "description": "LimitX()"
+      },
+      {
+        "command": "LimitY",
+        "name": "Limit Y",
+        "signature": "LimitY()",
+        "call": "LimitY()",
+        "description": "LimitY()"
+      },
+      {
+        "command": "LimitZ",
+        "name": "Limit Z",
+        "signature": "LimitZ()",
+        "call": "LimitZ()",
+        "description": "LimitZ()"
+      },
+      {
+        "command": "LimitedRegion",
+        "name": "Limited Region",
+        "signature": "LimitedRegion(, *args)",
+        "call": "LimitedRegion(region)",
+        "description": "LimitedRegion(region)"
+      },
+      {
+        "command": "LineThickness",
+        "name": "Line Thickness",
+        "signature": "LineThickness(, *args)",
+        "call": "LineThickness(size)",
+        "description": "LineThickness(size)"
+      },
+      {
+        "command": "LocalCoordinateSystem",
+        "name": "Local Coordinate System",
+        "signature": "LocalCoordinateSystem()",
+        "call": "LocalCoordinateSystem()",
+        "description": "LocalCoordinateSystem()"
+      },
+      {
+        "command": "Locale",
+        "name": "Locale",
+        "signature": "Locale()",
+        "call": "Locale()",
+        "description": "Locale()"
+      },
+      {
+        "command": "LockAxis",
+        "name": "Lock Axis",
+        "signature": "LockAxis(, *args)",
+        "call": "LockAxis(axis, on_off)",
+        "description": "LockAxis(axis, on_off)"
+      },
+      {
+        "command": "MatchGoalOrientation",
+        "name": "Match Goal Orientation",
+        "signature": "MatchGoalOrientation()",
+        "call": "MatchGoalOrientation()",
+        "description": "MatchGoalOrientation()"
+      },
+      {
+        "command": "MaxAntialiasing",
+        "name": "Max Antialiasing",
+        "signature": "MaxAntialiasing(, *args)",
+        "call": "MaxAntialiasing(level)",
+        "description": "MaxAntialiasing(level)"
+      },
+      {
+        "command": "MaxDissolveDistance",
+        "name": "Max Dissolve Distance",
+        "signature": "MaxDissolveDistance(, *args)",
+        "call": "MaxDissolveDistance(distance)",
+        "description": "MaxDissolveDistance(distance)"
+      },
+      {
+        "command": "MaximumSamples",
+        "name": "Maximum Samples",
+        "signature": "MaximumSamples(, *args)",
+        "call": "MaximumSamples(samples)",
+        "description": "MaximumSamples(samples)"
+      },
+      {
+        "command": "MetaballResolution",
+        "name": "Metaball Resolution",
+        "signature": "MetaballResolution(, *args)",
+        "call": "MetaballResolution(display, render)",
+        "description": "MetaballResolution(display, render)"
+      },
+      {
+        "command": "MinAntialiasing",
+        "name": "Min Antialiasing",
+        "signature": "MinAntialiasing(, *args)",
+        "call": "MinAntialiasing(level)",
+        "description": "MinAntialiasing(level)"
+      },
+      {
+        "command": "MinimumSamples",
+        "name": "Minimum Samples",
+        "signature": "MinimumSamples(, *args)",
+        "call": "MinimumSamples(samples)",
+        "description": "MinimumSamples(samples)"
+      },
+      {
+        "command": "Mirror",
+        "name": "Mirror",
+        "signature": "Mirror()",
+        "call": "Mirror()",
+        "description": "Mirror()"
+      },
+      {
+        "command": "Model",
+        "name": "Model",
+        "signature": "Model()",
+        "call": "Model()",
+        "description": "Model()"
+      },
+      {
+        "command": "Modeler_Unsupported",
+        "name": "Modeler_ Unsupported",
+        "signature": "Modeler_Unsupported()",
+        "call": "Modeler_Unsupported()",
+        "description": "Modeler_Unsupported()"
+      },
+      {
+        "command": "NavigationActivateMKB",
+        "name": "Navigation Activate M K B",
+        "signature": "NavigationActivateMKB()",
+        "call": "NavigationActivateMKB()",
+        "description": "NavigationActivateMKB()"
+      },
+      {
+        "command": "NavigationDeactivateMKB",
+        "name": "Navigation Deactivate M K B",
+        "signature": "NavigationDeactivateMKB()",
+        "call": "NavigationDeactivateMKB()",
+        "description": "NavigationDeactivateMKB()"
+      },
+      {
+        "command": "NavigationOptions",
+        "name": "Navigation Options",
+        "signature": "NavigationOptions()",
+        "call": "NavigationOptions()",
+        "description": "NavigationOptions()"
+      },
+      {
+        "command": "NextKey",
+        "name": "Next Key",
+        "signature": "NextKey()",
+        "call": "NextKey()",
+        "description": "NextKey()"
+      },
+      {
+        "command": "NextSibling",
+        "name": "Next Sibling",
+        "signature": "NextSibling()",
+        "call": "NextSibling()",
+        "description": "NextSibling()"
+      },
+      {
+        "command": "NodeDisplacement",
+        "name": "Node Displacement",
+        "signature": "NodeDisplacement()",
+        "call": "NodeDisplacement()",
+        "description": "NodeDisplacement()"
+      },
+      {
+        "command": "NodeDisplacementOrder",
+        "name": "Node Displacement Order",
+        "signature": "NodeDisplacementOrder(, *args)",
+        "call": "NodeDisplacementOrder(order)",
+        "description": "NodeDisplacementOrder(order)"
+      },
+      {
+        "command": "NodeEdges",
+        "name": "Node Edges",
+        "signature": "NodeEdges()",
+        "call": "NodeEdges()",
+        "description": "NodeEdges()"
+      },
+      {
+        "command": "NoiseFilter",
+        "name": "Noise Filter",
+        "signature": "NoiseFilter()",
+        "call": "NoiseFilter()",
+        "description": "NoiseFilter()"
+      },
+      {
+        "command": "NoiseFilterOptions",
+        "name": "Noise Filter Options",
+        "signature": "NoiseFilterOptions()",
+        "call": "NoiseFilterOptions()",
+        "description": "NoiseFilterOptions()"
+      },
+      {
+        "command": "NoiseSampler",
+        "name": "Noise Sampler",
+        "signature": "NoiseSampler(, *args)",
+        "call": "NoiseSampler(sampler)",
+        "description": "NoiseSampler(sampler)"
+      },
+      {
+        "command": "Numeric",
+        "name": "Numeric",
+        "signature": "Numeric()",
+        "call": "Numeric()",
+        "description": "Numeric()"
+      },
+      {
+        "command": "OBJContinuousUV",
+        "name": "O B J Continuous U V",
+        "signature": "OBJContinuousUV()",
+        "call": "OBJContinuousUV()",
+        "description": "OBJContinuousUV()"
+      },
+      {
+        "command": "OBJDoubleSided",
+        "name": "O B J Double Sided",
+        "signature": "OBJDoubleSided()",
+        "call": "OBJDoubleSided()",
+        "description": "OBJDoubleSided()"
+      },
+      {
+        "command": "OBJForegound",
+        "name": "O B J Foregound",
+        "signature": "OBJForegound()",
+        "call": "OBJForegound()",
+        "description": "OBJForegound()"
+      },
+      {
+        "command": "OBJOneVMap",
+        "name": "O B J One V Map",
+        "signature": "OBJOneVMap()",
+        "call": "OBJOneVMap()",
+        "description": "OBJOneVMap()"
+      },
+      {
+        "command": "OBJOptions",
+        "name": "O B J Options",
+        "signature": "OBJOptions()",
+        "call": "OBJOptions()",
+        "description": "OBJOptions()"
+      },
+      {
+        "command": "OBJParts",
+        "name": "O B J Parts",
+        "signature": "OBJParts()",
+        "call": "OBJParts()",
+        "description": "OBJParts()"
+      },
+      {
+        "command": "OBJReverseKaKd",
+        "name": "O B J Reverse Ka Kd",
+        "signature": "OBJReverseKaKd()",
+        "call": "OBJReverseKaKd()",
+        "description": "OBJReverseKaKd()"
+      },
+      {
+        "command": "OBJSmGrps",
+        "name": "O B J Sm Grps",
+        "signature": "OBJSmGrps()",
+        "call": "OBJSmGrps()",
+        "description": "OBJSmGrps()"
+      },
+      {
+        "command": "ObjGIMaxPixelSpacing",
+        "name": "Obj G I Max Pixel Spacing",
+        "signature": "ObjGIMaxPixelSpacing(, *args)",
+        "call": "ObjGIMaxPixelSpacing(amount)",
+        "description": "ObjGIMaxPixelSpacing(amount)"
+      },
+      {
+        "command": "ObjGIMinPixelSpacing",
+        "name": "Obj G I Min Pixel Spacing",
+        "signature": "ObjGIMinPixelSpacing(, *args)",
+        "call": "ObjGIMinPixelSpacing(amount)",
+        "description": "ObjGIMinPixelSpacing(amount)"
+      },
+      {
+        "command": "ObjGIRadiosityTolerance",
+        "name": "Obj G I Radiosity Tolerance",
+        "signature": "ObjGIRadiosityTolerance(, *args)",
+        "call": "ObjGIRadiosityTolerance(degrees)",
+        "description": "ObjGIRadiosityTolerance(degrees)"
+      },
+      {
+        "command": "ObjGIUseGlobal",
+        "name": "Obj G I Use Global",
+        "signature": "ObjGIUseGlobal(, *args)",
+        "call": "ObjGIUseGlobal(mode)",
+        "description": "ObjGIUseGlobal(mode)"
+      },
+      {
+        "command": "OffLine",
+        "name": "Off Line",
+        "signature": "OffLine()",
+        "call": "OffLine()",
+        "description": "OffLine()"
+      },
+      {
+        "command": "OnLine",
+        "name": "On Line",
+        "signature": "OnLine()",
+        "call": "OnLine()",
+        "description": "OnLine()"
+      },
+      {
+        "command": "Oversampling",
+        "name": "Oversampling",
+        "signature": "Oversampling(, *args)",
+        "call": "Oversampling(threshold)",
+        "description": "Oversampling(threshold)"
+      },
+      {
+        "command": "OverscanMode",
+        "name": "Overscan Mode",
+        "signature": "OverscanMode(, *args)",
+        "call": "OverscanMode(mode)",
+        "description": "OverscanMode(mode)"
+      },
+      {
+        "command": "OverscanSize",
+        "name": "Overscan Size",
+        "signature": "OverscanSize(, *args)",
+        "call": "OverscanSize(width, height)",
+        "description": "OverscanSize(width, height)"
+      },
+      {
+        "command": "PController",
+        "name": "P Controller",
+        "signature": "PController(, *args)",
+        "call": "PController(controller)",
+        "description": "PController(controller)"
+      },
+      {
+        "command": "PCorePython",
+        "name": "P Core Python",
+        "signature": "PCorePython()",
+        "call": "PCorePython()",
+        "description": "PCorePython()"
+      },
+      {
+        "command": "PFollow",
+        "name": "P Follow",
+        "signature": "PFollow(, *args)",
+        "call": "PFollow(channel)",
+        "description": "PFollow(channel)"
+      },
+      {
+        "command": "PLimits",
+        "name": "P Limits",
+        "signature": "PLimits(, *args)",
+        "call": "PLimits(min, max)",
+        "description": "PLimits(min, max)"
+      },
+      {
+        "command": "PStiffness",
+        "name": "P Stiffness",
+        "signature": "PStiffness(, *args)",
+        "call": "PStiffness(stiffness)",
+        "description": "PStiffness(stiffness)"
+      },
+      {
+        "command": "ParentCoordinateSystem",
+        "name": "Parent Coordinate System",
+        "signature": "ParentCoordinateSystem()",
+        "call": "ParentCoordinateSystem()",
+        "description": "ParentCoordinateSystem()"
+      },
+      {
+        "command": "ParentInPlace",
+        "name": "Parent In Place",
+        "signature": "ParentInPlace()",
+        "call": "ParentInPlace()",
+        "description": "ParentInPlace()"
+      },
+      {
+        "command": "ParticleThickness",
+        "name": "Particle Thickness",
+        "signature": "ParticleThickness(, *args)",
+        "call": "ParticleThickness(size)",
+        "description": "ParticleThickness(size)"
+      },
+      {
+        "command": "PathsOptions",
+        "name": "Paths Options",
+        "signature": "PathsOptions()",
+        "call": "PathsOptions()",
+        "description": "PathsOptions()"
+      },
+      {
+        "command": "Pause",
+        "name": "Pause",
+        "signature": "Pause()",
+        "call": "Pause()",
+        "description": "Pause()"
+      },
+      {
+        "command": "PixelAspect",
+        "name": "Pixel Aspect",
+        "signature": "PixelAspect(, *args)",
+        "call": "PixelAspect(aspect)",
+        "description": "PixelAspect(aspect)"
+      },
+      {
+        "command": "PixelFiltersMT",
+        "name": "Pixel Filters M T",
+        "signature": "PixelFiltersMT(, *args)",
+        "call": "PixelFiltersMT(enable)",
+        "description": "PixelFiltersMT(enable)"
+      },
+      {
+        "command": "PlayAudio",
+        "name": "Play Audio",
+        "signature": "PlayAudio()",
+        "call": "PlayAudio()",
+        "description": "PlayAudio()"
+      },
+      {
+        "command": "PlayBackward",
+        "name": "Play Backward",
+        "signature": "PlayBackward()",
+        "call": "PlayBackward()",
+        "description": "PlayBackward()"
+      },
+      {
+        "command": "PlayForward",
+        "name": "Play Forward",
+        "signature": "PlayForward()",
+        "call": "PlayForward()",
+        "description": "PlayForward()"
+      },
+      {
+        "command": "PreviousKey",
+        "name": "Previous Key",
+        "signature": "PreviousKey()",
+        "call": "PreviousKey()",
+        "description": "PreviousKey()"
+      },
+      {
+        "command": "PreviousSibling",
+        "name": "Previous Sibling",
+        "signature": "PreviousSibling()",
+        "call": "PreviousSibling()",
+        "description": "PreviousSibling()"
+      },
+      {
+        "command": "ProjectionImage",
+        "name": "Projection Image",
+        "signature": "ProjectionImage(, *args)",
+        "call": "ProjectionImage(imageid)",
+        "description": "ProjectionImage(imageid)"
+      },
+      {
+        "command": "Quit",
+        "name": "Quit",
+        "signature": "Quit()",
+        "call": "Quit()",
+        "description": "Quit()"
+      },
+      {
+        "command": "RadiosityInterpolation",
+        "name": "Radiosity Interpolation",
+        "signature": "RadiosityInterpolation(, *args)",
+        "call": "RadiosityInterpolation(enabled)",
+        "description": "RadiosityInterpolation(enabled)"
+      },
+      {
+        "command": "RecentContentDirs",
+        "name": "Recent Content Dirs",
+        "signature": "RecentContentDirs()",
+        "call": "RecentContentDirs()",
+        "description": "RecentContentDirs()"
+      },
+      {
+        "command": "ReconstructionFilter",
+        "name": "Reconstruction Filter",
+        "signature": "ReconstructionFilter(, *args)",
+        "call": "ReconstructionFilter(level)",
+        "description": "ReconstructionFilter(level)"
+      },
+      {
+        "command": "RecordMaxAngles",
+        "name": "Record Max Angles",
+        "signature": "RecordMaxAngles()",
+        "call": "RecordMaxAngles()",
+        "description": "RecordMaxAngles()"
+      },
+      {
+        "command": "RecordMinAngles",
+        "name": "Record Min Angles",
+        "signature": "RecordMinAngles()",
+        "call": "RecordMinAngles()",
+        "description": "RecordMinAngles()"
+      },
+      {
+        "command": "Redo",
+        "name": "Redo",
+        "signature": "Redo()",
+        "call": "Redo()",
+        "description": "Redo()"
+      },
+      {
+        "command": "Redraw",
+        "name": "Redraw",
+        "signature": "Redraw()",
+        "call": "Redraw()",
+        "description": "Redraw()"
+      },
+      {
+        "command": "RedrawNow",
+        "name": "Redraw Now",
+        "signature": "RedrawNow()",
+        "call": "RedrawNow()",
+        "description": "RedrawNow()"
+      },
+      {
+        "command": "Refresh",
+        "name": "Refresh",
+        "signature": "Refresh()",
+        "call": "Refresh()",
+        "description": "Refresh()"
+      },
+      {
+        "command": "RefreshNow",
+        "name": "Refresh Now",
+        "signature": "RefreshNow()",
+        "call": "RefreshNow()",
+        "description": "RefreshNow()"
+      },
+      {
+        "command": "Rename",
+        "name": "Rename",
+        "signature": "Rename(, *args)",
+        "call": "Rename(name)",
+        "description": "Rename(name)"
+      },
+      {
+        "command": "ReplaceWithNull",
+        "name": "Replace With Null",
+        "signature": "ReplaceWithNull(, *args)",
+        "call": "ReplaceWithNull(name)",
+        "description": "ReplaceWithNull(name)"
+      },
+      {
+        "command": "ReportABug",
+        "name": "Report A Bug",
+        "signature": "ReportABug()",
+        "call": "ReportABug()",
+        "description": "ReportABug()"
+      },
+      {
+        "command": "RequestAFeature",
+        "name": "Request A Feature",
+        "signature": "RequestAFeature()",
+        "call": "RequestAFeature()",
+        "description": "RequestAFeature()"
+      },
+      {
+        "command": "ResolutionMultiplier",
+        "name": "Resolution Multiplier",
+        "signature": "ResolutionMultiplier(, *args)",
+        "call": "ResolutionMultiplier(multiplier)",
+        "description": "ResolutionMultiplier(multiplier)"
+      },
+      {
+        "command": "RestLengthTool",
+        "name": "Rest Length Tool",
+        "signature": "RestLengthTool()",
+        "call": "RestLengthTool()",
+        "description": "RestLengthTool()"
+      },
+      {
+        "command": "Ring",
+        "name": "Ring",
+        "signature": "Ring(topic, command)",
+        "call": "Ring(prefix, command)",
+        "description": "Ring(prefix, command)"
+      },
+      {
+        "command": "RollingShutter",
+        "name": "Rolling Shutter",
+        "signature": "RollingShutter(, *args)",
+        "call": "RollingShutter(skew)",
+        "description": "RollingShutter(skew)"
+      },
+      {
+        "command": "Rotation",
+        "name": "Rotation",
+        "signature": "Rotation(, *args)",
+        "call": "Rotation(h, p, b)",
+        "description": "Rotation(h, p, b)"
+      },
+      {
+        "command": "RotationOrder",
+        "name": "Rotation Order",
+        "signature": "RotationOrder(, *args)",
+        "call": "RotationOrder(order)",
+        "description": "RotationOrder(order)"
+      },
+      {
+        "command": "SXController",
+        "name": "S X Controller",
+        "signature": "SXController(, *args)",
+        "call": "SXController(controller)",
+        "description": "SXController(controller)"
+      },
+      {
+        "command": "SXFollow",
+        "name": "S X Follow",
+        "signature": "SXFollow(, *args)",
+        "call": "SXFollow(channel)",
+        "description": "SXFollow(channel)"
+      },
+      {
+        "command": "SXLimits",
+        "name": "S X Limits",
+        "signature": "SXLimits(, *args)",
+        "call": "SXLimits(min, max)",
+        "description": "SXLimits(min, max)"
+      },
+      {
+        "command": "SXStiffness",
+        "name": "S X Stiffness",
+        "signature": "SXStiffness(, *args)",
+        "call": "SXStiffness(stiffness)",
+        "description": "SXStiffness(stiffness)"
+      },
+      {
+        "command": "SYController",
+        "name": "S Y Controller",
+        "signature": "SYController(, *args)",
+        "call": "SYController(controller)",
+        "description": "SYController(controller)"
+      },
+      {
+        "command": "SYFollow",
+        "name": "S Y Follow",
+        "signature": "SYFollow(, *args)",
+        "call": "SYFollow(channel)",
+        "description": "SYFollow(channel)"
+      },
+      {
+        "command": "SYLimits",
+        "name": "S Y Limits",
+        "signature": "SYLimits(, *args)",
+        "call": "SYLimits(min, max)",
+        "description": "SYLimits(min, max)"
+      },
+      {
+        "command": "SYStiffness",
+        "name": "S Y Stiffness",
+        "signature": "SYStiffness(, *args)",
+        "call": "SYStiffness(stiffness)",
+        "description": "SYStiffness(stiffness)"
+      },
+      {
+        "command": "SZController",
+        "name": "S Z Controller",
+        "signature": "SZController(, *args)",
+        "call": "SZController(controller)",
+        "description": "SZController(controller)"
+      },
+      {
+        "command": "SZFollow",
+        "name": "S Z Follow",
+        "signature": "SZFollow(, *args)",
+        "call": "SZFollow(channel)",
+        "description": "SZFollow(channel)"
+      },
+      {
+        "command": "SZLimits",
+        "name": "S Z Limits",
+        "signature": "SZLimits(, *args)",
+        "call": "SZLimits(min, max)",
+        "description": "SZLimits(min, max)"
+      },
+      {
+        "command": "SZStiffness",
+        "name": "S Z Stiffness",
+        "signature": "SZStiffness(, *args)",
+        "call": "SZStiffness(stiffness)",
+        "description": "SZStiffness(stiffness)"
+      },
+      {
+        "command": "ShowCages",
+        "name": "Show Cages",
+        "signature": "ShowCages()",
+        "call": "ShowCages()",
+        "description": "ShowCages()"
+      },
+      {
+        "command": "ShowHandles",
+        "name": "Show Handles",
+        "signature": "ShowHandles()",
+        "call": "ShowHandles()",
+        "description": "ShowHandles()"
+      },
+      {
+        "command": "ShowIKChains",
+        "name": "Show I K Chains",
+        "signature": "ShowIKChains()",
+        "call": "ShowIKChains()",
+        "description": "ShowIKChains()"
+      },
+      {
+        "command": "ShowSafeAreas",
+        "name": "Show Safe Areas",
+        "signature": "ShowSafeAreas()",
+        "call": "ShowSafeAreas()",
+        "description": "ShowSafeAreas()"
+      },
+      {
+        "command": "ShowTargetLines",
+        "name": "Show Target Lines",
+        "signature": "ShowTargetLines()",
+        "call": "ShowTargetLines()",
+        "description": "ShowTargetLines()"
+      },
+      {
+        "command": "ShrinkEdgesNominalDistance",
+        "name": "Shrink Edges Nominal Distance",
+        "signature": "ShrinkEdgesNominalDistance(, *args)",
+        "call": "ShrinkEdgesNominalDistance(length)",
+        "description": "ShrinkEdgesNominalDistance(length)"
+      },
+      {
+        "command": "ShrinkEdgesWithDistance",
+        "name": "Shrink Edges With Distance",
+        "signature": "ShrinkEdgesWithDistance()",
+        "call": "ShrinkEdgesWithDistance()",
+        "description": "ShrinkEdgesWithDistance()"
+      },
+      {
+        "command": "ShutterEfficiency",
+        "name": "Shutter Efficiency",
+        "signature": "ShutterEfficiency(, *args)",
+        "call": "ShutterEfficiency(efficiency)",
+        "description": "ShutterEfficiency(efficiency)"
+      },
+      {
+        "command": "Simulations",
+        "name": "Simulations",
+        "signature": "Simulations()",
+        "call": "Simulations()",
+        "description": "Simulations()"
+      },
+      {
+        "command": "SizeTool",
+        "name": "Size Tool",
+        "signature": "SizeTool()",
+        "call": "SizeTool()",
+        "description": "SizeTool()"
+      },
+      {
+        "command": "SoftFilter",
+        "name": "Soft Filter",
+        "signature": "SoftFilter()",
+        "call": "SoftFilter()",
+        "description": "SoftFilter()"
+      },
+      {
+        "command": "SoftIK",
+        "name": "Soft I K",
+        "signature": "SoftIK(, *args)",
+        "call": "SoftIK(type)",
+        "description": "SoftIK(type)"
+      },
+      {
+        "command": "SoftIKDistanceType",
+        "name": "Soft I K Distance Type",
+        "signature": "SoftIKDistanceType(, *args)",
+        "call": "SoftIKDistanceType(type)",
+        "description": "SoftIKDistanceType(type)"
+      },
+      {
+        "command": "SoftIKMax",
+        "name": "Soft I K Max",
+        "signature": "SoftIKMax(, *args)",
+        "call": "SoftIKMax(max_dist)",
+        "description": "SoftIKMax(max_dist)"
+      },
+      {
+        "command": "SoftIKMin",
+        "name": "Soft I K Min",
+        "signature": "SoftIKMin(, *args)",
+        "call": "SoftIKMin(min_dist)",
+        "description": "SoftIKMin(min_dist)"
+      },
+      {
+        "command": "SplineFit",
+        "name": "Spline Fit",
+        "signature": "SplineFit(, *args)",
+        "call": "SplineFit(fit)",
+        "description": "SplineFit(fit)"
+      },
+      {
+        "command": "SquashTool",
+        "name": "Squash Tool",
+        "signature": "SquashTool()",
+        "call": "SquashTool()",
+        "description": "SquashTool()"
+      },
+      {
+        "command": "Statistics",
+        "name": "Statistics",
+        "signature": "Statistics()",
+        "call": "Statistics()",
+        "description": "Statistics()"
+      },
+      {
+        "command": "StatusMsg",
+        "name": "Status Msg",
+        "signature": "StatusMsg(, *args)",
+        "call": "StatusMsg(message)",
+        "description": "StatusMsg(message)"
+      },
+      {
+        "command": "StereoTrackedEye",
+        "name": "Stereo Tracked Eye",
+        "signature": "StereoTrackedEye(, *args)",
+        "call": "StereoTrackedEye(eye)",
+        "description": "StereoTrackedEye(eye)"
+      },
+      {
+        "command": "Stereoscopic",
+        "name": "Stereoscopic",
+        "signature": "Stereoscopic()",
+        "call": "Stereoscopic()",
+        "description": "Stereoscopic()"
+      },
+      {
+        "command": "StretchTool",
+        "name": "Stretch Tool",
+        "signature": "StretchTool()",
+        "call": "StretchTool()",
+        "description": "StretchTool()"
+      },
+      {
+        "command": "StudioLIVE",
+        "name": "Studio L I V E",
+        "signature": "StudioLIVE()",
+        "call": "StudioLIVE()",
+        "description": "StudioLIVE()"
+      },
+      {
+        "command": "StudioToggle",
+        "name": "Studio Toggle",
+        "signature": "StudioToggle(, *args)",
+        "call": "StudioToggle(option, toggle)",
+        "description": "StudioToggle(option, toggle)"
+      },
+      {
+        "command": "StudioTraitCollectionStoreToTime",
+        "name": "Studio Trait Collection Store To Time",
+        "signature": "StudioTraitCollectionStoreToTime(, *args)",
+        "call": "StudioTraitCollectionStoreToTime(collection, time)",
+        "description": "StudioTraitCollectionStoreToTime(collection, time)"
+      },
+      {
+        "command": "StudioTraitCollectionToggle",
+        "name": "Studio Trait Collection Toggle",
+        "signature": "StudioTraitCollectionToggle(, *args)",
+        "call": "StudioTraitCollectionToggle(collection, option, toggle)",
+        "description": "StudioTraitCollectionToggle(collection, option, toggle)"
+      },
+      {
+        "command": "StudioTraitStoreToTime",
+        "name": "Studio Trait Store To Time",
+        "signature": "StudioTraitStoreToTime(, *args)",
+        "call": "StudioTraitStoreToTime(trait, time)",
+        "description": "StudioTraitStoreToTime(trait, time)"
+      },
+      {
+        "command": "StudioTraitToggle",
+        "name": "Studio Trait Toggle",
+        "signature": "StudioTraitToggle(, *args)",
+        "call": "StudioTraitToggle(trait, option, toggle)",
+        "description": "StudioTraitToggle(trait, option, toggle)"
+      },
+      {
+        "command": "Synchronize",
+        "name": "Synchronize",
+        "signature": "Synchronize()",
+        "call": "Synchronize()",
+        "description": "Synchronize()"
+      },
+      {
+        "command": "ToggleAudioScrubbing",
+        "name": "Toggle Audio Scrubbing",
+        "signature": "ToggleAudioScrubbing()",
+        "call": "ToggleAudioScrubbing()",
+        "description": "ToggleAudioScrubbing()"
+      },
+      {
+        "command": "TransparencyRecursionLimit",
+        "name": "Transparency Recursion Limit",
+        "signature": "TransparencyRecursionLimit(, *args)",
+        "call": "TransparencyRecursionLimit(limit)",
+        "description": "TransparencyRecursionLimit(limit)"
+      },
+      {
+        "command": "UnPreMultiplyAlpha",
+        "name": "Un Pre Multiply Alpha",
+        "signature": "UnPreMultiplyAlpha()",
+        "call": "UnPreMultiplyAlpha()",
+        "description": "UnPreMultiplyAlpha()"
+      },
+      {
+        "command": "UnaffectedByIK",
+        "name": "Unaffected By I K",
+        "signature": "UnaffectedByIK()",
+        "call": "UnaffectedByIK()",
+        "description": "UnaffectedByIK()"
+      },
+      {
+        "command": "Undo",
+        "name": "Undo",
+        "signature": "Undo()",
+        "call": "Undo()",
+        "description": "Undo()"
+      },
+      {
+        "command": "UnseenByAlphaChannel",
+        "name": "Unseen By Alpha Channel",
+        "signature": "UnseenByAlphaChannel()",
+        "call": "UnseenByAlphaChannel()",
+        "description": "UnseenByAlphaChannel()"
+      },
+      {
+        "command": "UnseenByRadiosity",
+        "name": "Unseen By Radiosity",
+        "signature": "UnseenByRadiosity()",
+        "call": "UnseenByRadiosity()",
+        "description": "UnseenByRadiosity()"
+      },
+      {
+        "command": "UseCustomPaths",
+        "name": "Use Custom Paths",
+        "signature": "UseCustomPaths()",
+        "call": "UseCustomPaths()",
+        "description": "UseCustomPaths()"
+      },
+      {
+        "command": "UseIKChainVals",
+        "name": "Use I K Chain Vals",
+        "signature": "UseIKChainVals(, *args)",
+        "call": "UseIKChainVals(state)",
+        "description": "UseIKChainVals(state)"
+      },
+      {
+        "command": "UseZMinimumMaximum",
+        "name": "Use Z Minimum Maximum",
+        "signature": "UseZMinimumMaximum()",
+        "call": "UseZMinimumMaximum()",
+        "description": "UseZMinimumMaximum()"
+      },
+      {
+        "command": "VIPER",
+        "name": "V I P E R",
+        "signature": "VIPER()",
+        "call": "VIPER()",
+        "description": "VIPER()"
+      },
+      {
+        "command": "VPRTab",
+        "name": "V P R Tab",
+        "signature": "VPRTab()",
+        "call": "VPRTab()",
+        "description": "VPRTab()"
+      },
+      {
+        "command": "Volumetrics",
+        "name": "Volumetrics",
+        "signature": "Volumetrics()",
+        "call": "Volumetrics()",
+        "description": "Volumetrics()"
+      },
+      {
+        "command": "WorldCoordinateSystem",
+        "name": "World Coordinate System",
+        "signature": "WorldCoordinateSystem()",
+        "call": "WorldCoordinateSystem()",
+        "description": "WorldCoordinateSystem()"
+      },
+      {
+        "command": "XController",
+        "name": "X Controller",
+        "signature": "XController(, *args)",
+        "call": "XController(controller)",
+        "description": "XController(controller)"
+      },
+      {
+        "command": "XFollow",
+        "name": "X Follow",
+        "signature": "XFollow(, *args)",
+        "call": "XFollow(channel)",
+        "description": "XFollow(channel)"
+      },
+      {
+        "command": "XLimits",
+        "name": "X Limits",
+        "signature": "XLimits(, *args)",
+        "call": "XLimits(min, max)",
+        "description": "XLimits(min, max)"
+      },
+      {
+        "command": "XStiffness",
+        "name": "X Stiffness",
+        "signature": "XStiffness(, *args)",
+        "call": "XStiffness(stiffness)",
+        "description": "XStiffness(stiffness)"
+      },
+      {
+        "command": "YController",
+        "name": "Y Controller",
+        "signature": "YController(, *args)",
+        "call": "YController(controller)",
+        "description": "YController(controller)"
+      },
+      {
+        "command": "YFollow",
+        "name": "Y Follow",
+        "signature": "YFollow(, *args)",
+        "call": "YFollow(channel)",
+        "description": "YFollow(channel)"
+      },
+      {
+        "command": "YLimits",
+        "name": "Y Limits",
+        "signature": "YLimits(, *args)",
+        "call": "YLimits(min, max)",
+        "description": "YLimits(min, max)"
+      },
+      {
+        "command": "YStiffness",
+        "name": "Y Stiffness",
+        "signature": "YStiffness(, *args)",
+        "call": "YStiffness(stiffness)",
+        "description": "YStiffness(stiffness)"
+      },
+      {
+        "command": "ZBufferMaximum",
+        "name": "Z Buffer Maximum",
+        "signature": "ZBufferMaximum(, *args)",
+        "call": "ZBufferMaximum(z_maximum)",
+        "description": "ZBufferMaximum(z_maximum)"
+      },
+      {
+        "command": "ZBufferMinimum",
+        "name": "Z Buffer Minimum",
+        "signature": "ZBufferMinimum(, *args)",
+        "call": "ZBufferMinimum(z_minimum)",
+        "description": "ZBufferMinimum(z_minimum)"
+      },
+      {
+        "command": "ZController",
+        "name": "Z Controller",
+        "signature": "ZController(, *args)",
+        "call": "ZController(controller)",
+        "description": "ZController(controller)"
+      },
+      {
+        "command": "ZFollow",
+        "name": "Z Follow",
+        "signature": "ZFollow(, *args)",
+        "call": "ZFollow(channel)",
+        "description": "ZFollow(channel)"
+      },
+      {
+        "command": "ZLimits",
+        "name": "Z Limits",
+        "signature": "ZLimits(, *args)",
+        "call": "ZLimits(min, max)",
+        "description": "ZLimits(min, max)"
+      },
+      {
+        "command": "ZStiffness",
+        "name": "Z Stiffness",
+        "signature": "ZStiffness(, *args)",
+        "call": "ZStiffness(stiffness)",
+        "description": "ZStiffness(stiffness)"
+      },
+      {
+        "command": "vmapbrowser",
+        "name": "vmapbrowser",
+        "signature": "vmapbrowser()",
+        "call": "vmapbrowser()",
+        "description": "vmapbrowser()"
+      }
+    ],
+    "File Operations": [
+      {
+        "command": "AboutOpenGL",
+        "name": "About Open G L",
+        "signature": "AboutOpenGL()",
+        "call": "AboutOpenGL()",
+        "description": "AboutOpenGL()"
+      },
+      {
+        "command": "AffectOpenGL",
+        "name": "Affect Open G L",
+        "signature": "AffectOpenGL()",
+        "call": "AffectOpenGL()",
+        "description": "AffectOpenGL()"
+      },
+      {
+        "command": "AlembicExport",
+        "name": "Alembic Export",
+        "signature": "AlembicExport()",
+        "call": "AlembicExport()",
+        "description": "AlembicExport()"
+      },
+      {
+        "command": "AlembicImport",
+        "name": "Alembic Import",
+        "signature": "AlembicImport()",
+        "call": "AlembicImport()",
+        "description": "AlembicImport()"
+      },
+      {
+        "command": "AutoSaveObj",
+        "name": "Auto Save Obj",
+        "signature": "AutoSaveObj()",
+        "call": "AutoSaveObj()",
+        "description": "AutoSaveObj()"
+      },
+      {
+        "command": "AutoSaveScene",
+        "name": "Auto Save Scene",
+        "signature": "AutoSaveScene()",
+        "call": "AutoSaveScene()",
+        "description": "AutoSaveScene()"
+      },
+      {
+        "command": "ClosePCoreCommander",
+        "name": "Close P Core Commander",
+        "signature": "ClosePCoreCommander()",
+        "call": "ClosePCoreCommander()",
+        "description": "ClosePCoreCommander()"
+      },
+      {
+        "command": "ClosePCoreConsole",
+        "name": "Close P Core Console",
+        "signature": "ClosePCoreConsole()",
+        "call": "ClosePCoreConsole()",
+        "description": "ClosePCoreConsole()"
+      },
+      {
+        "command": "ClosePreferences",
+        "name": "Close Preferences",
+        "signature": "ClosePreferences()",
+        "call": "ClosePreferences()",
+        "description": "ClosePreferences()"
+      },
+      {
+        "command": "ClosedSpline",
+        "name": "Closed Spline",
+        "signature": "ClosedSpline()",
+        "call": "ClosedSpline()",
+        "description": "ClosedSpline()"
+      },
+      {
+        "command": "ColorSpaceCorrectOpenGL",
+        "name": "Color Space Correct Open G L",
+        "signature": "ColorSpaceCorrectOpenGL(, *args)",
+        "call": "ColorSpaceCorrectOpenGL(enable)",
+        "description": "ColorSpaceCorrectOpenGL(enable)"
+      },
+      {
+        "command": "ExportLWO2",
+        "name": "Export L W O2",
+        "signature": "ExportLWO2(, *args)",
+        "call": "ExportLWO2(filename)",
+        "description": "ExportLWO2(filename)"
+      },
+      {
+        "command": "ExportSceneInfo",
+        "name": "Export Scene Info",
+        "signature": "ExportSceneInfo(, *args)",
+        "call": "ExportSceneInfo(filename)",
+        "description": "ExportSceneInfo(filename)"
+      },
+      {
+        "command": "LightLoadNodes",
+        "name": "Light Load Nodes",
+        "signature": "LightLoadNodes(, *args)",
+        "call": "LightLoadNodes(itemid, filename)",
+        "description": "LightLoadNodes(itemid, filename)"
+      },
+      {
+        "command": "LightSaveNodes",
+        "name": "Light Save Nodes",
+        "signature": "LightSaveNodes(, *args)",
+        "call": "LightSaveNodes(itemid, filename)",
+        "description": "LightSaveNodes(itemid, filename)"
+      },
+      {
+        "command": "LoadAudio",
+        "name": "Load Audio",
+        "signature": "LoadAudio()",
+        "call": "LoadAudio()",
+        "description": "LoadAudio()"
+      },
+      {
+        "command": "LoadClip",
+        "name": "Load Clip",
+        "signature": "LoadClip(, *args)",
+        "call": "LoadClip(filename)",
+        "description": "LoadClip(filename)"
+      },
+      {
+        "command": "LoadConfig",
+        "name": "Load Config",
+        "signature": "LoadConfig(, *args)",
+        "call": "LoadConfig(quoted_filename)",
+        "description": "LoadConfig(quoted_filename)"
+      },
+      {
+        "command": "LoadElementsFromScene",
+        "name": "Load Elements From Scene",
+        "signature": "LoadElementsFromScene(, *args)",
+        "call": "LoadElementsFromScene(elements, filename)",
+        "description": "LoadElementsFromScene(elements, filename)"
+      },
+      {
+        "command": "LoadFromScene",
+        "name": "Load From Scene",
+        "signature": "LoadFromScene(, *args)",
+        "call": "LoadFromScene(filename)",
+        "description": "LoadFromScene(filename)"
+      },
+      {
+        "command": "LoadMotion",
+        "name": "Load Motion",
+        "signature": "LoadMotion(, *args)",
+        "call": "LoadMotion(filename)",
+        "description": "LoadMotion(filename)"
+      },
+      {
+        "command": "LoadObject",
+        "name": "Load Object",
+        "signature": "LoadObject(, *args)",
+        "call": "LoadObject(filename)",
+        "description": "LoadObject(filename)"
+      },
+      {
+        "command": "LoadObjectLayer",
+        "name": "Load Object Layer",
+        "signature": "LoadObjectLayer(, *args)",
+        "call": "LoadObjectLayer(layer, filename)",
+        "description": "LoadObjectLayer(layer, filename)"
+      },
+      {
+        "command": "LoadPreferences",
+        "name": "Load Preferences",
+        "signature": "LoadPreferences(, *args)",
+        "call": "LoadPreferences(__file_path__)",
+        "description": "LoadPreferences(__file_path__)"
+      },
+      {
+        "command": "LoadPreview",
+        "name": "Load Preview",
+        "signature": "LoadPreview()",
+        "call": "LoadPreview()",
+        "description": "LoadPreview()"
+      },
+      {
+        "command": "LoadScene",
+        "name": "Load Scene",
+        "signature": "LoadScene(, *args)",
+        "call": "LoadScene(filename)",
+        "description": "LoadScene(filename)"
+      },
+      {
+        "command": "LoadServerDataByItemID",
+        "name": "Load Server Data By Item I D",
+        "signature": "LoadServerDataByItemID(, *args)",
+        "call": "LoadServerDataByItemID(itemid, klass, index, optional_format, filename)",
+        "description": "LoadServerDataByItemID(itemid, klass, index, optional_format, filename)"
+      },
+      {
+        "command": "OBJExportScale",
+        "name": "O B J Export Scale",
+        "signature": "OBJExportScale()",
+        "call": "OBJExportScale()",
+        "description": "OBJExportScale()"
+      },
+      {
+        "command": "OBJImportScale",
+        "name": "O B J Import Scale",
+        "signature": "OBJImportScale()",
+        "call": "OBJImportScale()",
+        "description": "OBJImportScale()"
+      },
+      {
+        "command": "OBJWriteNormals",
+        "name": "O B J Write Normals",
+        "signature": "OBJWriteNormals()",
+        "call": "OBJWriteNormals()",
+        "description": "OBJWriteNormals()"
+      },
+      {
+        "command": "OpenGLOptions",
+        "name": "Open G L Options",
+        "signature": "OpenGLOptions()",
+        "call": "OpenGLOptions()",
+        "description": "OpenGLOptions()"
+      },
+      {
+        "command": "OpenGLPickingEnabled",
+        "name": "Open G L Picking Enabled",
+        "signature": "OpenGLPickingEnabled()",
+        "call": "OpenGLPickingEnabled()",
+        "description": "OpenGLPickingEnabled()"
+      },
+      {
+        "command": "OpenGLUseFrameBufferObject",
+        "name": "Open G L Use Frame Buffer Object",
+        "signature": "OpenGLUseFrameBufferObject()",
+        "call": "OpenGLUseFrameBufferObject()",
+        "description": "OpenGLUseFrameBufferObject()"
+      },
+      {
+        "command": "OpenPCoreCommander",
+        "name": "Open P Core Commander",
+        "signature": "OpenPCoreCommander()",
+        "call": "OpenPCoreCommander()",
+        "description": "OpenPCoreCommander()"
+      },
+      {
+        "command": "OpenPCoreConsole",
+        "name": "Open P Core Console",
+        "signature": "OpenPCoreConsole()",
+        "call": "OpenPCoreConsole()",
+        "description": "OpenPCoreConsole()"
+      },
+      {
+        "command": "OpenPreferences",
+        "name": "Open Preferences",
+        "signature": "OpenPreferences(, *args)",
+        "call": "OpenPreferences(__branch_key_____search_terms___flags)",
+        "description": "OpenPreferences(__branch_key_____search_terms___flags)"
+      },
+      {
+        "command": "PreLoadScene",
+        "name": "Pre Load Scene",
+        "signature": "PreLoadScene()",
+        "call": "PreLoadScene()",
+        "description": "PreLoadScene()"
+      },
+      {
+        "command": "PreSaveScene",
+        "name": "Pre Save Scene",
+        "signature": "PreSaveScene()",
+        "call": "PreSaveScene()",
+        "description": "PreSaveScene()"
+      },
+      {
+        "command": "RenderThreads",
+        "name": "Render Threads",
+        "signature": "RenderThreads(, *args)",
+        "call": "RenderThreads(threads)",
+        "description": "RenderThreads(threads)"
+      },
+      {
+        "command": "SaveAllObjects",
+        "name": "Save All Objects",
+        "signature": "SaveAllObjects()",
+        "call": "SaveAllObjects()",
+        "description": "SaveAllObjects()"
+      },
+      {
+        "command": "SaveAlpha",
+        "name": "Save Alpha",
+        "signature": "SaveAlpha()",
+        "call": "SaveAlpha()",
+        "description": "SaveAlpha()"
+      },
+      {
+        "command": "SaveAlphaPrefix",
+        "name": "Save Alpha Prefix",
+        "signature": "SaveAlphaPrefix()",
+        "call": "SaveAlphaPrefix()",
+        "description": "SaveAlphaPrefix()"
+      },
+      {
+        "command": "SaveAlphaServer",
+        "name": "Save Alpha Server",
+        "signature": "SaveAlphaServer(, *args)",
+        "call": "SaveAlphaServer(server)",
+        "description": "SaveAlphaServer(server)"
+      },
+      {
+        "command": "SaveAnimation",
+        "name": "Save Animation",
+        "signature": "SaveAnimation()",
+        "call": "SaveAnimation()",
+        "description": "SaveAnimation()"
+      },
+      {
+        "command": "SaveAnimationName",
+        "name": "Save Animation Name",
+        "signature": "SaveAnimationName()",
+        "call": "SaveAnimationName()",
+        "description": "SaveAnimationName()"
+      },
+      {
+        "command": "SaveAnimationServer",
+        "name": "Save Animation Server",
+        "signature": "SaveAnimationServer(, *args)",
+        "call": "SaveAnimationServer(server)",
+        "description": "SaveAnimationServer(server)"
+      },
+      {
+        "command": "SaveCommandList",
+        "name": "Save Command List",
+        "signature": "SaveCommandList(, *args)",
+        "call": "SaveCommandList(optional_filename)",
+        "description": "SaveCommandList(optional_filename)"
+      },
+      {
+        "command": "SaveCommandMessages",
+        "name": "Save Command Messages",
+        "signature": "SaveCommandMessages()",
+        "call": "SaveCommandMessages()",
+        "description": "SaveCommandMessages()"
+      },
+      {
+        "command": "SaveConfig",
+        "name": "Save Config",
+        "signature": "SaveConfig(, *args)",
+        "call": "SaveConfig(type, quoted_filename)",
+        "description": "SaveConfig(type, quoted_filename)"
+      },
+      {
+        "command": "SaveEndomorph",
+        "name": "Save Endomorph",
+        "signature": "SaveEndomorph(, *args)",
+        "call": "SaveEndomorph(name)",
+        "description": "SaveEndomorph(name)"
+      },
+      {
+        "command": "SaveFrozenLwo",
+        "name": "Save Frozen Lwo",
+        "signature": "SaveFrozenLwo(, *args)",
+        "call": "SaveFrozenLwo(objectid, trippled, filename)",
+        "description": "SaveFrozenLwo(objectid, trippled, filename)"
+      },
+      {
+        "command": "SaveFrozenWavefrontObj",
+        "name": "Save Frozen Wavefront Obj",
+        "signature": "SaveFrozenWavefrontObj(, *args)",
+        "call": "SaveFrozenWavefrontObj(objectid, trippled, filename)",
+        "description": "SaveFrozenWavefrontObj(objectid, trippled, filename)"
+      },
+      {
+        "command": "SaveLWSC1",
+        "name": "Save L W S C1",
+        "signature": "SaveLWSC1(, *args)",
+        "call": "SaveLWSC1(filename)",
+        "description": "SaveLWSC1(filename)"
+      },
+      {
+        "command": "SaveLWSC3",
+        "name": "Save L W S C3",
+        "signature": "SaveLWSC3(, *args)",
+        "call": "SaveLWSC3(filename)",
+        "description": "SaveLWSC3(filename)"
+      },
+      {
+        "command": "SaveLWSC4",
+        "name": "Save L W S C4",
+        "signature": "SaveLWSC4(, *args)",
+        "call": "SaveLWSC4(filename)",
+        "description": "SaveLWSC4(filename)"
+      },
+      {
+        "command": "SaveLWSC_2024",
+        "name": "Save L W S C_2024",
+        "signature": "SaveLWSC_2024(, *args)",
+        "call": "SaveLWSC_2024(filename)",
+        "description": "SaveLWSC_2024(filename)"
+      },
+      {
+        "command": "SaveLWSC_4_0",
+        "name": "Save L W S C_4_0",
+        "signature": "SaveLWSC_4_0(, *args)",
+        "call": "SaveLWSC_4_0(filename)",
+        "description": "SaveLWSC_4_0(filename)"
+      },
+      {
+        "command": "SaveLWSC_5_6",
+        "name": "Save L W S C_5_6",
+        "signature": "SaveLWSC_5_6(, *args)",
+        "call": "SaveLWSC_5_6(filename)",
+        "description": "SaveLWSC_5_6(filename)"
+      },
+      {
+        "command": "SaveLWSC_6_0",
+        "name": "Save L W S C_6_0",
+        "signature": "SaveLWSC_6_0(, *args)",
+        "call": "SaveLWSC_6_0(filename)",
+        "description": "SaveLWSC_6_0(filename)"
+      },
+      {
+        "command": "SaveLWSC_9_2",
+        "name": "Save L W S C_9_2",
+        "signature": "SaveLWSC_9_2(, *args)",
+        "call": "SaveLWSC_9_2(filename)",
+        "description": "SaveLWSC_9_2(filename)"
+      },
+      {
+        "command": "SaveLWSC_9_5",
+        "name": "Save L W S C_9_5",
+        "signature": "SaveLWSC_9_5(, *args)",
+        "call": "SaveLWSC_9_5(filename)",
+        "description": "SaveLWSC_9_5(filename)"
+      },
+      {
+        "command": "SaveLight",
+        "name": "Save Light",
+        "signature": "SaveLight(, *args)",
+        "call": "SaveLight(filename)",
+        "description": "SaveLight(filename)"
+      },
+      {
+        "command": "SaveMotion",
+        "name": "Save Motion",
+        "signature": "SaveMotion(, *args)",
+        "call": "SaveMotion(filename)",
+        "description": "SaveMotion(filename)"
+      },
+      {
+        "command": "SaveObject",
+        "name": "Save Object",
+        "signature": "SaveObject(, *args)",
+        "call": "SaveObject(filename)",
+        "description": "SaveObject(filename)"
+      },
+      {
+        "command": "SaveObjectCopy",
+        "name": "Save Object Copy",
+        "signature": "SaveObjectCopy(, *args)",
+        "call": "SaveObjectCopy(name)",
+        "description": "SaveObjectCopy(name)"
+      },
+      {
+        "command": "SaveOptions",
+        "name": "Save Options",
+        "signature": "SaveOptions()",
+        "call": "SaveOptions()",
+        "description": "SaveOptions()"
+      },
+      {
+        "command": "SaveOptionsEnabled",
+        "name": "Save Options Enabled",
+        "signature": "SaveOptionsEnabled()",
+        "call": "SaveOptionsEnabled()",
+        "description": "SaveOptionsEnabled()"
+      },
+      {
+        "command": "SavePreferences",
+        "name": "Save Preferences",
+        "signature": "SavePreferences(, *args)",
+        "call": "SavePreferences(__branch_key_____file_path__)",
+        "description": "SavePreferences(__branch_key_____file_path__)"
+      },
+      {
+        "command": "SavePreview",
+        "name": "Save Preview",
+        "signature": "SavePreview()",
+        "call": "SavePreview()",
+        "description": "SavePreview()"
+      },
+      {
+        "command": "SaveRGB",
+        "name": "Save R G B",
+        "signature": "SaveRGB()",
+        "call": "SaveRGB()",
+        "description": "SaveRGB()"
+      },
+      {
+        "command": "SaveRGBPrefix",
+        "name": "Save R G B Prefix",
+        "signature": "SaveRGBPrefix()",
+        "call": "SaveRGBPrefix()",
+        "description": "SaveRGBPrefix()"
+      },
+      {
+        "command": "SaveRGBServer",
+        "name": "Save R G B Server",
+        "signature": "SaveRGBServer(, *args)",
+        "call": "SaveRGBServer(server)",
+        "description": "SaveRGBServer(server)"
+      },
+      {
+        "command": "SaveScene",
+        "name": "Save Scene",
+        "signature": "SaveScene()",
+        "call": "SaveScene()",
+        "description": "SaveScene()"
+      },
+      {
+        "command": "SaveSceneAs",
+        "name": "Save Scene As",
+        "signature": "SaveSceneAs(, *args)",
+        "call": "SaveSceneAs(filename)",
+        "description": "SaveSceneAs(filename)"
+      },
+      {
+        "command": "SaveSceneCopy",
+        "name": "Save Scene Copy",
+        "signature": "SaveSceneCopy(, *args)",
+        "call": "SaveSceneCopy(filename)",
+        "description": "SaveSceneCopy(filename)"
+      },
+      {
+        "command": "SaveServerDataByItemID",
+        "name": "Save Server Data By Item I D",
+        "signature": "SaveServerDataByItemID(, *args)",
+        "call": "SaveServerDataByItemID(itemid, klass, index, optional_format, filename)",
+        "description": "SaveServerDataByItemID(itemid, klass, index, optional_format, filename)"
+      },
+      {
+        "command": "SaveTransformed",
+        "name": "Save Transformed",
+        "signature": "SaveTransformed(, *args)",
+        "call": "SaveTransformed(filename)",
+        "description": "SaveTransformed(filename)"
+      },
+      {
+        "command": "SaveTransformedWavefrontObj",
+        "name": "Save Transformed Wavefront Obj",
+        "signature": "SaveTransformedWavefrontObj(, *args)",
+        "call": "SaveTransformedWavefrontObj(objectid, filename)",
+        "description": "SaveTransformedWavefrontObj(objectid, filename)"
+      },
+      {
+        "command": "SaveViewLayout",
+        "name": "Save View Layout",
+        "signature": "SaveViewLayout()",
+        "call": "SaveViewLayout()",
+        "description": "SaveViewLayout()"
+      },
+      {
+        "command": "SaveViewportImage",
+        "name": "Save Viewport Image",
+        "signature": "SaveViewportImage(, *args)",
+        "call": "SaveViewportImage(filename, imagetype, viewportnumber, scale)",
+        "description": "SaveViewportImage(filename, imagetype, viewportnumber, scale)"
+      },
+      {
+        "command": "SaveWavefrontObj",
+        "name": "Save Wavefront Obj",
+        "signature": "SaveWavefrontObj(, *args)",
+        "call": "SaveWavefrontObj(objectid, filename)",
+        "description": "SaveWavefrontObj(objectid, filename)"
+      },
+      {
+        "command": "SceneEditorOpen",
+        "name": "Scene Editor Open",
+        "signature": "SceneEditorOpen()",
+        "call": "SceneEditorOpen()",
+        "description": "SceneEditorOpen()"
+      },
+      {
+        "command": "ShowOpenGLUI",
+        "name": "Show Open G L U I",
+        "signature": "ShowOpenGLUI(, *args)",
+        "call": "ShowOpenGLUI(viewportnumber, on_off)",
+        "description": "ShowOpenGLUI(viewportnumber, on_off)"
+      },
+      {
+        "command": "ShutterOpen",
+        "name": "Shutter Open",
+        "signature": "ShutterOpen(, *args)",
+        "call": "ShutterOpen(open)",
+        "description": "ShutterOpen(open)"
+      },
+      {
+        "command": "StereoOpenGL",
+        "name": "Stereo Open G L",
+        "signature": "StereoOpenGL(, *args)",
+        "call": "StereoOpenGL(state)",
+        "description": "StereoOpenGL(state)"
+      }
+    ],
+    "Plugins/Servers": [
+      {
+        "command": "ActivateMaster",
+        "name": "Activate Master",
+        "signature": "ActivateMaster(, *args)",
+        "call": "ActivateMaster(name)",
+        "description": "ActivateMaster(name)"
+      },
+      {
+        "command": "ActivateMasterUnique",
+        "name": "Activate Master Unique",
+        "signature": "ActivateMasterUnique(, *args)",
+        "call": "ActivateMasterUnique(name)",
+        "description": "ActivateMasterUnique(name)"
+      },
+      {
+        "command": "ApplyServer",
+        "name": "Apply Server",
+        "signature": "ApplyServer(, *args)",
+        "call": "ApplyServer(klass, server)",
+        "description": "ApplyServer(klass, server)"
+      },
+      {
+        "command": "EditKeys",
+        "name": "Edit Keys",
+        "signature": "EditKeys()",
+        "call": "EditKeys()",
+        "description": "EditKeys()"
+      },
+      {
+        "command": "EditMenus",
+        "name": "Edit Menus",
+        "signature": "EditMenus()",
+        "call": "EditMenus()",
+        "description": "EditMenus()"
+      },
+      {
+        "command": "EditPlugins",
+        "name": "Edit Plugins",
+        "signature": "EditPlugins()",
+        "call": "EditPlugins()",
+        "description": "EditPlugins()"
+      },
+      {
+        "command": "EditServer",
+        "name": "Edit Server",
+        "signature": "EditServer(, *args)",
+        "call": "EditServer(klass, index)",
+        "description": "EditServer(klass, index)"
+      },
+      {
+        "command": "FlushUI",
+        "name": "Flush U I",
+        "signature": "FlushUI()",
+        "call": "FlushUI()",
+        "description": "FlushUI()"
+      },
+      {
+        "command": "FlushUnusedPlugins",
+        "name": "Flush Unused Plugins",
+        "signature": "FlushUnusedPlugins()",
+        "call": "FlushUnusedPlugins()",
+        "description": "FlushUnusedPlugins()"
+      },
+      {
+        "command": "GraphEditor",
+        "name": "Graph Editor",
+        "signature": "GraphEditor()",
+        "call": "GraphEditor()",
+        "description": "GraphEditor()"
+      },
+      {
+        "command": "ImageEditor",
+        "name": "Image Editor",
+        "signature": "ImageEditor()",
+        "call": "ImageEditor()",
+        "description": "ImageEditor()"
+      },
+      {
+        "command": "MasterPlugins",
+        "name": "Master Plugins",
+        "signature": "MasterPlugins()",
+        "call": "MasterPlugins()",
+        "description": "MasterPlugins()"
+      },
+      {
+        "command": "edit_fonts",
+        "name": "edit_fonts",
+        "signature": "edit_fonts()",
+        "call": "edit_fonts()",
+        "description": "edit_fonts()"
+      }
+    ],
+    "Create/Modify": [
+      {
+        "command": "AddAreaLight",
+        "name": "Add Area Light",
+        "signature": "AddAreaLight(, *args)",
+        "call": "AddAreaLight(name)",
+        "description": "AddAreaLight(name)"
+      },
+      {
+        "command": "AddBone",
+        "name": "Add Bone",
+        "signature": "AddBone(, *args)",
+        "call": "AddBone(name)",
+        "description": "AddBone(name)"
+      },
+      {
+        "command": "AddBoneRestLength",
+        "name": "Add Bone Rest Length",
+        "signature": "AddBoneRestLength(, *args)",
+        "call": "AddBoneRestLength(length)",
+        "description": "AddBoneRestLength(length)"
+      },
+      {
+        "command": "AddButton",
+        "name": "Add Button",
+        "signature": "AddButton(, *args)",
+        "call": "AddButton(command, group)",
+        "description": "AddButton(command, group)"
+      },
+      {
+        "command": "AddCamera",
+        "name": "Add Camera",
+        "signature": "AddCamera(, *args)",
+        "call": "AddCamera(name)",
+        "description": "AddCamera(name)"
+      },
+      {
+        "command": "AddChildBone",
+        "name": "Add Child Bone",
+        "signature": "AddChildBone(, *args)",
+        "call": "AddChildBone(name)",
+        "description": "AddChildBone(name)"
+      },
+      {
+        "command": "AddChildJoint",
+        "name": "Add Child Joint",
+        "signature": "AddChildJoint(, *args)",
+        "call": "AddChildJoint(name)",
+        "description": "AddChildJoint(name)"
+      },
+      {
+        "command": "AddCustomBuffer",
+        "name": "Add Custom Buffer",
+        "signature": "AddCustomBuffer(, *args)",
+        "call": "AddCustomBuffer(buffer_name)",
+        "description": "AddCustomBuffer(buffer_name)"
+      },
+      {
+        "command": "AddDistantLight",
+        "name": "Add Distant Light",
+        "signature": "AddDistantLight(, *args)",
+        "call": "AddDistantLight(name)",
+        "description": "AddDistantLight(name)"
+      },
+      {
+        "command": "AddEnvelope",
+        "name": "Add Envelope",
+        "signature": "AddEnvelope(, *args)",
+        "call": "AddEnvelope(channel)",
+        "description": "AddEnvelope(channel)"
+      },
+      {
+        "command": "AddJoint",
+        "name": "Add Joint",
+        "signature": "AddJoint(, *args)",
+        "call": "AddJoint(name)",
+        "description": "AddJoint(name)"
+      },
+      {
+        "command": "AddLight",
+        "name": "Add Light",
+        "signature": "AddLight(, *args)",
+        "call": "AddLight(type_name, name)",
+        "description": "AddLight(type_name, name)"
+      },
+      {
+        "command": "AddLinearLight",
+        "name": "Add Linear Light",
+        "signature": "AddLinearLight(, *args)",
+        "call": "AddLinearLight(name)",
+        "description": "AddLinearLight(name)"
+      },
+      {
+        "command": "AddNull",
+        "name": "Add Null",
+        "signature": "AddNull(, *args)",
+        "call": "AddNull(name)",
+        "description": "AddNull(name)"
+      },
+      {
+        "command": "AddPartigon",
+        "name": "Add Partigon",
+        "signature": "AddPartigon()",
+        "call": "AddPartigon()",
+        "description": "AddPartigon()"
+      },
+      {
+        "command": "AddPlugins",
+        "name": "Add Plugins",
+        "signature": "AddPlugins(, *args)",
+        "call": "AddPlugins(filename)",
+        "description": "AddPlugins(filename)"
+      },
+      {
+        "command": "AddPointLight",
+        "name": "Add Point Light",
+        "signature": "AddPointLight(, *args)",
+        "call": "AddPointLight(name)",
+        "description": "AddPointLight(name)"
+      },
+      {
+        "command": "AddPosition",
+        "name": "Add Position",
+        "signature": "AddPosition(, *args)",
+        "call": "AddPosition(x, y, z)",
+        "description": "AddPosition(x, y, z)"
+      },
+      {
+        "command": "AddPositionByItemID",
+        "name": "Add Position By Item I D",
+        "signature": "AddPositionByItemID(, *args)",
+        "call": "AddPositionByItemID(itemid, x, y, z)",
+        "description": "AddPositionByItemID(itemid, x, y, z)"
+      },
+      {
+        "command": "AddRotation",
+        "name": "Add Rotation",
+        "signature": "AddRotation(, *args)",
+        "call": "AddRotation(h, p, b)",
+        "description": "AddRotation(h, p, b)"
+      },
+      {
+        "command": "AddRotationByItemID",
+        "name": "Add Rotation By Item I D",
+        "signature": "AddRotationByItemID(, *args)",
+        "call": "AddRotationByItemID(itemid, h, p, b)",
+        "description": "AddRotationByItemID(itemid, h, p, b)"
+      },
+      {
+        "command": "AddScale",
+        "name": "Add Scale",
+        "signature": "AddScale(, *args)",
+        "call": "AddScale(x, y, z)",
+        "description": "AddScale(x, y, z)"
+      },
+      {
+        "command": "AddScaleByItemID",
+        "name": "Add Scale By Item I D",
+        "signature": "AddScaleByItemID(, *args)",
+        "call": "AddScaleByItemID(itemid, x, y, z)",
+        "description": "AddScaleByItemID(itemid, x, y, z)"
+      },
+      {
+        "command": "AddSpotlight",
+        "name": "Add Spotlight",
+        "signature": "AddSpotlight(, *args)",
+        "call": "AddSpotlight(name)",
+        "description": "AddSpotlight(name)"
+      },
+      {
+        "command": "AddToSelection",
+        "name": "Add To Selection",
+        "signature": "AddToSelection(, *args)",
+        "call": "AddToSelection(itemid)",
+        "description": "AddToSelection(itemid)"
+      },
+      {
+        "command": "BoneWeightMapName",
+        "name": "Bone Weight Map Name",
+        "signature": "BoneWeightMapName(, *args)",
+        "call": "BoneWeightMapName(name)",
+        "description": "BoneWeightMapName(name)"
+      },
+      {
+        "command": "BoneWeightMapOnly",
+        "name": "Bone Weight Map Only",
+        "signature": "BoneWeightMapOnly()",
+        "call": "BoneWeightMapOnly()",
+        "description": "BoneWeightMapOnly()"
+      },
+      {
+        "command": "BoneWeightShade",
+        "name": "Bone Weight Shade",
+        "signature": "BoneWeightShade()",
+        "call": "BoneWeightShade()",
+        "description": "BoneWeightShade()"
+      },
+      {
+        "command": "ClearAllBones",
+        "name": "Clear All Bones",
+        "signature": "ClearAllBones()",
+        "call": "ClearAllBones()",
+        "description": "ClearAllBones()"
+      },
+      {
+        "command": "ClearAllCameras",
+        "name": "Clear All Cameras",
+        "signature": "ClearAllCameras()",
+        "call": "ClearAllCameras()",
+        "description": "ClearAllCameras()"
+      },
+      {
+        "command": "ClearAllLights",
+        "name": "Clear All Lights",
+        "signature": "ClearAllLights()",
+        "call": "ClearAllLights()",
+        "description": "ClearAllLights()"
+      },
+      {
+        "command": "ClearAllObjects",
+        "name": "Clear All Objects",
+        "signature": "ClearAllObjects()",
+        "call": "ClearAllObjects()",
+        "description": "ClearAllObjects()"
+      },
+      {
+        "command": "ClearAudio",
+        "name": "Clear Audio",
+        "signature": "ClearAudio()",
+        "call": "ClearAudio()",
+        "description": "ClearAudio()"
+      },
+      {
+        "command": "ClearScene",
+        "name": "Clear Scene",
+        "signature": "ClearScene()",
+        "call": "ClearScene()",
+        "description": "ClearScene()"
+      },
+      {
+        "command": "ClearSelected",
+        "name": "Clear Selected",
+        "signature": "ClearSelected()",
+        "call": "ClearSelected()",
+        "description": "ClearSelected()"
+      },
+      {
+        "command": "Clone",
+        "name": "Clone",
+        "signature": "Clone(, *args)",
+        "call": "Clone(clones)",
+        "description": "Clone(clones)"
+      },
+      {
+        "command": "CloneToObject",
+        "name": "Clone To Object",
+        "signature": "CloneToObject(, *args)",
+        "call": "CloneToObject(objectidto, objectidfrom)",
+        "description": "CloneToObject(objectidto, objectidfrom)"
+      },
+      {
+        "command": "CreateContentPath",
+        "name": "Create Content Path",
+        "signature": "CreateContentPath(, *args)",
+        "call": "CreateContentPath(pathtype)",
+        "description": "CreateContentPath(pathtype)"
+      },
+      {
+        "command": "CreateKey",
+        "name": "Create Key",
+        "signature": "CreateKey(, *args)",
+        "call": "CreateKey(time, scope, channelmask)",
+        "description": "CreateKey(time, scope, channelmask)"
+      },
+      {
+        "command": "DeleteKey",
+        "name": "Delete Key",
+        "signature": "DeleteKey(, *args)",
+        "call": "DeleteKey(time)",
+        "description": "DeleteKey(time)"
+      },
+      {
+        "command": "FlipSideSpline",
+        "name": "Flip Side Spline",
+        "signature": "FlipSideSpline()",
+        "call": "FlipSideSpline()",
+        "description": "FlipSideSpline()"
+      },
+      {
+        "command": "Item_SetWindowPos",
+        "name": "Item_ Set Window Pos",
+        "signature": "Item_SetWindowPos(, *args)",
+        "call": "Item_SetWindowPos(x, y)",
+        "description": "Item_SetWindowPos(x, y)"
+      },
+      {
+        "command": "Layout_AddViewport",
+        "name": "Layout_ Add Viewport",
+        "signature": "Layout_AddViewport()",
+        "call": "Layout_AddViewport()",
+        "description": "Layout_AddViewport()"
+      },
+      {
+        "command": "Layout_RemoveViewport",
+        "name": "Layout_ Remove Viewport",
+        "signature": "Layout_RemoveViewport(, *args)",
+        "call": "Layout_RemoveViewport(index)",
+        "description": "Layout_RemoveViewport(index)"
+      },
+      {
+        "command": "Layout_SetWindowPos",
+        "name": "Layout_ Set Window Pos",
+        "signature": "Layout_SetWindowPos(, *args)",
+        "call": "Layout_SetWindowPos(x, y)",
+        "description": "Layout_SetWindowPos(x, y)"
+      },
+      {
+        "command": "Layout_SetWindowSize",
+        "name": "Layout_ Set Window Size",
+        "signature": "Layout_SetWindowSize(, *args)",
+        "call": "Layout_SetWindowSize(width, height)",
+        "description": "Layout_SetWindowSize(width, height)"
+      },
+      {
+        "command": "LoadBufferSet",
+        "name": "Load Buffer Set",
+        "signature": "LoadBufferSet()",
+        "call": "LoadBufferSet()",
+        "description": "LoadBufferSet()"
+      },
+      {
+        "command": "LoadRenderSettings",
+        "name": "Load Render Settings",
+        "signature": "LoadRenderSettings(, *args)",
+        "call": "LoadRenderSettings(filename)",
+        "description": "LoadRenderSettings(filename)"
+      },
+      {
+        "command": "MakePreview",
+        "name": "Make Preview",
+        "signature": "MakePreview()",
+        "call": "MakePreview()",
+        "description": "MakePreview()"
+      },
+      {
+        "command": "OBJMergePoints",
+        "name": "O B J Merge Points",
+        "signature": "OBJMergePoints()",
+        "call": "OBJMergePoints()",
+        "description": "OBJMergePoints()"
+      },
+      {
+        "command": "OBJRemoveHidden",
+        "name": "O B J Remove Hidden",
+        "signature": "OBJRemoveHidden()",
+        "call": "OBJRemoveHidden()",
+        "description": "OBJRemoveHidden()"
+      },
+      {
+        "command": "PathAlignLookAhead",
+        "name": "Path Align Look Ahead",
+        "signature": "PathAlignLookAhead(, *args)",
+        "call": "PathAlignLookAhead(time)",
+        "description": "PathAlignLookAhead(time)"
+      },
+      {
+        "command": "PathAlignMaxLookSteps",
+        "name": "Path Align Max Look Steps",
+        "signature": "PathAlignMaxLookSteps(, *args)",
+        "call": "PathAlignMaxLookSteps(steps)",
+        "description": "PathAlignMaxLookSteps(steps)"
+      },
+      {
+        "command": "PathAlignReliableDist",
+        "name": "Path Align Reliable Dist",
+        "signature": "PathAlignReliableDist(, *args)",
+        "call": "PathAlignReliableDist(distance)",
+        "description": "PathAlignReliableDist(distance)"
+      },
+      {
+        "command": "PreClearScene",
+        "name": "Pre Clear Scene",
+        "signature": "PreClearScene()",
+        "call": "PreClearScene()",
+        "description": "PreClearScene()"
+      },
+      {
+        "command": "Presets",
+        "name": "Presets",
+        "signature": "Presets()",
+        "call": "Presets()",
+        "description": "Presets()"
+      },
+      {
+        "command": "RemoveCustomBuffer",
+        "name": "Remove Custom Buffer",
+        "signature": "RemoveCustomBuffer(, *args)",
+        "call": "RemoveCustomBuffer(buffer_name)",
+        "description": "RemoveCustomBuffer(buffer_name)"
+      },
+      {
+        "command": "RemoveEnvelope",
+        "name": "Remove Envelope",
+        "signature": "RemoveEnvelope(, *args)",
+        "call": "RemoveEnvelope(channel)",
+        "description": "RemoveEnvelope(channel)"
+      },
+      {
+        "command": "RemoveFromSelection",
+        "name": "Remove From Selection",
+        "signature": "RemoveFromSelection(, *args)",
+        "call": "RemoveFromSelection(itemid)",
+        "description": "RemoveFromSelection(itemid)"
+      },
+      {
+        "command": "RemoveMaster",
+        "name": "Remove Master",
+        "signature": "RemoveMaster(, *args)",
+        "call": "RemoveMaster(name)",
+        "description": "RemoveMaster(name)"
+      },
+      {
+        "command": "RemoveServer",
+        "name": "Remove Server",
+        "signature": "RemoveServer(, *args)",
+        "call": "RemoveServer(klass, index)",
+        "description": "RemoveServer(klass, index)"
+      },
+      {
+        "command": "RemoveServerByItemID",
+        "name": "Remove Server By Item I D",
+        "signature": "RemoveServerByItemID(, *args)",
+        "call": "RemoveServerByItemID(itemid, klass, index)",
+        "description": "RemoveServerByItemID(itemid, klass, index)"
+      },
+      {
+        "command": "Reset",
+        "name": "Reset",
+        "signature": "Reset()",
+        "call": "Reset()",
+        "description": "Reset()"
+      },
+      {
+        "command": "ResolutionPreset",
+        "name": "Resolution Preset",
+        "signature": "ResolutionPreset(, *args)",
+        "call": "ResolutionPreset(resolution_preset)",
+        "description": "ResolutionPreset(resolution_preset)"
+      },
+      {
+        "command": "SaveBufferSet",
+        "name": "Save Buffer Set",
+        "signature": "SaveBufferSet()",
+        "call": "SaveBufferSet()",
+        "description": "SaveBufferSet()"
+      },
+      {
+        "command": "SaveBufferSetPreset",
+        "name": "Save Buffer Set Preset",
+        "signature": "SaveBufferSetPreset()",
+        "call": "SaveBufferSetPreset()",
+        "description": "SaveBufferSetPreset()"
+      },
+      {
+        "command": "SaveRenderPreset",
+        "name": "Save Render Preset",
+        "signature": "SaveRenderPreset(, *args)",
+        "call": "SaveRenderPreset(flags, name, comment)",
+        "description": "SaveRenderPreset(flags, name, comment)"
+      },
+      {
+        "command": "SaveRenderSettings",
+        "name": "Save Render Settings",
+        "signature": "SaveRenderSettings(, *args)",
+        "call": "SaveRenderSettings(filename, flags, name, comment)",
+        "description": "SaveRenderSettings(filename, flags, name, comment)"
+      },
+      {
+        "command": "Scene_SetWindowPos",
+        "name": "Scene_ Set Window Pos",
+        "signature": "Scene_SetWindowPos(, *args)",
+        "call": "Scene_SetWindowPos(x, y)",
+        "description": "Scene_SetWindowPos(x, y)"
+      },
+      {
+        "command": "Scene_SetWindowSize",
+        "name": "Scene_ Set Window Size",
+        "signature": "Scene_SetWindowSize(, *args)",
+        "call": "Scene_SetWindowSize(width, height)",
+        "description": "Scene_SetWindowSize(width, height)"
+      },
+      {
+        "command": "SetBackgroundImage",
+        "name": "Set Background Image",
+        "signature": "SetBackgroundImage(, *args)",
+        "call": "SetBackgroundImage(name)",
+        "description": "SetBackgroundImage(name)"
+      },
+      {
+        "command": "SetFixedNearClipDistance",
+        "name": "Set Fixed Near Clip Distance",
+        "signature": "SetFixedNearClipDistance(, *args)",
+        "call": "SetFixedNearClipDistance(dist)",
+        "description": "SetFixedNearClipDistance(dist)"
+      },
+      {
+        "command": "SetFlareIntensity",
+        "name": "Set Flare Intensity",
+        "signature": "SetFlareIntensity(, *args)",
+        "call": "SetFlareIntensity(intensity)",
+        "description": "SetFlareIntensity(intensity)"
+      },
+      {
+        "command": "SetForegroundAlphaImage",
+        "name": "Set Foreground Alpha Image",
+        "signature": "SetForegroundAlphaImage(, *args)",
+        "call": "SetForegroundAlphaImage(name)",
+        "description": "SetForegroundAlphaImage(name)"
+      },
+      {
+        "command": "SetForegroundDissolve",
+        "name": "Set Foreground Dissolve",
+        "signature": "SetForegroundDissolve(, *args)",
+        "call": "SetForegroundDissolve(percentage)",
+        "description": "SetForegroundDissolve(percentage)"
+      },
+      {
+        "command": "SetForegroundImage",
+        "name": "Set Foreground Image",
+        "signature": "SetForegroundImage(, *args)",
+        "call": "SetForegroundImage(name)",
+        "description": "SetForegroundImage(name)"
+      },
+      {
+        "command": "SetHighClipColor",
+        "name": "Set High Clip Color",
+        "signature": "SetHighClipColor(, *args)",
+        "call": "SetHighClipColor(red, green, blue)",
+        "description": "SetHighClipColor(red, green, blue)"
+      },
+      {
+        "command": "SetLowClipColor",
+        "name": "Set Low Clip Color",
+        "signature": "SetLowClipColor(, *args)",
+        "call": "SetLowClipColor(red, green, blue)",
+        "description": "SetLowClipColor(red, green, blue)"
+      },
+      {
+        "command": "SetPreferenceValue",
+        "name": "Set Preference Value",
+        "signature": "SetPreferenceValue(, *args)",
+        "call": "SetPreferenceValue(__value_key___value)",
+        "description": "SetPreferenceValue(__value_key___value)"
+      },
+      {
+        "command": "SetRenderDisplay",
+        "name": "Set Render Display",
+        "signature": "SetRenderDisplay()",
+        "call": "SetRenderDisplay()",
+        "description": "SetRenderDisplay()"
+      },
+      {
+        "command": "SetServerDescriptionByItemID",
+        "name": "Set Server Description By Item I D",
+        "signature": "SetServerDescriptionByItemID(, *args)",
+        "call": "SetServerDescriptionByItemID(itemid, klass, index, description)",
+        "description": "SetServerDescriptionByItemID(itemid, klass, index, description)"
+      },
+      {
+        "command": "SetTCB",
+        "name": "Set T C B",
+        "signature": "SetTCB(, *args)",
+        "call": "SetTCB(t, c, b)",
+        "description": "SetTCB(t, c, b)"
+      },
+      {
+        "command": "ShadowOffset",
+        "name": "Shadow Offset",
+        "signature": "ShadowOffset(, *args)",
+        "call": "ShadowOffset(offset)",
+        "description": "ShadowOffset(offset)"
+      },
+      {
+        "command": "SyncBufferSet",
+        "name": "Sync Buffer Set",
+        "signature": "SyncBufferSet()",
+        "call": "SyncBufferSet()",
+        "description": "SyncBufferSet()"
+      },
+      {
+        "command": "ViewPositionReset",
+        "name": "View Position Reset",
+        "signature": "ViewPositionReset(, *args)",
+        "call": "ViewPositionReset(view)",
+        "description": "ViewPositionReset(view)"
+      },
+      {
+        "command": "ViewPositionSet",
+        "name": "View Position Set",
+        "signature": "ViewPositionSet(, *args)",
+        "call": "ViewPositionSet(view, x, y, z)",
+        "description": "ViewPositionSet(view, x, y, z)"
+      },
+      {
+        "command": "ViewRotationReset",
+        "name": "View Rotation Reset",
+        "signature": "ViewRotationReset(, *args)",
+        "call": "ViewRotationReset(view)",
+        "description": "ViewRotationReset(view)"
+      },
+      {
+        "command": "ViewRotationSet",
+        "name": "View Rotation Set",
+        "signature": "ViewRotationSet(, *args)",
+        "call": "ViewRotationSet(view, h, p, b)",
+        "description": "ViewRotationSet(view, h, p, b)"
+      },
+      {
+        "command": "ViewZoomReset",
+        "name": "View Zoom Reset",
+        "signature": "ViewZoomReset(, *args)",
+        "call": "ViewZoomReset(view)",
+        "description": "ViewZoomReset(view)"
+      },
+      {
+        "command": "ViewZoomSet",
+        "name": "View Zoom Set",
+        "signature": "ViewZoomSet(, *args)",
+        "call": "ViewZoomSet(view, zoom)",
+        "description": "ViewZoomSet(view, zoom)"
+      }
+    ],
+    "Lighting/Camera": [
+      {
+        "command": "AmbientOcclusionShadows",
+        "name": "Ambient Occlusion Shadows",
+        "signature": "AmbientOcclusionShadows(, *args)",
+        "call": "AmbientOcclusionShadows(on_off)",
+        "description": "AmbientOcclusionShadows(on_off)"
+      },
+      {
+        "command": "AreaLight",
+        "name": "Area Light",
+        "signature": "AreaLight()",
+        "call": "AreaLight()",
+        "description": "AreaLight()"
+      },
+      {
+        "command": "CacheShadowMap",
+        "name": "Cache Shadow Map",
+        "signature": "CacheShadowMap()",
+        "call": "CacheShadowMap()",
+        "description": "CacheShadowMap()"
+      },
+      {
+        "command": "CastShadow",
+        "name": "Cast Shadow",
+        "signature": "CastShadow()",
+        "call": "CastShadow()",
+        "description": "CastShadow()"
+      },
+      {
+        "command": "ColorSpaceLightColor",
+        "name": "Color Space Light Color",
+        "signature": "ColorSpaceLightColor()",
+        "call": "ColorSpaceLightColor()",
+        "description": "ColorSpaceLightColor()"
+      },
+      {
+        "command": "CopyToPerspective",
+        "name": "Copy To Perspective",
+        "signature": "CopyToPerspective(, *args)",
+        "call": "CopyToPerspective(on_off)",
+        "description": "CopyToPerspective(on_off)"
+      },
+      {
+        "command": "CustomLight",
+        "name": "Custom Light",
+        "signature": "CustomLight(, *args)",
+        "call": "CustomLight(type_name)",
+        "description": "CustomLight(type_name)"
+      },
+      {
+        "command": "DistantLight",
+        "name": "Distant Light",
+        "signature": "DistantLight()",
+        "call": "DistantLight()",
+        "description": "DistantLight()"
+      },
+      {
+        "command": "DoubleSidedAreaLights",
+        "name": "Double Sided Area Lights",
+        "signature": "DoubleSidedAreaLights()",
+        "call": "DoubleSidedAreaLights()",
+        "description": "DoubleSidedAreaLights()"
+      },
+      {
+        "command": "EditCameras",
+        "name": "Edit Cameras",
+        "signature": "EditCameras()",
+        "call": "EditCameras()",
+        "description": "EditCameras()"
+      },
+      {
+        "command": "EditLights",
+        "name": "Edit Lights",
+        "signature": "EditLights()",
+        "call": "EditLights()",
+        "description": "EditLights()"
+      },
+      {
+        "command": "ExcludeLight",
+        "name": "Exclude Light",
+        "signature": "ExcludeLight(, *args)",
+        "call": "ExcludeLight(itemid)",
+        "description": "ExcludeLight(itemid)"
+      },
+      {
+        "command": "FlareCentralGlow",
+        "name": "Flare Central Glow",
+        "signature": "FlareCentralGlow()",
+        "call": "FlareCentralGlow()",
+        "description": "FlareCentralGlow()"
+      },
+      {
+        "command": "FlareCentralRing",
+        "name": "Flare Central Ring",
+        "signature": "FlareCentralRing()",
+        "call": "FlareCentralRing()",
+        "description": "FlareCentralRing()"
+      },
+      {
+        "command": "FlareDissolve",
+        "name": "Flare Dissolve",
+        "signature": "FlareDissolve(, *args)",
+        "call": "FlareDissolve(percent)",
+        "description": "FlareDissolve(percent)"
+      },
+      {
+        "command": "FlareFadeBehindObjects",
+        "name": "Flare Fade Behind Objects",
+        "signature": "FlareFadeBehindObjects()",
+        "call": "FlareFadeBehindObjects()",
+        "description": "FlareFadeBehindObjects()"
+      },
+      {
+        "command": "FlareFadeInFog",
+        "name": "Flare Fade In Fog",
+        "signature": "FlareFadeInFog()",
+        "call": "FlareFadeInFog()",
+        "description": "FlareFadeInFog()"
+      },
+      {
+        "command": "FlareFadeNominalDistance",
+        "name": "Flare Fade Nominal Distance",
+        "signature": "FlareFadeNominalDistance(, *args)",
+        "call": "FlareFadeNominalDistance(distance)",
+        "description": "FlareFadeNominalDistance(distance)"
+      },
+      {
+        "command": "FlareFadeOffScreen",
+        "name": "Flare Fade Off Screen",
+        "signature": "FlareFadeOffScreen()",
+        "call": "FlareFadeOffScreen()",
+        "description": "FlareFadeOffScreen()"
+      },
+      {
+        "command": "FlareFadeWithDistance",
+        "name": "Flare Fade With Distance",
+        "signature": "FlareFadeWithDistance()",
+        "call": "FlareFadeWithDistance()",
+        "description": "FlareFadeWithDistance()"
+      },
+      {
+        "command": "FlareGlowBehindObject",
+        "name": "Flare Glow Behind Object",
+        "signature": "FlareGlowBehindObject()",
+        "call": "FlareGlowBehindObject()",
+        "description": "FlareGlowBehindObject()"
+      },
+      {
+        "command": "FlareLensElementColor",
+        "name": "Flare Lens Element Color",
+        "signature": "FlareLensElementColor(, *args)",
+        "call": "FlareLensElementColor(element, red, green, blue)",
+        "description": "FlareLensElementColor(element, red, green, blue)"
+      },
+      {
+        "command": "FlareLensElementShape",
+        "name": "Flare Lens Element Shape",
+        "signature": "FlareLensElementShape(, *args)",
+        "call": "FlareLensElementShape(shape)",
+        "description": "FlareLensElementShape(shape)"
+      },
+      {
+        "command": "FlareLensElementSize",
+        "name": "Flare Lens Element Size",
+        "signature": "FlareLensElementSize(, *args)",
+        "call": "FlareLensElementSize(element, radius)",
+        "description": "FlareLensElementSize(element, radius)"
+      },
+      {
+        "command": "FlareLensElementType",
+        "name": "Flare Lens Element Type",
+        "signature": "FlareLensElementType(, *args)",
+        "call": "FlareLensElementType(element, type)",
+        "description": "FlareLensElementType(element, type)"
+      },
+      {
+        "command": "FlareLensReflections",
+        "name": "Flare Lens Reflections",
+        "signature": "FlareLensReflections()",
+        "call": "FlareLensReflections()",
+        "description": "FlareLensReflections()"
+      },
+      {
+        "command": "FlareOptions",
+        "name": "Flare Options",
+        "signature": "FlareOptions()",
+        "call": "FlareOptions()",
+        "description": "FlareOptions()"
+      },
+      {
+        "command": "FlareRedOuterGlow",
+        "name": "Flare Red Outer Glow",
+        "signature": "FlareRedOuterGlow()",
+        "call": "FlareRedOuterGlow()",
+        "description": "FlareRedOuterGlow()"
+      },
+      {
+        "command": "FlareRingColor",
+        "name": "Flare Ring Color",
+        "signature": "FlareRingColor(, *args)",
+        "call": "FlareRingColor(red, green, blue)",
+        "description": "FlareRingColor(red, green, blue)"
+      },
+      {
+        "command": "FlareRingSize",
+        "name": "Flare Ring Size",
+        "signature": "FlareRingSize(, *args)",
+        "call": "FlareRingSize(percent)",
+        "description": "FlareRingSize(percent)"
+      },
+      {
+        "command": "FlareStreaksDensity",
+        "name": "Flare Streaks Density",
+        "signature": "FlareStreaksDensity(, *args)",
+        "call": "FlareStreaksDensity(density)",
+        "description": "FlareStreaksDensity(density)"
+      },
+      {
+        "command": "FlareStreaksIntensity",
+        "name": "Flare Streaks Intensity",
+        "signature": "FlareStreaksIntensity(, *args)",
+        "call": "FlareStreaksIntensity(intensity)",
+        "description": "FlareStreaksIntensity(intensity)"
+      },
+      {
+        "command": "FlareStreaksOffScreen",
+        "name": "Flare Streaks Off Screen",
+        "signature": "FlareStreaksOffScreen()",
+        "call": "FlareStreaksOffScreen()",
+        "description": "FlareStreaksOffScreen()"
+      },
+      {
+        "command": "FlareStreaksRandom",
+        "name": "Flare Streaks Random",
+        "signature": "FlareStreaksRandom()",
+        "call": "FlareStreaksRandom()",
+        "description": "FlareStreaksRandom()"
+      },
+      {
+        "command": "FlareStreaksRotation",
+        "name": "Flare Streaks Rotation",
+        "signature": "FlareStreaksRotation(, *args)",
+        "call": "FlareStreaksRotation(angle)",
+        "description": "FlareStreaksRotation(angle)"
+      },
+      {
+        "command": "FlareStreaksSharpness",
+        "name": "Flare Streaks Sharpness",
+        "signature": "FlareStreaksSharpness(, *args)",
+        "call": "FlareStreaksSharpness(sharpness)",
+        "description": "FlareStreaksSharpness(sharpness)"
+      },
+      {
+        "command": "FlareStreaksStarFilter",
+        "name": "Flare Streaks Star Filter",
+        "signature": "FlareStreaksStarFilter(, *args)",
+        "call": "FlareStreaksStarFilter(list)",
+        "description": "FlareStreaksStarFilter(list)"
+      },
+      {
+        "command": "GlobalLensFlareIntensity",
+        "name": "Global Lens Flare Intensity",
+        "signature": "GlobalLensFlareIntensity(, *args)",
+        "call": "GlobalLensFlareIntensity(intensity)",
+        "description": "GlobalLensFlareIntensity(intensity)"
+      },
+      {
+        "command": "GlobalLightIntensity",
+        "name": "Global Light Intensity",
+        "signature": "GlobalLightIntensity(, *args)",
+        "call": "GlobalLightIntensity(intensity)",
+        "description": "GlobalLightIntensity(intensity)"
+      },
+      {
+        "command": "IncludeLight",
+        "name": "Include Light",
+        "signature": "IncludeLight(, *args)",
+        "call": "IncludeLight(itemid)",
+        "description": "IncludeLight(itemid)"
+      },
+      {
+        "command": "LensFlare",
+        "name": "Lens Flare",
+        "signature": "LensFlare()",
+        "call": "LensFlare()",
+        "description": "LensFlare()"
+      },
+      {
+        "command": "LightBufferGroup",
+        "name": "Light Buffer Group",
+        "signature": "LightBufferGroup(, *args)",
+        "call": "LightBufferGroup(groupname)",
+        "description": "LightBufferGroup(groupname)"
+      },
+      {
+        "command": "LightCastsShadows",
+        "name": "Light Casts Shadows",
+        "signature": "LightCastsShadows()",
+        "call": "LightCastsShadows()",
+        "description": "LightCastsShadows()"
+      },
+      {
+        "command": "LightColor",
+        "name": "Light Color",
+        "signature": "LightColor(, *args)",
+        "call": "LightColor(red, green, blue)",
+        "description": "LightColor(red, green, blue)"
+      },
+      {
+        "command": "LightConeAngle",
+        "name": "Light Cone Angle",
+        "signature": "LightConeAngle(, *args)",
+        "call": "LightConeAngle(angle)",
+        "description": "LightConeAngle(angle)"
+      },
+      {
+        "command": "LightEdgeAngle",
+        "name": "Light Edge Angle",
+        "signature": "LightEdgeAngle(, *args)",
+        "call": "LightEdgeAngle(angle)",
+        "description": "LightEdgeAngle(angle)"
+      },
+      {
+        "command": "LightFalloffType",
+        "name": "Light Falloff Type",
+        "signature": "LightFalloffType()",
+        "call": "LightFalloffType()",
+        "description": "LightFalloffType()"
+      },
+      {
+        "command": "LightIntensity",
+        "name": "Light Intensity",
+        "signature": "LightIntensity(, *args)",
+        "call": "LightIntensity(intensity)",
+        "description": "LightIntensity(intensity)"
+      },
+      {
+        "command": "LightIntensityTool",
+        "name": "Light Intensity Tool",
+        "signature": "LightIntensityTool()",
+        "call": "LightIntensityTool()",
+        "description": "LightIntensityTool()"
+      },
+      {
+        "command": "LightSamples",
+        "name": "Light Samples",
+        "signature": "LightSamples(, *args)",
+        "call": "LightSamples(samples)",
+        "description": "LightSamples(samples)"
+      },
+      {
+        "command": "LightUseNodes",
+        "name": "Light Use Nodes",
+        "signature": "LightUseNodes()",
+        "call": "LightUseNodes()",
+        "description": "LightUseNodes()"
+      },
+      {
+        "command": "LightVisibleToCamera",
+        "name": "Light Visible To Camera",
+        "signature": "LightVisibleToCamera()",
+        "call": "LightVisibleToCamera()",
+        "description": "LightVisibleToCamera()"
+      },
+      {
+        "command": "LightVolumetricIntensity",
+        "name": "Light Volumetric Intensity",
+        "signature": "LightVolumetricIntensity(, *args)",
+        "call": "LightVolumetricIntensity(intensity)",
+        "description": "LightVolumetricIntensity(intensity)"
+      },
+      {
+        "command": "LightVolumetricSamples",
+        "name": "Light Volumetric Samples",
+        "signature": "LightVolumetricSamples(, *args)",
+        "call": "LightVolumetricSamples(samples)",
+        "description": "LightVolumetricSamples(samples)"
+      },
+      {
+        "command": "Lights",
+        "name": "Lights",
+        "signature": "Lights()",
+        "call": "Lights()",
+        "description": "Lights()"
+      },
+      {
+        "command": "LinearLight",
+        "name": "Linear Light",
+        "signature": "LinearLight()",
+        "call": "LinearLight()",
+        "description": "LinearLight()"
+      },
+      {
+        "command": "RayTraceShadows",
+        "name": "Ray Trace Shadows",
+        "signature": "RayTraceShadows(, *args)",
+        "call": "RayTraceShadows(enable)",
+        "description": "RayTraceShadows(enable)"
+      },
+      {
+        "command": "ReceiveShadow",
+        "name": "Receive Shadow",
+        "signature": "ReceiveShadow()",
+        "call": "ReceiveShadow()",
+        "description": "ReceiveShadow()"
+      },
+      {
+        "command": "SelfShadow",
+        "name": "Self Shadow",
+        "signature": "SelfShadow()",
+        "call": "SelfShadow()",
+        "description": "SelfShadow()"
+      },
+      {
+        "command": "ShadowColor",
+        "name": "Shadow Color",
+        "signature": "ShadowColor(, *args)",
+        "call": "ShadowColor(red, green, blue)",
+        "description": "ShadowColor(red, green, blue)"
+      },
+      {
+        "command": "ShadowExclusion",
+        "name": "Shadow Exclusion",
+        "signature": "ShadowExclusion()",
+        "call": "ShadowExclusion()",
+        "description": "ShadowExclusion()"
+      },
+      {
+        "command": "ShadowMapFitCone",
+        "name": "Shadow Map Fit Cone",
+        "signature": "ShadowMapFitCone()",
+        "call": "ShadowMapFitCone()",
+        "description": "ShadowMapFitCone()"
+      },
+      {
+        "command": "ShadowMapFuzziness",
+        "name": "Shadow Map Fuzziness",
+        "signature": "ShadowMapFuzziness(, *args)",
+        "call": "ShadowMapFuzziness(fuzziness)",
+        "description": "ShadowMapFuzziness(fuzziness)"
+      },
+      {
+        "command": "ShadowMapSize",
+        "name": "Shadow Map Size",
+        "signature": "ShadowMapSize(, *args)",
+        "call": "ShadowMapSize(size)",
+        "description": "ShadowMapSize(size)"
+      },
+      {
+        "command": "ShadowType",
+        "name": "Shadow Type",
+        "signature": "ShadowType(, *args)",
+        "call": "ShadowType(type)",
+        "description": "ShadowType(type)"
+      },
+      {
+        "command": "Spotlight",
+        "name": "Spotlight",
+        "signature": "Spotlight()",
+        "call": "Spotlight()",
+        "description": "Spotlight()"
+      },
+      {
+        "command": "UnseenByCamera",
+        "name": "Unseen By Camera",
+        "signature": "UnseenByCamera()",
+        "call": "UnseenByCamera()",
+        "description": "UnseenByCamera()"
+      },
+      {
+        "command": "VolumetricLighting",
+        "name": "Volumetric Lighting",
+        "signature": "VolumetricLighting()",
+        "call": "VolumetricLighting()",
+        "description": "VolumetricLighting()"
+      }
+    ],
+    "Selection": [
+      {
+        "command": "ApplyServerByItemID",
+        "name": "Apply Server By Item I D",
+        "signature": "ApplyServerByItemID(, *args)",
+        "call": "ApplyServerByItemID(itemid, klass, server)",
+        "description": "ApplyServerByItemID(itemid, klass, server)"
+      },
+      {
+        "command": "CenterItem",
+        "name": "Center Item",
+        "signature": "CenterItem()",
+        "call": "CenterItem()",
+        "description": "CenterItem()"
+      },
+      {
+        "command": "DisableCommandPort",
+        "name": "Disable Command Port",
+        "signature": "DisableCommandPort()",
+        "call": "DisableCommandPort()",
+        "description": "DisableCommandPort()"
+      },
+      {
+        "command": "DisableFromSelection",
+        "name": "Disable From Selection",
+        "signature": "DisableFromSelection(, *args)",
+        "call": "DisableFromSelection(itemid)",
+        "description": "DisableFromSelection(itemid)"
+      },
+      {
+        "command": "EnableCommandPort",
+        "name": "Enable Command Port",
+        "signature": "EnableCommandPort(, *args)",
+        "call": "EnableCommandPort(port)",
+        "description": "EnableCommandPort(port)"
+      },
+      {
+        "command": "EnableDeformations",
+        "name": "Enable Deformations",
+        "signature": "EnableDeformations()",
+        "call": "EnableDeformations()",
+        "description": "EnableDeformations()"
+      },
+      {
+        "command": "EnableDespike",
+        "name": "Enable Despike",
+        "signature": "EnableDespike(, *args)",
+        "call": "EnableDespike(enable)",
+        "description": "EnableDespike(enable)"
+      },
+      {
+        "command": "EnableFixedNearClipDistance",
+        "name": "Enable Fixed Near Clip Distance",
+        "signature": "EnableFixedNearClipDistance(, *args)",
+        "call": "EnableFixedNearClipDistance(on_off)",
+        "description": "EnableFixedNearClipDistance(on_off)"
+      },
+      {
+        "command": "EnableForegroundFaderAlpha",
+        "name": "Enable Foreground Fader Alpha",
+        "signature": "EnableForegroundFaderAlpha(, *args)",
+        "call": "EnableForegroundFaderAlpha(on_off)",
+        "description": "EnableForegroundFaderAlpha(on_off)"
+      },
+      {
+        "command": "EnableForegroundKey",
+        "name": "Enable Foreground Key",
+        "signature": "EnableForegroundKey(, *args)",
+        "call": "EnableForegroundKey(on_off)",
+        "description": "EnableForegroundKey(on_off)"
+      },
+      {
+        "command": "EnableFromSelection",
+        "name": "Enable From Selection",
+        "signature": "EnableFromSelection(, *args)",
+        "call": "EnableFromSelection(itemid)",
+        "description": "EnableFromSelection(itemid)"
+      },
+      {
+        "command": "EnableIK",
+        "name": "Enable I K",
+        "signature": "EnableIK()",
+        "call": "EnableIK()",
+        "description": "EnableIK()"
+      },
+      {
+        "command": "EnableLensFlares",
+        "name": "Enable Lens Flares",
+        "signature": "EnableLensFlares(, *args)",
+        "call": "EnableLensFlares(enable)",
+        "description": "EnableLensFlares(enable)"
+      },
+      {
+        "command": "EnableMC",
+        "name": "Enable M C",
+        "signature": "EnableMC()",
+        "call": "EnableMC()",
+        "description": "EnableMC()"
+      },
+      {
+        "command": "EnableMipMapping",
+        "name": "Enable Mip Mapping",
+        "signature": "EnableMipMapping(, *args)",
+        "call": "EnableMipMapping(enable)",
+        "description": "EnableMipMapping(enable)"
+      },
+      {
+        "command": "EnableRadiosity0",
+        "name": "Enable Radiosity0",
+        "signature": "EnableRadiosity0()",
+        "call": "EnableRadiosity0()",
+        "description": "EnableRadiosity0()"
+      },
+      {
+        "command": "EnableRadiosity1",
+        "name": "Enable Radiosity1",
+        "signature": "EnableRadiosity1()",
+        "call": "EnableRadiosity1()",
+        "description": "EnableRadiosity1()"
+      },
+      {
+        "command": "EnableServer",
+        "name": "Enable Server",
+        "signature": "EnableServer(, *args)",
+        "call": "EnableServer(klass, index, enable)",
+        "description": "EnableServer(klass, index, enable)"
+      },
+      {
+        "command": "EnableServerByItemID",
+        "name": "Enable Server By Item I D",
+        "signature": "EnableServerByItemID(, *args)",
+        "call": "EnableServerByItemID(itemid, klass, index, enable)",
+        "description": "EnableServerByItemID(itemid, klass, index, enable)"
+      },
+      {
+        "command": "EnableVIPER",
+        "name": "Enable V I P E R",
+        "signature": "EnableVIPER()",
+        "call": "EnableVIPER()",
+        "description": "EnableVIPER()"
+      },
+      {
+        "command": "EnableVolumetricLights",
+        "name": "Enable Volumetric Lights",
+        "signature": "EnableVolumetricLights()",
+        "call": "EnableVolumetricLights()",
+        "description": "EnableVolumetricLights()"
+      },
+      {
+        "command": "EnableVolumetrics",
+        "name": "Enable Volumetrics",
+        "signature": "EnableVolumetrics()",
+        "call": "EnableVolumetrics()",
+        "description": "EnableVolumetrics()"
+      },
+      {
+        "command": "EnableXH",
+        "name": "Enable X H",
+        "signature": "EnableXH()",
+        "call": "EnableXH()",
+        "description": "EnableXH()"
+      },
+      {
+        "command": "EnableYP",
+        "name": "Enable Y P",
+        "signature": "EnableYP()",
+        "call": "EnableYP()",
+        "description": "EnableYP()"
+      },
+      {
+        "command": "EnableZB",
+        "name": "Enable Z B",
+        "signature": "EnableZB()",
+        "call": "EnableZB()",
+        "description": "EnableZB()"
+      },
+      {
+        "command": "FirstItem",
+        "name": "First Item",
+        "signature": "FirstItem()",
+        "call": "FirstItem()",
+        "description": "FirstItem()"
+      },
+      {
+        "command": "FitSelected",
+        "name": "Fit Selected",
+        "signature": "FitSelected()",
+        "call": "FitSelected()",
+        "description": "FitSelected()"
+      },
+      {
+        "command": "FitSelectedViews",
+        "name": "Fit Selected Views",
+        "signature": "FitSelectedViews()",
+        "call": "FitSelectedViews()",
+        "description": "FitSelectedViews()"
+      },
+      {
+        "command": "GoalItem",
+        "name": "Goal Item",
+        "signature": "GoalItem(, *args)",
+        "call": "GoalItem(itemid)",
+        "description": "GoalItem(itemid)"
+      },
+      {
+        "command": "GraphEditorAudioEnabled",
+        "name": "Graph Editor Audio Enabled",
+        "signature": "GraphEditorAudioEnabled()",
+        "call": "GraphEditorAudioEnabled()",
+        "description": "GraphEditorAudioEnabled()"
+      },
+      {
+        "command": "HideToolbar",
+        "name": "Hide Toolbar",
+        "signature": "HideToolbar()",
+        "call": "HideToolbar()",
+        "description": "HideToolbar()"
+      },
+      {
+        "command": "HideWindows",
+        "name": "Hide Windows",
+        "signature": "HideWindows()",
+        "call": "HideWindows()",
+        "description": "HideWindows()"
+      },
+      {
+        "command": "ImageCacheEnable",
+        "name": "Image Cache Enable",
+        "signature": "ImageCacheEnable(, *args)",
+        "call": "ImageCacheEnable(enable)",
+        "description": "ImageCacheEnable(enable)"
+      },
+      {
+        "command": "ItemActive",
+        "name": "Item Active",
+        "signature": "ItemActive(, *args)",
+        "call": "ItemActive(active)",
+        "description": "ItemActive(active)"
+      },
+      {
+        "command": "ItemColor",
+        "name": "Item Color",
+        "signature": "ItemColor(, *args)",
+        "call": "ItemColor(color)",
+        "description": "ItemColor(color)"
+      },
+      {
+        "command": "ItemIconScale",
+        "name": "Item Icon Scale",
+        "signature": "ItemIconScale(, *args)",
+        "call": "ItemIconScale(scale)",
+        "description": "ItemIconScale(scale)"
+      },
+      {
+        "command": "ItemLock",
+        "name": "Item Lock",
+        "signature": "ItemLock(, *args)",
+        "call": "ItemLock(locked)",
+        "description": "ItemLock(locked)"
+      },
+      {
+        "command": "ItemProperties",
+        "name": "Item Properties",
+        "signature": "ItemProperties()",
+        "call": "ItemProperties()",
+        "description": "ItemProperties()"
+      },
+      {
+        "command": "ItemShowChannels",
+        "name": "Item Show Channels",
+        "signature": "ItemShowChannels(, *args)",
+        "call": "ItemShowChannels(itemid, show)",
+        "description": "ItemShowChannels(itemid, show)"
+      },
+      {
+        "command": "ItemShowChildren",
+        "name": "Item Show Children",
+        "signature": "ItemShowChildren(, *args)",
+        "call": "ItemShowChildren(itemid, show)",
+        "description": "ItemShowChildren(itemid, show)"
+      },
+      {
+        "command": "ItemUnlock",
+        "name": "Item Unlock",
+        "signature": "ItemUnlock(, *args)",
+        "call": "ItemUnlock(itemid)",
+        "description": "ItemUnlock(itemid)"
+      },
+      {
+        "command": "ItemVisibility",
+        "name": "Item Visibility",
+        "signature": "ItemVisibility(, *args)",
+        "call": "ItemVisibility(visibility)",
+        "description": "ItemVisibility(visibility)"
+      },
+      {
+        "command": "LastItem",
+        "name": "Last Item",
+        "signature": "LastItem()",
+        "call": "LastItem()",
+        "description": "LastItem()"
+      },
+      {
+        "command": "MeshElementSelect",
+        "name": "Mesh Element Select",
+        "signature": "MeshElementSelect()",
+        "call": "MeshElementSelect()",
+        "description": "MeshElementSelect()"
+      },
+      {
+        "command": "MultilayerEnabled",
+        "name": "Multilayer Enabled",
+        "signature": "MultilayerEnabled(, *args)",
+        "call": "MultilayerEnabled(on_off)",
+        "description": "MultilayerEnabled(on_off)"
+      },
+      {
+        "command": "NextItem",
+        "name": "Next Item",
+        "signature": "NextItem()",
+        "call": "NextItem()",
+        "description": "NextItem()"
+      },
+      {
+        "command": "ParentItem",
+        "name": "Parent Item",
+        "signature": "ParentItem(, *args)",
+        "call": "ParentItem(itemid)",
+        "description": "ParentItem(itemid)"
+      },
+      {
+        "command": "PoleItem",
+        "name": "Pole Item",
+        "signature": "PoleItem(, *args)",
+        "call": "PoleItem(itemid)",
+        "description": "PoleItem(itemid)"
+      },
+      {
+        "command": "PositionByItemID",
+        "name": "Position By Item I D",
+        "signature": "PositionByItemID(, *args)",
+        "call": "PositionByItemID(itemid, x, y, z)",
+        "description": "PositionByItemID(itemid, x, y, z)"
+      },
+      {
+        "command": "PositionItem",
+        "name": "Position Item",
+        "signature": "PositionItem(, *args)",
+        "call": "PositionItem(itemid)",
+        "description": "PositionItem(itemid)"
+      },
+      {
+        "command": "PositionItemBlend",
+        "name": "Position Item Blend",
+        "signature": "PositionItemBlend(, *args)",
+        "call": "PositionItemBlend(blend)",
+        "description": "PositionItemBlend(blend)"
+      },
+      {
+        "command": "PositionItemBlendMethod",
+        "name": "Position Item Blend Method",
+        "signature": "PositionItemBlendMethod(, *args)",
+        "call": "PositionItemBlendMethod(method)",
+        "description": "PositionItemBlendMethod(method)"
+      },
+      {
+        "command": "PositionItemWorld",
+        "name": "Position Item World",
+        "signature": "PositionItemWorld(, *args)",
+        "call": "PositionItemWorld(state)",
+        "description": "PositionItemWorld(state)"
+      },
+      {
+        "command": "PositionServerByItemID",
+        "name": "Position Server By Item I D",
+        "signature": "PositionServerByItemID(, *args)",
+        "call": "PositionServerByItemID(itemid, klass, name, pos)",
+        "description": "PositionServerByItemID(itemid, klass, name, pos)"
+      },
+      {
+        "command": "PreviousItem",
+        "name": "Previous Item",
+        "signature": "PreviousItem()",
+        "call": "PreviousItem()",
+        "description": "PreviousItem()"
+      },
+      {
+        "command": "RenderSelected",
+        "name": "Render Selected",
+        "signature": "RenderSelected()",
+        "call": "RenderSelected()",
+        "description": "RenderSelected()"
+      },
+      {
+        "command": "ReorderServerByItemID",
+        "name": "Reorder Server By Item I D",
+        "signature": "ReorderServerByItemID(, *args)",
+        "call": "ReorderServerByItemID(itemid, klass, index, pos)",
+        "description": "ReorderServerByItemID(itemid, klass, index, pos)"
+      },
+      {
+        "command": "RotationByItemID",
+        "name": "Rotation By Item I D",
+        "signature": "RotationByItemID(, *args)",
+        "call": "RotationByItemID(itemid, h, p, b)",
+        "description": "RotationByItemID(itemid, h, p, b)"
+      },
+      {
+        "command": "RotationItem",
+        "name": "Rotation Item",
+        "signature": "RotationItem(, *args)",
+        "call": "RotationItem(itemid)",
+        "description": "RotationItem(itemid)"
+      },
+      {
+        "command": "RotationItemBlend",
+        "name": "Rotation Item Blend",
+        "signature": "RotationItemBlend(, *args)",
+        "call": "RotationItemBlend(blend)",
+        "description": "RotationItemBlend(blend)"
+      },
+      {
+        "command": "RotationItemBlendMethod",
+        "name": "Rotation Item Blend Method",
+        "signature": "RotationItemBlendMethod(, *args)",
+        "call": "RotationItemBlendMethod(method)",
+        "description": "RotationItemBlendMethod(method)"
+      },
+      {
+        "command": "RotationItemWorld",
+        "name": "Rotation Item World",
+        "signature": "RotationItemWorld(, *args)",
+        "call": "RotationItemWorld(state)",
+        "description": "RotationItemWorld(state)"
+      },
+      {
+        "command": "ScaleByItemID",
+        "name": "Scale By Item I D",
+        "signature": "ScaleByItemID(, *args)",
+        "call": "ScaleByItemID(itemid, x, y, z)",
+        "description": "ScaleByItemID(itemid, x, y, z)"
+      },
+      {
+        "command": "ScaleItem",
+        "name": "Scale Item",
+        "signature": "ScaleItem(, *args)",
+        "call": "ScaleItem(itemid)",
+        "description": "ScaleItem(itemid)"
+      },
+      {
+        "command": "ScaleItemBlend",
+        "name": "Scale Item Blend",
+        "signature": "ScaleItemBlend(, *args)",
+        "call": "ScaleItemBlend(blend)",
+        "description": "ScaleItemBlend(blend)"
+      },
+      {
+        "command": "ScaleItemBlendMethod",
+        "name": "Scale Item Blend Method",
+        "signature": "ScaleItemBlendMethod(, *args)",
+        "call": "ScaleItemBlendMethod(method)",
+        "description": "ScaleItemBlendMethod(method)"
+      },
+      {
+        "command": "ScaleItemWorld",
+        "name": "Scale Item World",
+        "signature": "ScaleItemWorld(, *args)",
+        "call": "ScaleItemWorld(state)",
+        "description": "ScaleItemWorld(state)"
+      },
+      {
+        "command": "SelectAllBones",
+        "name": "Select All Bones",
+        "signature": "SelectAllBones()",
+        "call": "SelectAllBones()",
+        "description": "SelectAllBones()"
+      },
+      {
+        "command": "SelectAllCameras",
+        "name": "Select All Cameras",
+        "signature": "SelectAllCameras()",
+        "call": "SelectAllCameras()",
+        "description": "SelectAllCameras()"
+      },
+      {
+        "command": "SelectAllLights",
+        "name": "Select All Lights",
+        "signature": "SelectAllLights()",
+        "call": "SelectAllLights()",
+        "description": "SelectAllLights()"
+      },
+      {
+        "command": "SelectAllObjects",
+        "name": "Select All Objects",
+        "signature": "SelectAllObjects()",
+        "call": "SelectAllObjects()",
+        "description": "SelectAllObjects()"
+      },
+      {
+        "command": "SelectByName",
+        "name": "Select By Name",
+        "signature": "SelectByName(, *args)",
+        "call": "SelectByName(name)",
+        "description": "SelectByName(name)"
+      },
+      {
+        "command": "SelectByPartialName",
+        "name": "Select By Partial Name",
+        "signature": "SelectByPartialName(, *args)",
+        "call": "SelectByPartialName(name)",
+        "description": "SelectByPartialName(name)"
+      },
+      {
+        "command": "SelectChild",
+        "name": "Select Child",
+        "signature": "SelectChild()",
+        "call": "SelectChild()",
+        "description": "SelectChild()"
+      },
+      {
+        "command": "SelectEditObject",
+        "name": "Select Edit Object",
+        "signature": "SelectEditObject(, *args)",
+        "call": "SelectEditObject(itemid)",
+        "description": "SelectEditObject(itemid)"
+      },
+      {
+        "command": "SelectItem",
+        "name": "Select Item",
+        "signature": "SelectItem(, *args)",
+        "call": "SelectItem(itemid)",
+        "description": "SelectItem(itemid)"
+      },
+      {
+        "command": "SelectLightBufferGroupMembers",
+        "name": "Select Light Buffer Group Members",
+        "signature": "SelectLightBufferGroupMembers(, *args)",
+        "call": "SelectLightBufferGroupMembers(groupname)",
+        "description": "SelectLightBufferGroupMembers(groupname)"
+      },
+      {
+        "command": "SelectParent",
+        "name": "Select Parent",
+        "signature": "SelectParent()",
+        "call": "SelectParent()",
+        "description": "SelectParent()"
+      },
+      {
+        "command": "SplineItem",
+        "name": "Spline Item",
+        "signature": "SplineItem(, *args)",
+        "call": "SplineItem(itemid)",
+        "description": "SplineItem(itemid)"
+      },
+      {
+        "command": "TargetItem",
+        "name": "Target Item",
+        "signature": "TargetItem(, *args)",
+        "call": "TargetItem(itemid)",
+        "description": "TargetItem(itemid)"
+      },
+      {
+        "command": "ViewportMonitorEnabled",
+        "name": "Viewport Monitor Enabled",
+        "signature": "ViewportMonitorEnabled()",
+        "call": "ViewportMonitorEnabled()",
+        "description": "ViewportMonitorEnabled()"
+      }
+    ],
+    "Transform": [
+      {
+        "command": "BTransform",
+        "name": "B Transform",
+        "signature": "BTransform(, *args)",
+        "call": "BTransform(multiplier, offset)",
+        "description": "BTransform(multiplier, offset)"
+      },
+      {
+        "command": "BackView",
+        "name": "Back View",
+        "signature": "BackView()",
+        "call": "BackView()",
+        "description": "BackView()"
+      },
+      {
+        "command": "BoneRestPosition",
+        "name": "Bone Rest Position",
+        "signature": "BoneRestPosition(, *args)",
+        "call": "BoneRestPosition(x, y, z)",
+        "description": "BoneRestPosition(x, y, z)"
+      },
+      {
+        "command": "BottomView",
+        "name": "Bottom View",
+        "signature": "BottomView()",
+        "call": "BottomView()",
+        "description": "BottomView()"
+      },
+      {
+        "command": "CameraView",
+        "name": "Camera View",
+        "signature": "CameraView()",
+        "call": "CameraView()",
+        "description": "CameraView()"
+      },
+      {
+        "command": "CameraViewBackground",
+        "name": "Camera View Background",
+        "signature": "CameraViewBackground(, *args)",
+        "call": "CameraViewBackground(type)",
+        "description": "CameraViewBackground(type)"
+      },
+      {
+        "command": "CameraZoomTool",
+        "name": "Camera Zoom Tool",
+        "signature": "CameraZoomTool()",
+        "call": "CameraZoomTool()",
+        "description": "CameraZoomTool()"
+      },
+      {
+        "command": "ColorSpaceViewer",
+        "name": "Color Space Viewer",
+        "signature": "ColorSpaceViewer()",
+        "call": "ColorSpaceViewer()",
+        "description": "ColorSpaceViewer()"
+      },
+      {
+        "command": "ComponentPanel",
+        "name": "Component Panel",
+        "signature": "ComponentPanel()",
+        "call": "ComponentPanel()",
+        "description": "ComponentPanel()"
+      },
+      {
+        "command": "ControlBoothPanel",
+        "name": "Control Booth Panel",
+        "signature": "ControlBoothPanel()",
+        "call": "ControlBoothPanel()",
+        "description": "ControlBoothPanel()"
+      },
+      {
+        "command": "DeviceManagerPanel",
+        "name": "Device Manager Panel",
+        "signature": "DeviceManagerPanel()",
+        "call": "DeviceManagerPanel()",
+        "description": "DeviceManagerPanel()"
+      },
+      {
+        "command": "FitAllViews",
+        "name": "Fit All Views",
+        "signature": "FitAllViews()",
+        "call": "FitAllViews()",
+        "description": "FitAllViews()"
+      },
+      {
+        "command": "FlareLensElementPosition",
+        "name": "Flare Lens Element Position",
+        "signature": "FlareLensElementPosition(, *args)",
+        "call": "FlareLensElementPosition(element, position)",
+        "description": "FlareLensElementPosition(element, position)"
+      },
+      {
+        "command": "FreePreview",
+        "name": "Free Preview",
+        "signature": "FreePreview()",
+        "call": "FreePreview()",
+        "description": "FreePreview()"
+      },
+      {
+        "command": "FrontView",
+        "name": "Front View",
+        "signature": "FrontView()",
+        "call": "FrontView()",
+        "description": "FrontView()"
+      },
+      {
+        "command": "HTransform",
+        "name": "H Transform",
+        "signature": "HTransform(, *args)",
+        "call": "HTransform(multiplier, offset)",
+        "description": "HTransform(multiplier, offset)"
+      },
+      {
+        "command": "InteractiveMotionBlurDOFPreview",
+        "name": "Interactive Motion Blur D O F Preview",
+        "signature": "InteractiveMotionBlurDOFPreview()",
+        "call": "InteractiveMotionBlurDOFPreview()",
+        "description": "InteractiveMotionBlurDOFPreview()"
+      },
+      {
+        "command": "Layout_ColViewports",
+        "name": "Layout_ Col Viewports",
+        "signature": "Layout_ColViewports()",
+        "call": "Layout_ColViewports()",
+        "description": "Layout_ColViewports()"
+      },
+      {
+        "command": "Layout_PositionViewport",
+        "name": "Layout_ Position Viewport",
+        "signature": "Layout_PositionViewport(, *args)",
+        "call": "Layout_PositionViewport(index, x, y)",
+        "description": "Layout_PositionViewport(index, x, y)"
+      },
+      {
+        "command": "Layout_RowViewports",
+        "name": "Layout_ Row Viewports",
+        "signature": "Layout_RowViewports()",
+        "call": "Layout_RowViewports()",
+        "description": "Layout_RowViewports()"
+      },
+      {
+        "command": "Layout_TileViewports",
+        "name": "Layout_ Tile Viewports",
+        "signature": "Layout_TileViewports()",
+        "call": "Layout_TileViewports()",
+        "description": "Layout_TileViewports()"
+      },
+      {
+        "command": "LeftView",
+        "name": "Left View",
+        "signature": "LeftView()",
+        "call": "LeftView()",
+        "description": "LeftView()"
+      },
+      {
+        "command": "LightView",
+        "name": "Light View",
+        "signature": "LightView()",
+        "call": "LightView()",
+        "description": "LightView()"
+      },
+      {
+        "command": "MatchViewport",
+        "name": "Match Viewport",
+        "signature": "MatchViewport()",
+        "call": "MatchViewport()",
+        "description": "MatchViewport()"
+      },
+      {
+        "command": "MotionBlurDOFPreview",
+        "name": "Motion Blur D O F Preview",
+        "signature": "MotionBlurDOFPreview()",
+        "call": "MotionBlurDOFPreview()",
+        "description": "MotionBlurDOFPreview()"
+      },
+      {
+        "command": "MovePathTool",
+        "name": "Move Path Tool",
+        "signature": "MovePathTool()",
+        "call": "MovePathTool()",
+        "description": "MovePathTool()"
+      },
+      {
+        "command": "MovePivotTool",
+        "name": "Move Pivot Tool",
+        "signature": "MovePivotTool()",
+        "call": "MovePivotTool()",
+        "description": "MovePivotTool()"
+      },
+      {
+        "command": "MoveTCBTool",
+        "name": "Move T C B Tool",
+        "signature": "MoveTCBTool()",
+        "call": "MoveTCBTool()",
+        "description": "MoveTCBTool()"
+      },
+      {
+        "command": "MoveTool",
+        "name": "Move Tool",
+        "signature": "MoveTool()",
+        "call": "MoveTool()",
+        "description": "MoveTool()"
+      },
+      {
+        "command": "NextViewLayout",
+        "name": "Next View Layout",
+        "signature": "NextViewLayout()",
+        "call": "NextViewLayout()",
+        "description": "NextViewLayout()"
+      },
+      {
+        "command": "OBJPivotInCenter",
+        "name": "O B J Pivot In Center",
+        "signature": "OBJPivotInCenter()",
+        "call": "OBJPivotInCenter()",
+        "description": "OBJPivotInCenter()"
+      },
+      {
+        "command": "PTransform",
+        "name": "P Transform",
+        "signature": "PTransform(, *args)",
+        "call": "PTransform(multiplier, offset)",
+        "description": "PTransform(multiplier, offset)"
+      },
+      {
+        "command": "PerspectiveView",
+        "name": "Perspective View",
+        "signature": "PerspectiveView()",
+        "call": "PerspectiveView()",
+        "description": "PerspectiveView()"
+      },
+      {
+        "command": "PivotPosition",
+        "name": "Pivot Position",
+        "signature": "PivotPosition(, *args)",
+        "call": "PivotPosition(x, y, z)",
+        "description": "PivotPosition(x, y, z)"
+      },
+      {
+        "command": "PivotRotation",
+        "name": "Pivot Rotation",
+        "signature": "PivotRotation(, *args)",
+        "call": "PivotRotation(h, p, b)",
+        "description": "PivotRotation(h, p, b)"
+      },
+      {
+        "command": "PlayPreview",
+        "name": "Play Preview",
+        "signature": "PlayPreview()",
+        "call": "PlayPreview()",
+        "description": "PlayPreview()"
+      },
+      {
+        "command": "PolygonEdgeZScale",
+        "name": "Polygon Edge Z Scale",
+        "signature": "PolygonEdgeZScale(, *args)",
+        "call": "PolygonEdgeZScale(scale)",
+        "description": "PolygonEdgeZScale(scale)"
+      },
+      {
+        "command": "Position",
+        "name": "Position",
+        "signature": "Position(, *args)",
+        "call": "Position(x, y, z)",
+        "description": "Position(x, y, z)"
+      },
+      {
+        "command": "PreviewFirstFrame",
+        "name": "Preview First Frame",
+        "signature": "PreviewFirstFrame(, *args)",
+        "call": "PreviewFirstFrame(frame)",
+        "description": "PreviewFirstFrame(frame)"
+      },
+      {
+        "command": "PreviewFrameRateScale",
+        "name": "Preview Frame Rate Scale",
+        "signature": "PreviewFrameRateScale(, *args)",
+        "call": "PreviewFrameRateScale(scale)",
+        "description": "PreviewFrameRateScale(scale)"
+      },
+      {
+        "command": "PreviewFrameStep",
+        "name": "Preview Frame Step",
+        "signature": "PreviewFrameStep(, *args)",
+        "call": "PreviewFrameStep(frames)",
+        "description": "PreviewFrameStep(frames)"
+      },
+      {
+        "command": "PreviewLastFrame",
+        "name": "Preview Last Frame",
+        "signature": "PreviewLastFrame(, *args)",
+        "call": "PreviewLastFrame(frame)",
+        "description": "PreviewLastFrame(frame)"
+      },
+      {
+        "command": "PreviewOptions",
+        "name": "Preview Options",
+        "signature": "PreviewOptions()",
+        "call": "PreviewOptions()",
+        "description": "PreviewOptions()"
+      },
+      {
+        "command": "PreviewScaleLevel",
+        "name": "Preview Scale Level",
+        "signature": "PreviewScaleLevel(, *args)",
+        "call": "PreviewScaleLevel(level)",
+        "description": "PreviewScaleLevel(level)"
+      },
+      {
+        "command": "PreviewWindow",
+        "name": "Preview Window",
+        "signature": "PreviewWindow()",
+        "call": "PreviewWindow()",
+        "description": "PreviewWindow()"
+      },
+      {
+        "command": "PreviousViewLayout",
+        "name": "Previous View Layout",
+        "signature": "PreviousViewLayout()",
+        "call": "PreviousViewLayout()",
+        "description": "PreviousViewLayout()"
+      },
+      {
+        "command": "RecordMaxPosition",
+        "name": "Record Max Position",
+        "signature": "RecordMaxPosition()",
+        "call": "RecordMaxPosition()",
+        "description": "RecordMaxPosition()"
+      },
+      {
+        "command": "RecordMaxScale",
+        "name": "Record Max Scale",
+        "signature": "RecordMaxScale()",
+        "call": "RecordMaxScale()",
+        "description": "RecordMaxScale()"
+      },
+      {
+        "command": "RecordMinPosition",
+        "name": "Record Min Position",
+        "signature": "RecordMinPosition()",
+        "call": "RecordMinPosition()",
+        "description": "RecordMinPosition()"
+      },
+      {
+        "command": "RecordMinScale",
+        "name": "Record Min Scale",
+        "signature": "RecordMinScale()",
+        "call": "RecordMinScale()",
+        "description": "RecordMinScale()"
+      },
+      {
+        "command": "RecordPivotRotation",
+        "name": "Record Pivot Rotation",
+        "signature": "RecordPivotRotation()",
+        "call": "RecordPivotRotation()",
+        "description": "RecordPivotRotation()"
+      },
+      {
+        "command": "RecordRestPosition",
+        "name": "Record Rest Position",
+        "signature": "RecordRestPosition()",
+        "call": "RecordRestPosition()",
+        "description": "RecordRestPosition()"
+      },
+      {
+        "command": "RegionPosition",
+        "name": "Region Position",
+        "signature": "RegionPosition(, *args)",
+        "call": "RegionPosition(left, top, width, height)",
+        "description": "RegionPosition(left, top, width, height)"
+      },
+      {
+        "command": "RightView",
+        "name": "Right View",
+        "signature": "RightView()",
+        "call": "RightView()",
+        "description": "RightView()"
+      },
+      {
+        "command": "RotatePivotTool",
+        "name": "Rotate Pivot Tool",
+        "signature": "RotatePivotTool()",
+        "call": "RotatePivotTool()",
+        "description": "RotatePivotTool()"
+      },
+      {
+        "command": "RotateTool",
+        "name": "Rotate Tool",
+        "signature": "RotateTool()",
+        "call": "RotateTool()",
+        "description": "RotateTool()"
+      },
+      {
+        "command": "SXTransform",
+        "name": "S X Transform",
+        "signature": "SXTransform(, *args)",
+        "call": "SXTransform(multiplier, offset)",
+        "description": "SXTransform(multiplier, offset)"
+      },
+      {
+        "command": "SYTransform",
+        "name": "S Y Transform",
+        "signature": "SYTransform(, *args)",
+        "call": "SYTransform(multiplier, offset)",
+        "description": "SYTransform(multiplier, offset)"
+      },
+      {
+        "command": "SZTransform",
+        "name": "S Z Transform",
+        "signature": "SZTransform(, *args)",
+        "call": "SZTransform(multiplier, offset)",
+        "description": "SZTransform(multiplier, offset)"
+      },
+      {
+        "command": "Scale",
+        "name": "Scale",
+        "signature": "Scale(, *args)",
+        "call": "Scale(x, y, z)",
+        "description": "Scale(x, y, z)"
+      },
+      {
+        "command": "SchematicPosition",
+        "name": "Schematic Position",
+        "signature": "SchematicPosition(, *args)",
+        "call": "SchematicPosition(x, y)",
+        "description": "SchematicPosition(x, y)"
+      },
+      {
+        "command": "SchematicView",
+        "name": "Schematic View",
+        "signature": "SchematicView()",
+        "call": "SchematicView()",
+        "description": "SchematicView()"
+      },
+      {
+        "command": "SendImageToIView",
+        "name": "Send Image To I View",
+        "signature": "SendImageToIView(, *args)",
+        "call": "SendImageToIView(filename, name, colorspace)",
+        "description": "SendImageToIView(filename, name, colorspace)"
+      },
+      {
+        "command": "ShadowMapAngle",
+        "name": "Shadow Map Angle",
+        "signature": "ShadowMapAngle(, *args)",
+        "call": "ShadowMapAngle(angle)",
+        "description": "ShadowMapAngle(angle)"
+      },
+      {
+        "command": "SingleView",
+        "name": "Single View",
+        "signature": "SingleView()",
+        "call": "SingleView()",
+        "description": "SingleView()"
+      },
+      {
+        "command": "StudioPanel",
+        "name": "Studio Panel",
+        "signature": "StudioPanel()",
+        "call": "StudioPanel()",
+        "description": "StudioPanel()"
+      },
+      {
+        "command": "TestViewportObject",
+        "name": "Test Viewport Object",
+        "signature": "TestViewportObject()",
+        "call": "TestViewportObject()",
+        "description": "TestViewportObject()"
+      },
+      {
+        "command": "ToggleBackFrontView",
+        "name": "Toggle Back Front View",
+        "signature": "ToggleBackFrontView()",
+        "call": "ToggleBackFrontView()",
+        "description": "ToggleBackFrontView()"
+      },
+      {
+        "command": "TogglePerspectiveCameraView",
+        "name": "Toggle Perspective Camera View",
+        "signature": "TogglePerspectiveCameraView()",
+        "call": "TogglePerspectiveCameraView()",
+        "description": "TogglePerspectiveCameraView()"
+      },
+      {
+        "command": "ToggleRightLeftView",
+        "name": "Toggle Right Left View",
+        "signature": "ToggleRightLeftView()",
+        "call": "ToggleRightLeftView()",
+        "description": "ToggleRightLeftView()"
+      },
+      {
+        "command": "ToggleTopBottomView",
+        "name": "Toggle Top Bottom View",
+        "signature": "ToggleTopBottomView()",
+        "call": "ToggleTopBottomView()",
+        "description": "ToggleTopBottomView()"
+      },
+      {
+        "command": "TopView",
+        "name": "Top View",
+        "signature": "TopView()",
+        "call": "TopView()",
+        "description": "TopView()"
+      },
+      {
+        "command": "UndockPreview",
+        "name": "Undock Preview",
+        "signature": "UndockPreview(, *args)",
+        "call": "UndockPreview(on_off)",
+        "description": "UndockPreview(on_off)"
+      },
+      {
+        "command": "UndockPreviewCameraResolution",
+        "name": "Undock Preview Camera Resolution",
+        "signature": "UndockPreviewCameraResolution(, *args)",
+        "call": "UndockPreviewCameraResolution(on_off)",
+        "description": "UndockPreviewCameraResolution(on_off)"
+      },
+      {
+        "command": "UndockPreviewHeight",
+        "name": "Undock Preview Height",
+        "signature": "UndockPreviewHeight(, *args)",
+        "call": "UndockPreviewHeight(height)",
+        "description": "UndockPreviewHeight(height)"
+      },
+      {
+        "command": "UndockPreviewWidth",
+        "name": "Undock Preview Width",
+        "signature": "UndockPreviewWidth(, *args)",
+        "call": "UndockPreviewWidth(width)",
+        "description": "UndockPreviewWidth(width)"
+      },
+      {
+        "command": "UseMorphedPositions",
+        "name": "Use Morphed Positions",
+        "signature": "UseMorphedPositions()",
+        "call": "UseMorphedPositions()",
+        "description": "UseMorphedPositions()"
+      },
+      {
+        "command": "ViewHeadlight",
+        "name": "View Headlight",
+        "signature": "ViewHeadlight()",
+        "call": "ViewHeadlight()",
+        "description": "ViewHeadlight()"
+      },
+      {
+        "command": "ViewLayout",
+        "name": "View Layout",
+        "signature": "ViewLayout(, *args)",
+        "call": "ViewLayout(layout)",
+        "description": "ViewLayout(layout)"
+      },
+      {
+        "command": "ViewPortToggleShader",
+        "name": "View Port Toggle Shader",
+        "signature": "ViewPortToggleShader(, *args)",
+        "call": "ViewPortToggleShader(view_number, view_level)",
+        "description": "ViewPortToggleShader(view_number, view_level)"
+      },
+      {
+        "command": "ViewPortToggleVPR",
+        "name": "View Port Toggle V P R",
+        "signature": "ViewPortToggleVPR(, *args)",
+        "call": "ViewPortToggleVPR(view_number, view_level)",
+        "description": "ViewPortToggleVPR(view_number, view_level)"
+      },
+      {
+        "command": "ViewRecall",
+        "name": "View Recall",
+        "signature": "ViewRecall(, *args)",
+        "call": "ViewRecall(view)",
+        "description": "ViewRecall(view)"
+      },
+      {
+        "command": "ViewStore",
+        "name": "View Store",
+        "signature": "ViewStore(, *args)",
+        "call": "ViewStore(view)",
+        "description": "ViewStore(view)"
+      },
+      {
+        "command": "ViewportObjectOption",
+        "name": "Viewport Object Option",
+        "signature": "ViewportObjectOption()",
+        "call": "ViewportObjectOption()",
+        "description": "ViewportObjectOption()"
+      },
+      {
+        "command": "XTransform",
+        "name": "X Transform",
+        "signature": "XTransform(, *args)",
+        "call": "XTransform(multiplier, offset)",
+        "description": "XTransform(multiplier, offset)"
+      },
+      {
+        "command": "XYView",
+        "name": "X Y View",
+        "signature": "XYView()",
+        "call": "XYView()",
+        "description": "XYView()"
+      },
+      {
+        "command": "XZView",
+        "name": "X Z View",
+        "signature": "XZView()",
+        "call": "XZView()",
+        "description": "XZView()"
+      },
+      {
+        "command": "YTransform",
+        "name": "Y Transform",
+        "signature": "YTransform(, *args)",
+        "call": "YTransform(multiplier, offset)",
+        "description": "YTransform(multiplier, offset)"
+      },
+      {
+        "command": "ZTransform",
+        "name": "Z Transform",
+        "signature": "ZTransform(, *args)",
+        "call": "ZTransform(multiplier, offset)",
+        "description": "ZTransform(multiplier, offset)"
+      },
+      {
+        "command": "ZYView",
+        "name": "Z Y View",
+        "signature": "ZYView()",
+        "call": "ZYView()",
+        "description": "ZYView()"
+      },
+      {
+        "command": "ZoomFactor",
+        "name": "Zoom Factor",
+        "signature": "ZoomFactor(, *args)",
+        "call": "ZoomFactor(factor)",
+        "description": "ZoomFactor(factor)"
+      },
+      {
+        "command": "ZoomIn",
+        "name": "Zoom In",
+        "signature": "ZoomIn()",
+        "call": "ZoomIn()",
+        "description": "ZoomIn()"
+      },
+      {
+        "command": "ZoomInX2",
+        "name": "Zoom In X2",
+        "signature": "ZoomInX2()",
+        "call": "ZoomInX2()",
+        "description": "ZoomInX2()"
+      },
+      {
+        "command": "ZoomOut",
+        "name": "Zoom Out",
+        "signature": "ZoomOut()",
+        "call": "ZoomOut()",
+        "description": "ZoomOut()"
+      },
+      {
+        "command": "ZoomOutX2",
+        "name": "Zoom Out X2",
+        "signature": "ZoomOutX2()",
+        "call": "ZoomOutX2()",
+        "description": "ZoomOutX2()"
+      }
+    ],
+    "Materials/Textures": [
+      {
+        "command": "Backdrop",
+        "name": "Backdrop",
+        "signature": "Backdrop()",
+        "call": "Backdrop()",
+        "description": "Backdrop()"
+      },
+      {
+        "command": "BackdropColor",
+        "name": "Backdrop Color",
+        "signature": "BackdropColor(, *args)",
+        "call": "BackdropColor(red, green, blue)",
+        "description": "BackdropColor(red, green, blue)"
+      },
+      {
+        "command": "BackgroundColor",
+        "name": "Background Color",
+        "signature": "BackgroundColor(, *args)",
+        "call": "BackgroundColor(red, green, blue)",
+        "description": "BackgroundColor(red, green, blue)"
+      },
+      {
+        "command": "BumpDisplacement",
+        "name": "Bump Displacement",
+        "signature": "BumpDisplacement()",
+        "call": "BumpDisplacement()",
+        "description": "BumpDisplacement()"
+      },
+      {
+        "command": "BumpDisplacementDistance",
+        "name": "Bump Displacement Distance",
+        "signature": "BumpDisplacementDistance(, *args)",
+        "call": "BumpDisplacementDistance(distance)",
+        "description": "BumpDisplacementDistance(distance)"
+      },
+      {
+        "command": "BumpDisplacementOrder",
+        "name": "Bump Displacement Order",
+        "signature": "BumpDisplacementOrder(, *args)",
+        "call": "BumpDisplacementOrder(order)",
+        "description": "BumpDisplacementOrder(order)"
+      },
+      {
+        "command": "ColorSpace8BitFiles",
+        "name": "Color Space8 Bit Files",
+        "signature": "ColorSpace8BitFiles()",
+        "call": "ColorSpace8BitFiles()",
+        "description": "ColorSpace8BitFiles()"
+      },
+      {
+        "command": "ColorSpace8BitToFloat",
+        "name": "Color Space8 Bit To Float",
+        "signature": "ColorSpace8BitToFloat(, *args)",
+        "call": "ColorSpace8BitToFloat(enable)",
+        "description": "ColorSpace8BitToFloat(enable)"
+      },
+      {
+        "command": "ColorSpaceAffectPicker",
+        "name": "Color Space Affect Picker",
+        "signature": "ColorSpaceAffectPicker(, *args)",
+        "call": "ColorSpaceAffectPicker(enable)",
+        "description": "ColorSpaceAffectPicker(enable)"
+      },
+      {
+        "command": "ColorSpaceAlpha",
+        "name": "Color Space Alpha",
+        "signature": "ColorSpaceAlpha()",
+        "call": "ColorSpaceAlpha()",
+        "description": "ColorSpaceAlpha()"
+      },
+      {
+        "command": "ColorSpaceAutoSense",
+        "name": "Color Space Auto Sense",
+        "signature": "ColorSpaceAutoSense(, *args)",
+        "call": "ColorSpaceAutoSense(enable)",
+        "description": "ColorSpaceAutoSense(enable)"
+      },
+      {
+        "command": "ColorSpaceFloatFiles",
+        "name": "Color Space Float Files",
+        "signature": "ColorSpaceFloatFiles()",
+        "call": "ColorSpaceFloatFiles()",
+        "description": "ColorSpaceFloatFiles()"
+      },
+      {
+        "command": "ColorSpaceOptions",
+        "name": "Color Space Options",
+        "signature": "ColorSpaceOptions()",
+        "call": "ColorSpaceOptions()",
+        "description": "ColorSpaceOptions()"
+      },
+      {
+        "command": "ColorSpaceOutput",
+        "name": "Color Space Output",
+        "signature": "ColorSpaceOutput()",
+        "call": "ColorSpaceOutput()",
+        "description": "ColorSpaceOutput()"
+      },
+      {
+        "command": "ColorSpaceOutputAlpha",
+        "name": "Color Space Output Alpha",
+        "signature": "ColorSpaceOutputAlpha()",
+        "call": "ColorSpaceOutputAlpha()",
+        "description": "ColorSpaceOutputAlpha()"
+      },
+      {
+        "command": "ColorSpaceOutputBuffer",
+        "name": "Color Space Output Buffer",
+        "signature": "ColorSpaceOutputBuffer()",
+        "call": "ColorSpaceOutputBuffer()",
+        "description": "ColorSpaceOutputBuffer()"
+      },
+      {
+        "command": "ColorSpaceOutputVPR",
+        "name": "Color Space Output V P R",
+        "signature": "ColorSpaceOutputVPR()",
+        "call": "ColorSpaceOutputVPR()",
+        "description": "ColorSpaceOutputVPR()"
+      },
+      {
+        "command": "ColorSpaceOutputVPRAlpha",
+        "name": "Color Space Output V P R Alpha",
+        "signature": "ColorSpaceOutputVPRAlpha()",
+        "call": "ColorSpaceOutputVPRAlpha()",
+        "description": "ColorSpaceOutputVPRAlpha()"
+      },
+      {
+        "command": "ColorSpacePaletteFiles",
+        "name": "Color Space Palette Files",
+        "signature": "ColorSpacePaletteFiles()",
+        "call": "ColorSpacePaletteFiles()",
+        "description": "ColorSpacePaletteFiles()"
+      },
+      {
+        "command": "FogColor",
+        "name": "Fog Color",
+        "signature": "FogColor(, *args)",
+        "call": "FogColor(red, green, blue)",
+        "description": "FogColor(red, green, blue)"
+      },
+      {
+        "command": "FogLevel",
+        "name": "Fog Level",
+        "signature": "FogLevel(, *args)",
+        "call": "FogLevel(percent)",
+        "description": "FogLevel(percent)"
+      },
+      {
+        "command": "FogMaxAmount",
+        "name": "Fog Max Amount",
+        "signature": "FogMaxAmount(, *args)",
+        "call": "FogMaxAmount(amount)",
+        "description": "FogMaxAmount(amount)"
+      },
+      {
+        "command": "FogMaxDistance",
+        "name": "Fog Max Distance",
+        "signature": "FogMaxDistance(, *args)",
+        "call": "FogMaxDistance(distance)",
+        "description": "FogMaxDistance(distance)"
+      },
+      {
+        "command": "FogMinAmount",
+        "name": "Fog Min Amount",
+        "signature": "FogMinAmount(, *args)",
+        "call": "FogMinAmount(amount)",
+        "description": "FogMinAmount(amount)"
+      },
+      {
+        "command": "FogMinDistance",
+        "name": "Fog Min Distance",
+        "signature": "FogMinDistance(, *args)",
+        "call": "FogMinDistance(distance)",
+        "description": "FogMinDistance(distance)"
+      },
+      {
+        "command": "FogType",
+        "name": "Fog Type",
+        "signature": "FogType(, *args)",
+        "call": "FogType(type)",
+        "description": "FogType(type)"
+      },
+      {
+        "command": "GradientBackdrop",
+        "name": "Gradient Backdrop",
+        "signature": "GradientBackdrop()",
+        "call": "GradientBackdrop()",
+        "description": "GradientBackdrop()"
+      },
+      {
+        "command": "GroundColor",
+        "name": "Ground Color",
+        "signature": "GroundColor(, *args)",
+        "call": "GroundColor(red, green, blue)",
+        "description": "GroundColor(red, green, blue)"
+      },
+      {
+        "command": "GroundSqueezeColor",
+        "name": "Ground Squeeze Color",
+        "signature": "GroundSqueezeColor(, *args)",
+        "call": "GroundSqueezeColor(red, green, blue)",
+        "description": "GroundSqueezeColor(red, green, blue)"
+      },
+      {
+        "command": "MatteColor",
+        "name": "Matte Color",
+        "signature": "MatteColor(, *args)",
+        "call": "MatteColor(red, green, blue)",
+        "description": "MatteColor(red, green, blue)"
+      },
+      {
+        "command": "NadirColor",
+        "name": "Nadir Color",
+        "signature": "NadirColor(, *args)",
+        "call": "NadirColor(red, green, blue)",
+        "description": "NadirColor(red, green, blue)"
+      },
+      {
+        "command": "RayTraceReflection",
+        "name": "Ray Trace Reflection",
+        "signature": "RayTraceReflection(, *args)",
+        "call": "RayTraceReflection(enable)",
+        "description": "RayTraceReflection(enable)"
+      },
+      {
+        "command": "RayTraceRefraction",
+        "name": "Ray Trace Refraction",
+        "signature": "RayTraceRefraction(, *args)",
+        "call": "RayTraceRefraction(enable)",
+        "description": "RayTraceRefraction(enable)"
+      },
+      {
+        "command": "ReflectionLimit",
+        "name": "Reflection Limit",
+        "signature": "ReflectionLimit(, *args)",
+        "call": "ReflectionLimit(reflection_limit)",
+        "description": "ReflectionLimit(reflection_limit)"
+      },
+      {
+        "command": "ReflectionRecursionLimit",
+        "name": "Reflection Recursion Limit",
+        "signature": "ReflectionRecursionLimit(, *args)",
+        "call": "ReflectionRecursionLimit(limit)",
+        "description": "ReflectionRecursionLimit(limit)"
+      },
+      {
+        "command": "ReflectionSamples",
+        "name": "Reflection Samples",
+        "signature": "ReflectionSamples(, *args)",
+        "call": "ReflectionSamples(samples)",
+        "description": "ReflectionSamples(samples)"
+      },
+      {
+        "command": "RefractionLimit",
+        "name": "Refraction Limit",
+        "signature": "RefractionLimit(, *args)",
+        "call": "RefractionLimit(refraction_limit)",
+        "description": "RefractionLimit(refraction_limit)"
+      },
+      {
+        "command": "RefractionRecursionLimit",
+        "name": "Refraction Recursion Limit",
+        "signature": "RefractionRecursionLimit(, *args)",
+        "call": "RefractionRecursionLimit(limit)",
+        "description": "RefractionRecursionLimit(limit)"
+      },
+      {
+        "command": "RefractionSamples",
+        "name": "Refraction Samples",
+        "signature": "RefractionSamples(, *args)",
+        "call": "RefractionSamples(samples)",
+        "description": "RefractionSamples(samples)"
+      },
+      {
+        "command": "ShadeEdges",
+        "name": "Shade Edges",
+        "signature": "ShadeEdges()",
+        "call": "ShadeEdges()",
+        "description": "ShadeEdges()"
+      },
+      {
+        "command": "SkyColor",
+        "name": "Sky Color",
+        "signature": "SkyColor(, *args)",
+        "call": "SkyColor(red, green, blue)",
+        "description": "SkyColor(red, green, blue)"
+      },
+      {
+        "command": "SkySqueezeColor",
+        "name": "Sky Squeeze Color",
+        "signature": "SkySqueezeColor(, *args)",
+        "call": "SkySqueezeColor(red, green, blue)",
+        "description": "SkySqueezeColor(red, green, blue)"
+      },
+      {
+        "command": "UnaffectedByFog",
+        "name": "Unaffected By Fog",
+        "signature": "UnaffectedByFog()",
+        "call": "UnaffectedByFog()",
+        "description": "UnaffectedByFog()"
+      },
+      {
+        "command": "UseBackgroundColor",
+        "name": "Use Background Color",
+        "signature": "UseBackgroundColor(, *args)",
+        "call": "UseBackgroundColor(enabled)",
+        "description": "UseBackgroundColor(enabled)"
+      },
+      {
+        "command": "ZenithColor",
+        "name": "Zenith Color",
+        "signature": "ZenithColor(, *args)",
+        "call": "ZenithColor(red, green, blue)",
+        "description": "ZenithColor(red, green, blue)"
+      }
+    ],
+    "Scene": [
+      {
+        "command": "BakeRadiosityScene",
+        "name": "Bake Radiosity Scene",
+        "signature": "BakeRadiosityScene()",
+        "call": "BakeRadiosityScene()",
+        "description": "BakeRadiosityScene()"
+      },
+      {
+        "command": "DefaultSceneLength",
+        "name": "Default Scene Length",
+        "signature": "DefaultSceneLength(, *args)",
+        "call": "DefaultSceneLength(threshold)",
+        "description": "DefaultSceneLength(threshold)"
+      },
+      {
+        "command": "EditObjects",
+        "name": "Edit Objects",
+        "signature": "EditObjects()",
+        "call": "EditObjects()",
+        "description": "EditObjects()"
+      },
+      {
+        "command": "ExcludeObject",
+        "name": "Exclude Object",
+        "signature": "ExcludeObject(, *args)",
+        "call": "ExcludeObject(itemid)",
+        "description": "ExcludeObject(itemid)"
+      },
+      {
+        "command": "GoalObjective",
+        "name": "Goal Objective",
+        "signature": "GoalObjective(, *args)",
+        "call": "GoalObjective(objective_type)",
+        "description": "GoalObjective(objective_type)"
+      },
+      {
+        "command": "IncludeObject",
+        "name": "Include Object",
+        "signature": "IncludeObject(, *args)",
+        "call": "IncludeObject(itemid)",
+        "description": "IncludeObject(itemid)"
+      },
+      {
+        "command": "MatteObject",
+        "name": "Matte Object",
+        "signature": "MatteObject()",
+        "call": "MatteObject()",
+        "description": "MatteObject()"
+      },
+      {
+        "command": "MultilayerFilename",
+        "name": "Multilayer Filename",
+        "signature": "MultilayerFilename(, *args)",
+        "call": "MultilayerFilename(filename)",
+        "description": "MultilayerFilename(filename)"
+      },
+      {
+        "command": "MultilayerPath",
+        "name": "Multilayer Path",
+        "signature": "MultilayerPath(, *args)",
+        "call": "MultilayerPath(path)",
+        "description": "MultilayerPath(path)"
+      },
+      {
+        "command": "MultilayerUseOutputPath",
+        "name": "Multilayer Use Output Path",
+        "signature": "MultilayerUseOutputPath(, *args)",
+        "call": "MultilayerUseOutputPath(on_off)",
+        "description": "MultilayerUseOutputPath(on_off)"
+      },
+      {
+        "command": "OBJOneLayer",
+        "name": "O B J One Layer",
+        "signature": "OBJOneLayer()",
+        "call": "OBJOneLayer()",
+        "description": "OBJOneLayer()"
+      },
+      {
+        "command": "ObjectDissolve",
+        "name": "Object Dissolve",
+        "signature": "ObjectDissolve(, *args)",
+        "call": "ObjectDissolve(dissolve)",
+        "description": "ObjectDissolve(dissolve)"
+      },
+      {
+        "command": "ProtectLegacyScenes",
+        "name": "Protect Legacy Scenes",
+        "signature": "ProtectLegacyScenes(, *args)",
+        "call": "ProtectLegacyScenes(on_off)",
+        "description": "ProtectLegacyScenes(on_off)"
+      },
+      {
+        "command": "RecentScenes",
+        "name": "Recent Scenes",
+        "signature": "RecentScenes()",
+        "call": "RecentScenes()",
+        "description": "RecentScenes()"
+      },
+      {
+        "command": "RenameLayer",
+        "name": "Rename Layer",
+        "signature": "RenameLayer(, *args)",
+        "call": "RenameLayer(layer, name)",
+        "description": "RenameLayer(layer, name)"
+      },
+      {
+        "command": "RenameLayerID",
+        "name": "Rename Layer I D",
+        "signature": "RenameLayerID(, *args)",
+        "call": "RenameLayerID(objectid, layer, name)",
+        "description": "RenameLayerID(objectid, layer, name)"
+      },
+      {
+        "command": "ReplaceObjectLayer",
+        "name": "Replace Object Layer",
+        "signature": "ReplaceObjectLayer(, *args)",
+        "call": "ReplaceObjectLayer(layer, filename)",
+        "description": "ReplaceObjectLayer(layer, filename)"
+      },
+      {
+        "command": "ReplaceWithObject",
+        "name": "Replace With Object",
+        "signature": "ReplaceWithObject(, *args)",
+        "call": "ReplaceWithObject(filename)",
+        "description": "ReplaceWithObject(filename)"
+      },
+      {
+        "command": "RevertScene",
+        "name": "Revert Scene",
+        "signature": "RevertScene()",
+        "call": "RevertScene()",
+        "description": "RevertScene()"
+      },
+      {
+        "command": "SceneEditor",
+        "name": "Scene Editor",
+        "signature": "SceneEditor()",
+        "call": "SceneEditor()",
+        "description": "SceneEditor()"
+      },
+      {
+        "command": "SceneEditorInstance",
+        "name": "Scene Editor Instance",
+        "signature": "SceneEditorInstance()",
+        "call": "SceneEditorInstance()",
+        "description": "SceneEditorInstance()"
+      }
+    ],
+    "Geometry": [
+      {
+        "command": "BoneActive",
+        "name": "Bone Active",
+        "signature": "BoneActive()",
+        "call": "BoneActive()",
+        "description": "BoneActive()"
+      },
+      {
+        "command": "BoneBulge",
+        "name": "Bone Bulge",
+        "signature": "BoneBulge()",
+        "call": "BoneBulge()",
+        "description": "BoneBulge()"
+      },
+      {
+        "command": "BoneBulgeAmount",
+        "name": "Bone Bulge Amount",
+        "signature": "BoneBulgeAmount(, *args)",
+        "call": "BoneBulgeAmount(amount)",
+        "description": "BoneBulgeAmount(amount)"
+      },
+      {
+        "command": "BoneBulgeParent",
+        "name": "Bone Bulge Parent",
+        "signature": "BoneBulgeParent()",
+        "call": "BoneBulgeParent()",
+        "description": "BoneBulgeParent()"
+      },
+      {
+        "command": "BoneBulgeParentAmount",
+        "name": "Bone Bulge Parent Amount",
+        "signature": "BoneBulgeParentAmount(, *args)",
+        "call": "BoneBulgeParentAmount(amount)",
+        "description": "BoneBulgeParentAmount(amount)"
+      },
+      {
+        "command": "BoneFalloffType",
+        "name": "Bone Falloff Type",
+        "signature": "BoneFalloffType(, *args)",
+        "call": "BoneFalloffType(type)",
+        "description": "BoneFalloffType(type)"
+      },
+      {
+        "command": "BoneJointComp",
+        "name": "Bone Joint Comp",
+        "signature": "BoneJointComp()",
+        "call": "BoneJointComp()",
+        "description": "BoneJointComp()"
+      },
+      {
+        "command": "BoneJointCompAmounts",
+        "name": "Bone Joint Comp Amounts",
+        "signature": "BoneJointCompAmounts(, *args)",
+        "call": "BoneJointCompAmounts(self, parent)",
+        "description": "BoneJointCompAmounts(self, parent)"
+      },
+      {
+        "command": "BoneJointCompParent",
+        "name": "Bone Joint Comp Parent",
+        "signature": "BoneJointCompParent()",
+        "call": "BoneJointCompParent()",
+        "description": "BoneJointCompParent()"
+      },
+      {
+        "command": "BoneLimitedRange",
+        "name": "Bone Limited Range",
+        "signature": "BoneLimitedRange()",
+        "call": "BoneLimitedRange()",
+        "description": "BoneLimitedRange()"
+      },
+      {
+        "command": "BoneMaxRange",
+        "name": "Bone Max Range",
+        "signature": "BoneMaxRange(, *args)",
+        "call": "BoneMaxRange(distance)",
+        "description": "BoneMaxRange(distance)"
+      },
+      {
+        "command": "BoneMayaStyleDraw",
+        "name": "Bone Maya Style Draw",
+        "signature": "BoneMayaStyleDraw()",
+        "call": "BoneMayaStyleDraw()",
+        "description": "BoneMayaStyleDraw()"
+      },
+      {
+        "command": "BoneMinRange",
+        "name": "Bone Min Range",
+        "signature": "BoneMinRange(, *args)",
+        "call": "BoneMinRange(distance)",
+        "description": "BoneMinRange(distance)"
+      },
+      {
+        "command": "BoneMode",
+        "name": "Bone Mode",
+        "signature": "BoneMode(, *args)",
+        "call": "BoneMode(mode)",
+        "description": "BoneMode(mode)"
+      },
+      {
+        "command": "BoneMuscleFlex",
+        "name": "Bone Muscle Flex",
+        "signature": "BoneMuscleFlex()",
+        "call": "BoneMuscleFlex()",
+        "description": "BoneMuscleFlex()"
+      },
+      {
+        "command": "BoneMuscleFlexAmounts",
+        "name": "Bone Muscle Flex Amounts",
+        "signature": "BoneMuscleFlexAmounts(, *args)",
+        "call": "BoneMuscleFlexAmounts(self, parent)",
+        "description": "BoneMuscleFlexAmounts(self, parent)"
+      },
+      {
+        "command": "BoneMuscleFlexParent",
+        "name": "Bone Muscle Flex Parent",
+        "signature": "BoneMuscleFlexParent()",
+        "call": "BoneMuscleFlexParent()",
+        "description": "BoneMuscleFlexParent()"
+      },
+      {
+        "command": "BoneNormalization",
+        "name": "Bone Normalization",
+        "signature": "BoneNormalization()",
+        "call": "BoneNormalization()",
+        "description": "BoneNormalization()"
+      },
+      {
+        "command": "BoneRestLength",
+        "name": "Bone Rest Length",
+        "signature": "BoneRestLength(, *args)",
+        "call": "BoneRestLength(length)",
+        "description": "BoneRestLength(length)"
+      },
+      {
+        "command": "BoneRestRotation",
+        "name": "Bone Rest Rotation",
+        "signature": "BoneRestRotation(, *args)",
+        "call": "BoneRestRotation(h, p, b)",
+        "description": "BoneRestRotation(h, p, b)"
+      },
+      {
+        "command": "BoneSource",
+        "name": "Bone Source",
+        "signature": "BoneSource(, *args)",
+        "call": "BoneSource(itemid)",
+        "description": "BoneSource(itemid)"
+      },
+      {
+        "command": "BoneStrength",
+        "name": "Bone Strength",
+        "signature": "BoneStrength(, *args)",
+        "call": "BoneStrength(strength)",
+        "description": "BoneStrength(strength)"
+      },
+      {
+        "command": "BoneStrengthMultiply",
+        "name": "Bone Strength Multiply",
+        "signature": "BoneStrengthMultiply()",
+        "call": "BoneStrengthMultiply()",
+        "description": "BoneStrengthMultiply()"
+      },
+      {
+        "command": "BoneTwist",
+        "name": "Bone Twist",
+        "signature": "BoneTwist()",
+        "call": "BoneTwist()",
+        "description": "BoneTwist()"
+      },
+      {
+        "command": "BoneTwistAmount",
+        "name": "Bone Twist Amount",
+        "signature": "BoneTwistAmount(, *args)",
+        "call": "BoneTwistAmount(amount)",
+        "description": "BoneTwistAmount(amount)"
+      },
+      {
+        "command": "BoneType",
+        "name": "Bone Type",
+        "signature": "BoneType(, *args)",
+        "call": "BoneType(type)",
+        "description": "BoneType(type)"
+      },
+      {
+        "command": "BoneXRay",
+        "name": "Bone X Ray",
+        "signature": "BoneXRay()",
+        "call": "BoneXRay()",
+        "description": "BoneXRay()"
+      },
+      {
+        "command": "ColorSpaceSurfaceColor",
+        "name": "Color Space Surface Color",
+        "signature": "ColorSpaceSurfaceColor()",
+        "call": "ColorSpaceSurfaceColor()",
+        "description": "ColorSpaceSurfaceColor()"
+      },
+      {
+        "command": "ConvergencePoint",
+        "name": "Convergence Point",
+        "signature": "ConvergencePoint(, *args)",
+        "call": "ConvergencePoint(convergence_point)",
+        "description": "ConvergencePoint(convergence_point)"
+      },
+      {
+        "command": "DrawBones",
+        "name": "Draw Bones",
+        "signature": "DrawBones()",
+        "call": "DrawBones()",
+        "description": "DrawBones()"
+      },
+      {
+        "command": "DrawChildBones",
+        "name": "Draw Child Bones",
+        "signature": "DrawChildBones()",
+        "call": "DrawChildBones()",
+        "description": "DrawChildBones()"
+      },
+      {
+        "command": "EdgeVerticalPoints",
+        "name": "Edge Vertical Points",
+        "signature": "EdgeVerticalPoints(, *args)",
+        "call": "EdgeVerticalPoints(verticalpoints)",
+        "description": "EdgeVerticalPoints(verticalpoints)"
+      },
+      {
+        "command": "EditBones",
+        "name": "Edit Bones",
+        "signature": "EditBones()",
+        "call": "EditBones()",
+        "description": "EditBones()"
+      },
+      {
+        "command": "FasterBones",
+        "name": "Faster Bones",
+        "signature": "FasterBones()",
+        "call": "FasterBones()",
+        "description": "FasterBones()"
+      },
+      {
+        "command": "FlareAnamorphicDistortion",
+        "name": "Flare Anamorphic Distortion",
+        "signature": "FlareAnamorphicDistortion()",
+        "call": "FlareAnamorphicDistortion()",
+        "description": "FlareAnamorphicDistortion()"
+      },
+      {
+        "command": "FlareAnamorphicDistortionAmount",
+        "name": "Flare Anamorphic Distortion Amount",
+        "signature": "FlareAnamorphicDistortionAmount(, *args)",
+        "call": "FlareAnamorphicDistortionAmount(amount)",
+        "description": "FlareAnamorphicDistortionAmount(amount)"
+      },
+      {
+        "command": "FlareStreaksAnamorphic",
+        "name": "Flare Streaks Anamorphic",
+        "signature": "FlareStreaksAnamorphic()",
+        "call": "FlareStreaksAnamorphic()",
+        "description": "FlareStreaksAnamorphic()"
+      },
+      {
+        "command": "LastPluginInterface",
+        "name": "Last Plugin Interface",
+        "signature": "LastPluginInterface()",
+        "call": "LastPluginInterface()",
+        "description": "LastPluginInterface()"
+      },
+      {
+        "command": "MTMeshEval",
+        "name": "M T Mesh Eval",
+        "signature": "MTMeshEval()",
+        "call": "MTMeshEval()",
+        "description": "MTMeshEval()"
+      },
+      {
+        "command": "MorphAmount",
+        "name": "Morph Amount",
+        "signature": "MorphAmount(, *args)",
+        "call": "MorphAmount(morph)",
+        "description": "MorphAmount(morph)"
+      },
+      {
+        "command": "MorphAmountTool",
+        "name": "Morph Amount Tool",
+        "signature": "MorphAmountTool()",
+        "call": "MorphAmountTool()",
+        "description": "MorphAmountTool()"
+      },
+      {
+        "command": "MorphMTSE",
+        "name": "Morph M T S E",
+        "signature": "MorphMTSE()",
+        "call": "MorphMTSE()",
+        "description": "MorphMTSE()"
+      },
+      {
+        "command": "MorphSurfaces",
+        "name": "Morph Surfaces",
+        "signature": "MorphSurfaces()",
+        "call": "MorphSurfaces()",
+        "description": "MorphSurfaces()"
+      },
+      {
+        "command": "MorphTarget",
+        "name": "Morph Target",
+        "signature": "MorphTarget(, *args)",
+        "call": "MorphTarget(itemid)",
+        "description": "MorphTarget(itemid)"
+      },
+      {
+        "command": "NumLimitedBones",
+        "name": "Num Limited Bones",
+        "signature": "NumLimitedBones(, *args)",
+        "call": "NumLimitedBones(number)",
+        "description": "NumLimitedBones(number)"
+      },
+      {
+        "command": "ObjectMeshGroup",
+        "name": "Object Mesh Group",
+        "signature": "ObjectMeshGroup(, *args)",
+        "call": "ObjectMeshGroup(groupid)",
+        "description": "ObjectMeshGroup(groupid)"
+      },
+      {
+        "command": "PointLight",
+        "name": "Point Light",
+        "signature": "PointLight()",
+        "call": "PointLight()",
+        "description": "PointLight()"
+      },
+      {
+        "command": "PolygonEdgeColor",
+        "name": "Polygon Edge Color",
+        "signature": "PolygonEdgeColor(, *args)",
+        "call": "PolygonEdgeColor(red, green, blue)",
+        "description": "PolygonEdgeColor(red, green, blue)"
+      },
+      {
+        "command": "PolygonEdgeFlags",
+        "name": "Polygon Edge Flags",
+        "signature": "PolygonEdgeFlags(, *args)",
+        "call": "PolygonEdgeFlags(flags)",
+        "description": "PolygonEdgeFlags(flags)"
+      },
+      {
+        "command": "PolygonEdgeThickness",
+        "name": "Polygon Edge Thickness",
+        "signature": "PolygonEdgeThickness(, *args)",
+        "call": "PolygonEdgeThickness(silhouette, unshared, crease, surface, other, patch, intersection)",
+        "description": "PolygonEdgeThickness(silhouette, unshared, crease, surface, other, patch, intersection)"
+      },
+      {
+        "command": "PolygonSize",
+        "name": "Polygon Size",
+        "signature": "PolygonSize(, *args)",
+        "call": "PolygonSize(size)",
+        "description": "PolygonSize(size)"
+      },
+      {
+        "command": "SkelegonsToBones",
+        "name": "Skelegons To Bones",
+        "signature": "SkelegonsToBones()",
+        "call": "SkelegonsToBones()",
+        "description": "SkelegonsToBones()"
+      },
+      {
+        "command": "SubPatchLevel",
+        "name": "Sub Patch Level",
+        "signature": "SubPatchLevel(, *args)",
+        "call": "SubPatchLevel(display, render)",
+        "description": "SubPatchLevel(display, render)"
+      },
+      {
+        "command": "SubPatchUV",
+        "name": "Sub Patch U V",
+        "signature": "SubPatchUV(, *args)",
+        "call": "SubPatchUV(on)",
+        "description": "SubPatchUV(on)"
+      },
+      {
+        "command": "SubdivisionOrder",
+        "name": "Subdivision Order",
+        "signature": "SubdivisionOrder(, *args)",
+        "call": "SubdivisionOrder(order)",
+        "description": "SubdivisionOrder(order)"
+      },
+      {
+        "command": "SubsurfaceScatteringSamples",
+        "name": "Subsurface Scattering Samples",
+        "signature": "SubsurfaceScatteringSamples(, *args)",
+        "call": "SubsurfaceScatteringSamples(samples)",
+        "description": "SubsurfaceScatteringSamples(samples)"
+      },
+      {
+        "command": "SurfaceEditor",
+        "name": "Surface Editor",
+        "signature": "SurfaceEditor()",
+        "call": "SurfaceEditor()",
+        "description": "SurfaceEditor()"
+      },
+      {
+        "command": "UseConvergencePoint",
+        "name": "Use Convergence Point",
+        "signature": "UseConvergencePoint()",
+        "call": "UseConvergencePoint()",
+        "description": "UseConvergencePoint()"
+      }
+    ]
+  }
+}

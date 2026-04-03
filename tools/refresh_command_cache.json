@@ -1,0 +1,14 @@
+{
+  "name": "refresh_command_cache",
+  "description": "Re-introspect the lwcommandport module to refresh the command cache. Use this when LightWave has been updated with new commands.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "module_path": {
+        "type": "string",
+        "description": "Optional path to the lwcommandport module location (e.g., '/Applications/LightWaveDigital/LightWave3D_2025.0.3/support/python' on macOS)"
+      }
+    },
+    "required": []
+  }
+}

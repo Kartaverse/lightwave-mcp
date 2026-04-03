@@ -1,0 +1,1 @@
+"""LightWave MCP Server tests."""

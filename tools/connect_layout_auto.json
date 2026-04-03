@@ -1,0 +1,19 @@
+{
+  "name": "connect_layout_auto",
+  "description": "Automatically discover running LightWave Layout instances on the local network and connect to the first one found. Use this as a convenient shortcut instead of manually calling discover_lightwave followed by connect_layout. Returns the connection ID and details on success.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "address": {
+        "type": "string",
+        "description": "Optional. The IP address or hostname to connect to. If not provided, uses the address from the first discovered Layout instance, or defaults to 'localhost' (127.0.0.1).",
+        "default": null
+      },
+      "port": {
+        "type": "integer",
+        "description": "Optional. The command port number for the LightWave Layout instance. If not provided, uses the port from the first discovered Layout instance.",
+        "default": null
+      }
+    }
+  }
+}

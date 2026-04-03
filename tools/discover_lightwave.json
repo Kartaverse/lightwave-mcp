@@ -1,0 +1,9 @@
+{
+  "name": "discover_lightwave",
+  "description": "Discover running LightWave instances on the local network using UDP broadcast. Returns a list of all discovered Layout and Modeler instances with their addresses, ports, and version information.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

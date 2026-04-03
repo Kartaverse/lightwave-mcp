@@ -1,0 +1,9 @@
+{
+  "name": "list_connections",
+  "description": "List all active LightWave connections. Returns a list of currently open connections with their IDs, types, addresses, and ports.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  }
+}

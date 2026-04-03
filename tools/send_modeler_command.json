@@ -1,0 +1,25 @@
+{
+  "name": "send_modeler_command",
+  "description": "Send a command to a connected LightWave Modeler instance. Use list_modeler_commands to see all available commands.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "connection_id": {
+        "type": "string",
+        "description": "The connection ID returned by connect_modeler"
+      },
+      "command": {
+        "type": "string",
+        "description": "The Modeler command to send (e.g., 'delete', 'mergepoints', 'triple')"
+      },
+      "args": {
+        "type": "array",
+        "description": "Optional list of arguments to pass to the command",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "required": ["connection_id", "command"]
+  }
+}
