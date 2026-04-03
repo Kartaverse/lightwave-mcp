@@ -63,7 +63,11 @@ cd lightwave-mcp
 }
 ```
 
-When this content is added to your `.cursor/mcp.json` file, it should look like this in the Cursor GUI:
+You will need to update the absolute filepaths to the location where `lightwave-mcp` files were downloaded to. If you are on Windows you will likely have to use double slashes "`\\`" for each of the folder path separators in the mcp.json file to correctly handle string escaping in a JSON document.
+
+If your Python v3.x executable is not named "`python3`" when you run python from a CLI session, you can change the `mcp.json` based lightwave-mcp "command" entry to reference the executable named "`python`".
+
+When this updated content is added to your `.cursor/mcp.json` file, it should look like this in the Cursor GUI:
 
 ![Cursor MCP JSON](docs/images/cursor-mcp-json.png)
 
