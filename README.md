@@ -1,6 +1,6 @@
 # LightWave MCP Server
 
-A Model Context Protocol (MCP) server that provides access to LightWave 3D's Command Port functionality. This enables AI assistants like Cursor to discover, connect to, and control LightWave Modeler and Layout instances programmatically.
+A [Model Context Protocol (MCP)](https://modelcontextprotocol.io/docs/getting-started/intro) server that provides access to LightWave3D's Command Port functionality. This enables AI assistants like Cursor to discover, connect to, and control LightWave Modeler and Layout programmatically.
 
 ## What is an MCP?
 
