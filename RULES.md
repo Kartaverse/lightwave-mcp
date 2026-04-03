@@ -10,4 +10,4 @@ If you want to scan for active instances of LightWave on the current host system
 
 If you want to close the active MCP lightwave-mcp server session connection to the LightWave instance use the tool "close-connection".
 
-If the user has installed a new LightWave version, or upgraded their Lightwave version the tool "referesh_command_cache" is used to rebuild the internal list of available commands provided by LightWave.
+If the user has installed a new LightWave version, or upgraded their Lightwave version the tool "refresh_command_cache" is used to rebuild the internal list of available commands provided by LightWave.
