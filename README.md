@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides access to LightWave 3D's Command Port functionality. This enables AI assistants like Cursor to discover, connect to, and control LightWave instances programmatically.
 
+![lightwave-mcp screenshot](docs/images/lightwave-mcp-in-action.png)
+
 ## Features
 
 - **Automatic Discovery**: Find running LightWave instances on your network using UDP broadcast
