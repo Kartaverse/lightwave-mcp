@@ -45,7 +45,9 @@ cd lightwave-mcp
 
 ![GitHub Download Code Button](docs/images/github-code-button.png)
 
-2. Configure the [mcp.json](mcp.json) setting in your preferred MCP client (e.g., Cursor). In the "Cursor Settings > Tools and MCPs > Install MCP Servers" section, click on the "New MCP Server" button. This will open up the  `.cursor/mcp.json` file for editing in a new Cursor tab. Add the following text, while making sure to preserve any pre-existing MCP entries and the JSON indendation levels for those pre-existing items.
+2. Configure the [mcp.json](mcp.json) setting in your preferred MCP client (e.g., Cursor). In the "Cursor Settings > Tools and MCPs > Install MCP Servers" section, click on the "New MCP Server" button.
+
+This will open up the  `.cursor/mcp.json` file for editing in a new Cursor tab. Add the following text, while making sure to preserve any pre-existing MCP entries and the JSON indendation levels for those pre-existing items.
 
 ```json
 {
@@ -63,7 +65,7 @@ cd lightwave-mcp
 }
 ```
 
-You will need to update the absolute filepaths to the location where `lightwave-mcp` files were downloaded to. If you are on Windows you will likely have to use double slashes "`\\`" for each of the folder path separators in the mcp.json file to correctly handle string escaping in a JSON document.
+You will need to update the absolute filepaths to the location where the `lightwave-mcp` files were downloaded to in the previous "Clone this repository" step. If you are on Windows you will likely have to use double slashes "`\\`" for each of the folder path separators in the mcp.json file to correctly handle string escaping in a JSON document.
 
 If your Python v3.x executable is not named "`python3`" when you run python from a CLI session, you can change the `mcp.json` based lightwave-mcp "command" entry to reference the executable named "`python`".
 
