@@ -27,6 +27,7 @@ After you connect to a LightWave instance, the server automatically uses that co
 The easiest approach is to let LightWave MCP automatically discover and connect:
 
 **Connect to Layout:**
+
 ```
 Connect to LightWave Layout
 ```
@@ -37,6 +38,7 @@ Connect to the LightWave Layout instance at 127.0.0.1 using the default port num
 ```
 
 **Connect to Modeler:**
+
 ```
 Connect to LightWave Modeler
 ```
@@ -103,16 +105,19 @@ Show me the current scene statistics
 ### Add Objects (WIP)
 
 **Add a Null:**
+
 ```
 Add a null to the scene at position 0, 0, 0
 ```
 
 **Add a Camera:**
+
 ```
 Add a camera to the scene at position 0, 0, 0
 ```
 
 **Add a Light:**
+
 ```
 Add an area light to the scene at position -1, -1, 0
 ```
@@ -120,11 +125,13 @@ Add an area light to the scene at position -1, -1, 0
 ### Select Objects
 
 **Select by name:**
+
 ```
 Select the object named "Camera" in the current scene
 ```
 
 **Select all objects of a type:**
+
 ```
 Select all null objects in the scene
 ```
@@ -132,16 +139,19 @@ Select all null objects in the scene
 ### Transform Objects (WIP)
 
 **Rotate selected object:**
+
 ```
 Add a rotation of 45 degrees on the Y-axis to the currently selected object
 ```
 
 **Move selected object:**
+
 ```
 Translate the selected object by 5 units on X, 0 on Y, and 3 on Z
 ```
 
 **Scale selected object:**
+
 ```
 Scale the selected object by 2, 2, 2
 ```
@@ -154,6 +164,7 @@ Rename the object currently named "Camera" to "RenderCamera"
 ```
 
 **Rename selected object:**
+
 ```
 Rename the currently selected object to "MyCube"
 ```
@@ -163,11 +174,13 @@ Rename the currently selected object to "MyCube"
 ### Save Scene
 
 **Save the current scene:**
+
 ```
 Save the current LightWave scene
 ```
 
 **Save scene with filename:**
+
 ```
 Save the current scene as "my_scene.lws" in the Documents folder
 ```
@@ -175,6 +188,7 @@ Save the current scene as "my_scene.lws" in the Documents folder
 ### Load Scene
 
 **Load a scene:**
+
 ```
 Load the scene "my_scene.lws" from the Documents folder
 ```
@@ -182,6 +196,7 @@ Load the scene "my_scene.lws" from the Documents folder
 ### Clear Scene
 
 **Clear the current scene:**
+
 ```
 Clear the LightWave scene (remove all objects)
 ```
@@ -201,6 +216,7 @@ Create a new camera at position 0, 2, -10 looking at the origin
 ```
 
 **Switch to camera view:**
+
 ```
 Select "Camera1". Set the viewport to this camera view 
 ```
@@ -208,11 +224,13 @@ Select "Camera1". Set the viewport to this camera view
 ### Viewport Operations (WIP)
 
 **Frame all objects:**
+
 ```
 Frame all objects in the current viewport
 ```
 
 **Frame All:**
+
 ```
 Fit all objects in the viewport
 ```
@@ -222,16 +240,19 @@ Fit all objects in the viewport
 ### Light Operations
 
 **Add a point light:**
+
 ```
 Add a point light at position 0, 5, 0 with color white and intensity 100
 ```
 
 **Add a distant light:**
+
 ```
 Add a distant light rotated to 0, 45, 0 with intensity 80
 ```
 
 **Change light color:**
+
 ```
 Set the color of the selected light to RGB values 255, 200, 150
 ```
@@ -241,11 +262,13 @@ Set the color of the selected light to RGB values 255, 200, 150
 ### Surface Operations
 
 **Apply a surface:**
+
 ```
 Apply the surface named "Metal" to the selected object
 ```
 
 **Change surface color:**
+
 ```
 Change the color of surface "Plastic" to blue
 ```
@@ -261,16 +284,19 @@ Create a new surface named "CustomSurface" with diffuse color RGB 128, 64, 32
 ### Keyframe Operations
 
 **Set position keyframe:**
+
 ```
 Set a position keyframe for the selected object at time 0 seconds
 ```
 
 **Set rotation keyframe:**
+
 ```
 Set a rotation keyframe of 90 degrees on Y for the selected object at frame 24
 ```
 
 **Set scale keyframe:**
+
 ```
 Set a scale keyframe of 2, 2, 2 for the selected object at frame 48
 ```
@@ -278,11 +304,13 @@ Set a scale keyframe of 2, 2, 2 for the selected object at frame 48
 ### Playback Controls
 
 **Set animation end frame:**
+
 ```
 Set the animation end frame to 120
 ```
 
 **Go to frame:**
+
 ```
 Go to frame 60 in the timeline
 ```
@@ -294,11 +322,13 @@ Go to frame 60 in the timeline
 Note: Modeler must be running separately with Command Port enabled.
 
 **Connect to Modeler (simplest):**
+
 ```
 Connect to LightWave Modeler
 ```
 
 **Connect with explicit address:**
+
 ```
 Connect to LightWave Modeler at 127.0.0.1 using the default port number
 ```
@@ -312,6 +342,7 @@ List all LightWave Modeler commands
 ### Modeler Selection
 
 **Invert selection:**
+
 ```
 Invert the current selection in Modeler
 ```
@@ -319,11 +350,13 @@ Invert the current selection in Modeler
 ### Geometry Operations
 
 **Copy and paste:**
+
 ```
 Copy the selected geometry and paste it
 ```
 
 **Reverse polygon normals:**
+
 ```
 Reverse the normals of the selected polygons
 ```
