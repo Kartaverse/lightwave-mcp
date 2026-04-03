@@ -45,7 +45,7 @@ cd lightwave-mcp
 
 ![GitHub Download Code Button](docs/images/github-code-button.png)
 
-2. Configure the [mcp.json](mcp.json) setting in your MCP client (e.g., Cursor):
+2. Configure the [mcp.json](mcp.json) setting in your preferred MCP client (e.g., Cursor). In the "Cursor Settings > Tools and MCPs > Install MCP Servers" section, click on the "New MCP Server" button. This will open up the  `.cursor/mcp.json` file for editing in a new Cursor tab. Add the following text, while making sure to preserve any pre-existing MCP entries and the JSON indendation levels for those pre-existing items.
 
 ```json
 {
