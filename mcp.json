@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "lightwave-mcp": {
+      "command": "python3",
+      "args": [
+        "/path/to/lightwave-mcp/src/lightwave_mcp/server.py"
+      ],
+      "env": {
+        "PYTHONPATH": "/path/to/lightwave-mcp/src"
+      }
+    }
+  }
+}

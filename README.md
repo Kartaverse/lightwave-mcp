@@ -1,8 +1,10 @@
 # LightWave MCP Server
 
-A Model Context Protocol (MCP) server that provides access to LightWave 3D's Command Port functionality. This enables AI assistants like Cursor to discover, connect to, and control LightWave instances programmatically.
+A Model Context Protocol (MCP) server that provides access to LightWave 3D's Command Port functionality. This enables AI assistants like Cursor to discover, connect to, and control LightWave Modeler and Layout instances programmatically.
 
-![lightwave-mcp screenshot](docs/images/lightwave-mcp-in-action.png)
+![lightwave-mcp screenshot Statistics](docs/images/lightwave-mcp-in-action-about.png)
+
+![lightwave-mcp screenshot Statistics](docs/images/lightwave-mcp-in-action-statistics.png)
 
 ## Features
 
@@ -22,13 +24,20 @@ A Model Context Protocol (MCP) server that provides access to LightWave 3D's Com
 
 ### Quick Start
 
-1. Clone this repository:
+1. Download the repository using "git clone" or the GitHub Repo "Code" button:
+
+*  Clone this repository:
+
 ```bash
 git clone https://github.com/Kartaverse/lightwave-mcp.git
 cd lightwave-mcp
 ```
 
-2. Configure in your MCP client (e.g., Cursor):
+*  Alternatively, you can click on the [lightwave-mcp](https://github.com/Kartaverse/lightwave-mcp) GitHub repo's green "Code" button and select the "Download ZIP" button. You will need to manually expand the "lightwave-mcp-master.zip" archive. Rename the folder from "lightwave-mcp-master" to "lightwave-mcp".
+
+![GitHub Download Code Button](docs/images/github-code-button.png)
+
+2. Configure the [mcp.json](mcp.json) setting in your MCP client (e.g., Cursor):
 
 ```json
 {
@@ -46,12 +55,17 @@ cd lightwave-mcp
 }
 ```
 
-### Running the Server Manually
+When this content is added to your `.cursor/mcp.json` file, it should look like this in the Cursor GUI:
 
-```bash
-cd lightwave-mcp
-PYTHONPATH=src python3 src/lightwave_mcp/server.py
-```
+![Cursor MCP JSON](docs/images/cursor-mcp-json.png)
+
+The "Cursor Settings > Tools & MCPs > Installed MCP Servers" section should list a "lightwave-mcp" item. If you click on the title of the "lightwave-mcp" item, the invidiual tools are shown.
+
+![Cursor MCP JSON](docs/images/cursor-mcp-tools.png)
+
+3. Copy the lightwave-mcp sample rules content from the provided [RULES.md](RULES.md) file into your "Cursor Settings > Rules, Skills, Subagents > Rules" section. Press the `Save` button to retain the new rules.
+
+![Cursor Rules](docs/images/cursor-settings-rules.png)
 
 ## Available Tools
 
@@ -140,7 +154,7 @@ The LightWave Command Port is a UDP-based inter-process communication system bui
 
 ## License
 
-`lightwave-mcp` is released under an Apache 2.0 License. It was created as a workflow automation prototype by members of the LightWave3D community.
+`lightwave-mcp` is released under an Apache 2.0 License. It was created as a workflow automation prototype by members of the [WSL](https://www.steakunderwater.com/wesuckless/viewforum.php?f=74) LightWave3D community.
 
 lwcommandport is Copyright (c) LightWave Digital, LTD. All rights reserved. The included `lwcommandport` library is a fork of the original LightWave SDK sample code, updated for Python 3 compatibility.
 
