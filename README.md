@@ -67,7 +67,7 @@ When this content is added to your `.cursor/mcp.json` file, it should look like 
 
 ![Cursor MCP JSON](docs/images/cursor-mcp-json.png)
 
-The "Cursor Settings > Tools & MCPs > Installed MCP Servers" section should list a "lightwave-mcp" item. If you click on the title of the "lightwave-mcp" item, the invidiual tools are shown.
+The "Cursor Settings > Tools & MCPs > Installed MCP Servers" section should list a "lightwave-mcp" item. If you click on the title of the "lightwave-mcp" item, the individual tools are shown.
 
 ![Cursor MCP JSON](docs/images/cursor-mcp-tools.png)
 
