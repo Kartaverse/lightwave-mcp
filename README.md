@@ -65,7 +65,7 @@ This will open up the  `.cursor/mcp.json` file for editing in a new Cursor tab. 
 }
 ```
 
-You will need to update the absolute filepaths to the location where the `lightwave-mcp` files were downloaded to in the previous "Clone this repository" step. If you are on Windows you will likely have to use double slashes "`\\`" for each of the folder path separators in the mcp.json file to correctly handle string escaping in a JSON document.
+You will need to update the absolute filepaths in the mcp.json file to point at the location where the `lightwave-mcp` files were downloaded. If you are on Windows you will likely have to use double slashes "`\\`" for each of the folder path separators in the mcp.json filepaths to correctly handle string escaping in a JSON document.
 
 If your Python v3.x executable is not named "`python3`" when you run python from a CLI session, you can change the `mcp.json` based lightwave-mcp "command" entry to reference the executable named "`python`".
 
